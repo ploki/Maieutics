@@ -12,12 +12,17 @@ We talk. Substance gets written down as notes. Every structural decision and eve
 - Versioning: git, one commit per iteration, plus `prompt-log.md`, a clean rewrite of every author message.
 
 ## Layout
-| Directory | What's in it |
-|---|---|
-| `corpus/` | The written memory: this index, the notes, the glossary, the intent, the logs |
-| `partus/` | The deliverables — *partus*, Latin for a birth, a delivery, that which is brought forth |
-| `tools/` | Scripts: calculations, simulations |
-| `archive/` | Abandoned notes and deliverables, kept for the record |
+All directory names are Latin, and all of them belong to the midwife's world.
+
+| Directory | Latin | What's in it |
+|---|---|---|
+| `corpus/` | *the body* | The written memory: this index, the notes, the glossary, the intent, the logs |
+| `partus/` | *a birth, a delivery, that which is brought forth* | The deliverables |
+| `instrumenta/` | *the instruments* — in Latin medicine, the midwife's own | Scripts: calculations, simulations |
+| `limbus/` | *the hem, the edge; limbo* | Abandoned ideas and pistes — what was not brought to term |
+| `vestigia/` | *the traces, the footprints* | Superseded versions of deliverables — the path already walked |
+
+**[C, to confirm]** The split between `limbus/` and `vestigia/`: ideas that were dropped go to limbo, texts that were replaced leave traces. If the author meant something else, this is the line to change.
 
 ## Tracking files
 - `corpus/author-intent.md` — **read this first** on every resumption.
