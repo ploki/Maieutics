@@ -4,6 +4,8 @@ A clean, concise rewrite of every author message, losing nothing. **Newest first
 
 *This file records what the author said, when he said it. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+18. 2026-10-03 — Asks for a note on this. Specialisation branches remain an idea to be specified later; correction branches; a `CONTRIBUTING.md` is a good idea.
+17. 2026-10-03 — (Message sent by mistake to the audit agent, relayed back.) Raises the possibility, for someone working on a maieutics project, of specialising the skill: a branch in a repository elsewhere, a pull request, branches of disciplinary specialisation or of simple correction and efficiency — freedom and contribution.
 16. 2026-10-03 — Asks that whatever the audit finds be corrected.
 15. 2026-10-03 — Asks that the consistency audit be run on the repository.
 14. 2026-10-03 — Asks that the metaskill be translated, that the directories be renamed with their `-ics` names, and that the user be identified by their git id — failing that by their first name, if the agent knows it — because a repository with several philosophers would need it: we want to track whose ideas are whose. The agent identifies itself too; today, for Claude, that would be its model name.
