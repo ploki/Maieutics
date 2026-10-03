@@ -1,6 +1,6 @@
 # Getting started
 
-Your first session with the maieutics skill, from an empty folder to a corpus you can come back to tomorrow. You don't need to read this first: the agent explains the method as it goes. This page is for people who like to know what's coming.
+Your first session with the maieutics skill, from an empty folder to a corpus you can come back to tomorrow. You don't need to read this first: the agent explains the essentials when you start. This page is for people who like to know what's coming.
 
 If you haven't installed the skill yet, see the [README](../README.md#install-it).
 
@@ -22,11 +22,9 @@ Type:
 /maieutics
 ```
 
-Or just say what's on your mind and mention the method: *"I want to think through whether to leave my job, with maieutics."*
-
 The agent replies with:
 
-- **a banner**, Socrates in Braille dots. It is drawn for a dark terminal. If yours is light, say so and the agent will offer an inverted one;
+- **a banner**, Socrates in Braille dots. It is drawn for a dark terminal. If yours is light, say so: the agent can generate an inverted buste with `make_bust.py`, which needs Python and Pillow;
 - **three or four sentences** explaining what the method is for;
 - **a first step to suggest**, based on whatever is in the folder, its name, or your first sentence;
 - **a sentence you can send as is**, on its own line, such as *"Can you help me get started with the method?"* Claude Code often offers it as a Tab suggestion.
@@ -41,7 +39,7 @@ The agent asks once how you want your work kept. git keeps a photograph of every
 - **(b)** git, with a commit at each exchange that changes files;
 - **(c)** the same, plus a **prompt log**: a short, faithful rewrite of each of your messages, newest first.
 
-If you're unsure, pick (c). It costs you nothing, and it's the best record of how your thinking moved. If the folder isn't a repository yet, the agent sets one up.
+If you're unsure, pick (c). It costs you nothing, and it's the best record of how your thinking moved. If you pick (b) or (c) and the folder isn't a git repository yet, the agent runs `git init`.
 
 ## 4. Talk
 
@@ -51,7 +49,7 @@ Now talk. You lead: the subject, the form and the pace are yours. Expect three t
 - **It won't write after every exchange.** It writes a note only when something substantial appears. Several exchanges with no files changing is normal.
 - **It tells you when it disagrees.** Ask for its opinion and you get one, reservations included.
 
-When it does write, the notes go in `corpus/`. Each note opens with **Current**, what holds today, followed by **History**, how you got there. Every claim is marked with who made it: your git id for you, the model's name for the agent.
+When it does write, the notes go in `corpus/`. Each note opens with **Current**, what holds today, followed by **History**, how you got there. Claims are marked with who made them: your git id for you, the model's name for the agent.
 
 ```
 - **[alice]** The tool must work offline.
@@ -66,7 +64,7 @@ A marker with only the agent's name is a proposal you haven't accepted. Once you
 Just say so: *"Actually, I don't want it to work offline."* This is the part the method is built for. The agent:
 
 1. looks through the corpus, and any deliverables, for everything that is now false, and corrects it;
-2. records the reversal in `corpus/decision-log.md`, marked **↺**, with what it replaces.
+2. records the reversal in `corpus/decision-log.md`, marked **↺**, with what it replaces and why.
 
 The old line stays in the log. Months later you can still see what you thought, when, and why you stopped thinking it.
 
@@ -78,7 +76,7 @@ Once the subject is clear, the agent offers to add one line to the folder's `CLA
 
 Close the session whenever you like. Nothing is lost, because it's all in the files.
 
-When you come back, open Claude Code in the same folder and type `/maieutics` again. This time the agent reads the corpus and tells you:
+When you come back, open Claude Code in the same folder and type `/maieutics` again. Once the `CLAUDE.md` line is there, just starting to talk is usually enough too. This time the agent reads the corpus and tells you:
 
 - what the project is and the idea it revolves around;
 - where things stand: how many notes, how many decisions, which deliverables, which open questions;
@@ -94,7 +92,7 @@ The agent never produces a deliverable on its own initiative. When **you** judge
 
 It goes in `partus/`. A deliverable is a **starting point**, solid enough to build on, not a finished text. One corpus can yield several.
 
-After a deliverable, the agent may suggest a **blind reading**: a fresh agent reads the deliverable without the corpus and lists everything it couldn't understand. That list shows you what's missing.
+After a deliverable, the agent may suggest a **blind reading**: a fresh agent reads the deliverable without the corpus and writes down the questions it leaves open. Then it reads the corpus and checks which of those the corpus answers. What neither answers shows you what's missing.
 
 ## What you end up with
 
@@ -103,7 +101,7 @@ my-subject/
   CLAUDE.md                  one line, so later sessions recognise the project
   corpus/
     00-…-index.md            how the project works, and one line per note
-    01-reference-glossary.md the project's terms
+    …-glossary.md            the project's terms, once there are any
     author-intent.md         what you are really after, in your words
     decision-log.md          every decision and reversal
     prompt-log.md            what you said, newest first, if you chose (c)

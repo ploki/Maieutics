@@ -12,20 +12,20 @@ Status: **open** · answered · decided. Tied to the decision log by number once
 **Contradictions between the pages and the skills** (GS = getting-started, G = guide, MS / MMS = the two `SKILL.md`)
 | # | Point | Status |
 |---|---|---|
-| C1 | GS §2: plain speech mentioning the method starts the skill. MS triggers on `/maieutics` or the CLAUDE.md line only | open |
-| C2 | GS §3: "the agent sets one up" reads as unconditional; MS: `git init` only under (b) or (c) | open |
-| C3 | Note shape: GS says Current + History, G says Current + Open questions + History; MS requires only Current then history | open |
-| C4 | GS §4, G §3: "every claim" is marked. MS: keep track of who said what; the corpus has unmarked lines | open |
-| C5 | GS §5: the log shows "why you stopped thinking it". MS §5: the log line has no reason field | open |
-| C6 | GS §8: the blind reader "lists everything it couldn't understand"; MS §7: a pool of questions, then A/P/N grading | open |
-| C7 | G §8: *you* tell the agent which claims need verifying; MS §7.4: the orchestrating agent tells the blind reader | open |
-| C8 | G §10 "tools you have to ask for" includes memory (automatic, MS §9) and the devil's advocate (offered, MS §8) — MS §8 has the same tension | open |
-| C9 | G §11: nothing sent to an outside service; MMS §2: read-only web search stays allowed | open |
-| C10 | G §11: approving the mandate is "your only step"; MMS also offers `git init`/a first commit, has the intent file approved with the mandate, and reuses an already-approved mandate | open |
-| C11 | GS and G present `01-reference-glossary.md` as the default; MS names no glossary file | open |
-| C12 | GS: "the agent explains the method as it goes"; MS gives a 3–4 sentence opening; note 05 says the on-request tools are otherwise never learnt | open |
-| C13 | GS: the agent offers an inverted banner; none ships, `make_bust.py --invert` needs Pillow and outputs the buste without the title; note 03 still has it as an open question | open |
-| minor | G §10 "needs (b) or (c)", G §13 "Where are we?", G §7 "name the genre and the reader" — unsupported by MS but harmless | open |
+| C1 | GS §2: plain speech mentioning the method starts the skill. MS triggers on `/maieutics` or the CLAUDE.md line only | answered — page fixed (#48) |
+| C2 | GS §3: "the agent sets one up" reads as unconditional; MS: `git init` only under (b) or (c) | answered — page fixed (#48) |
+| C3 | Note shape: GS says Current + History, G says Current + Open questions + History; MS requires only Current then history | decided — no: Open questions stays optional; G fixed (#48) |
+| C4 | GS §4, G §3: "every claim" is marked. MS: keep track of who said what; the corpus has unmarked lines | answered — page fixed (#48) |
+| C5 | GS §5: the log shows "why you stopped thinking it". MS §5: the log line has no reason field | decided — yes: the log records why (#48) |
+| C6 | GS §8: the blind reader "lists everything it couldn't understand"; MS §7: a pool of questions, then A/P/N grading | answered — page fixed (#48) |
+| C7 | G §8: *you* tell the agent which claims need verifying; MS §7.4: the orchestrating agent tells the blind reader | answered — page fixed (#48) |
+| C8 | G §10 "tools you have to ask for" includes memory (automatic, MS §9) and the devil's advocate (offered, MS §8) — MS §8 has the same tension | open — the page part fixed (memory moved); the skill question awaits ploki |
+| C9 | G §11: nothing sent to an outside service; MMS §2: read-only web search stays allowed | answered — page fixed (#48) |
+| C10 | G §11: approving the mandate is "your only step"; MMS also offers `git init`/a first commit, has the intent file approved with the mandate, and reuses an already-approved mandate | answered — page fixed (#48) |
+| C11 | GS and G present `01-reference-glossary.md` as the default; MS names no glossary file | answered — page fixed (#48) |
+| C12 | GS: "the agent explains the method as it goes"; MS gives a 3–4 sentence opening; note 05 says the on-request tools are otherwise never learnt | decided — no: pages no longer promise it (#48) |
+| C13 | GS: the agent offers an inverted banner; none ships, `make_bust.py --invert` needs Pillow and outputs the buste without the title; note 03 still has it as an open question | decided — no inverted banner shipped (#48) |
+| minor | G §10 "needs (b) or (c)", G §13 "Where are we?", G §7 "name the genre and the reader" — unsupported by MS but harmless | answered — reworded (#48) |
 
 **Most pressing unaddressed questions for a newcomer** (the reader's ranking)
 | # | Question | Status |

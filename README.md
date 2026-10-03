@@ -24,7 +24,7 @@ useful to me.
 
 That second half is not politeness. A skill is instructions your agent will follow, so you should want it read before it is installed. If what it reads back to you doesn't match what you wanted, don't install it.
 
-Then: **[Getting started](partus/getting-started.md)** walks you through your first session, and **[the guide](partus/guide.md)** covers everything the method can do and how to ask for it. Neither is required reading: the agent explains as it goes.
+Then: **[Getting started](partus/getting-started.md)** walks you through your first session, and **[the guide](partus/guide.md)** covers everything the method can do and how to ask for it. Neither is required reading, but the guide is the only place that lists the tools you have to ask for.
 
 ---
 
@@ -38,7 +38,7 @@ Maieutics turns the conversation into a corpus:
 |---|---|
 | **Dialogue** | You lead. The agent doesn't impose a plan, a thesis, or a deliverable you didn't ask for. |
 | **Corpus** | Substance gets written into notes. Every note opens with what holds *today*, followed by the history of how you got there. |
-| **Decision log** | One line per structural decision — and per reversal, marked `↺`, with what it replaces. When you change your mind, the agent hunts down everything that is now false and fixes it. |
+| **Decision log** | One line per structural decision, and why — and per reversal, marked `↺`, with what it replaces. When you change your mind, the agent hunts down everything that is now false and fixes it. |
 | **Deliverables** | Produced only when *you* judge the corpus good enough. |
 | **Blind review** | A fresh agent reads the deliverable without the corpus and lists what it couldn't understand. |
 

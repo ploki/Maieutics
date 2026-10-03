@@ -28,6 +28,8 @@ This page describes what you see and what you can say. What the agent itself is 
 - **It talks before it writes.** Notes change only when something substantial appears. Replies are short.
 - **It's frank.** Ask for its opinion and it gives one, with reservations. When it makes a mistake, it says so and corrects the corpus.
 
+If Claude Code's persistent memory is available, the agent also records there, on its own, what should outlive a session: how you like to work, your preferences, where the project stands. It doesn't copy what the corpus already holds.
+
 If it drifts away from any of this, say so. That's a fair correction.
 
 ## 2. The corpus
@@ -38,16 +40,12 @@ If it drifts away from any of this, say so. That's a fair correction.
 |---|---|
 | `00-…-index.md` | The project's method and conventions, then one line per note with its status and a summary |
 | `NN-type-subject.md` | A note. `NN` is creation order, not importance. The type is framing, concept, case, source, hypothesis, objection, decision… |
-| `01-reference-glossary.md` | The project's own terms |
+| a glossary note | The project's own terms, started as soon as any appear |
 | `author-intent.md` | What you are really after (§4) |
 | `decision-log.md` | Every decision and every reversal (§5) |
 | `prompt-log.md` | What you said, newest first (§6) |
 
-Every note has the same shape:
-
-- **Current**: what holds today. Read this and you know where the note stands;
-- **Open questions**: what isn't settled;
-- **History**: how the reasoning got here, reversals included.
+Every note opens with **Current**: what holds today. Read this and you know where the note stands. It is followed by the **History** of the reasoning, reversals included. A note may also have an **Open questions** section, when something in it isn't settled.
 
 Beside `corpus/`:
 
@@ -63,7 +61,7 @@ The layout is a default, not a law. If you'd rather arrange things differently, 
 
 ## 3. Who said what
 
-Every claim in the notes carries a marker. A corpus can have several contributors, human and not, and the point is to know whose idea a thing was.
+Claims in the notes carry a marker saying who made them. A corpus can have several contributors, human and not, and the point is to know whose idea a thing was.
 
 | Marker | Means |
 |---|---|
@@ -91,14 +89,14 @@ If it says something about you that isn't true, correct it. It's the compass for
 
 ## 5. Decisions and changes of mind
 
-`corpus/decision-log.md` has one line per structural decision: number, date, the decision, what it replaces, and the files concerned.
+`corpus/decision-log.md` has one line per structural decision: number, date, the decision and why it was taken, what it replaces, and the files concerned.
 
 When you **change your mind**, say so plainly. The agent:
 
 1. hunts through the corpus and the deliverables for everything the change makes false, and corrects it;
-2. adds a line to the log marked **↺**, naming what it reverses.
+2. adds a line to the log marked **↺**, naming what it reverses and why.
 
-The reversed line stays where it is. **The log is never rewritten.** If a file is renamed later, old lines keep the old name. They aren't wrong, they're dated. That's what makes the log worth reading: it records what was actually decided, and when.
+The reversed line stays where it is. **The log is never rewritten.** If a file is renamed later, old lines keep the old name. They aren't wrong, they're dated. That's what makes the log worth reading: it records what was actually decided, when, and why.
 
 ## 6. The prompt log
 
@@ -108,7 +106,7 @@ It shows how your thinking moved. It also lets a new session see what you asked 
 
 ## 7. Deliverables
 
-A deliverable is produced only when **you** judge the corpus good enough and ask for one. Name the genre, and the reader if there is one:
+A deliverable is produced only when **you** judge the corpus good enough and ask for one. It helps to name the genre, and the reader if there is one:
 
 > *Write a one-page summary for the team.*
 > *Draft the opening chapter.*
@@ -128,7 +126,7 @@ This is a way to find out what a deliverable fails to say. The agent suggests it
 3. The same agent then reads the corpus and grades each question: **A** answered, **P** partially, **N** not addressed. It ends with a count, the most pressing gaps, and any **contradictions between the deliverable and the notes**.
 4. The questions become a follow-up list tied to the decision log, and you work through them with the agent, one at a time.
 
-You can tell the agent which claims really need verifying. Otherwise, a claim the notes already mark *Unverified* doesn't count as a fault.
+The agent tells the blind reader which claims really need verifying, and you can say which those are. Otherwise, a claim the notes already mark *Unverified* doesn't count as a fault.
 
 ## 9. Pruning
 
@@ -152,9 +150,8 @@ The agent won't start these on its own, so you need to know they exist.
 
 **A devil's advocate.** *"Before I accept this, have someone attack it."* When the agent proposes something structural, an independent agent can argue against it before you validate. The agent may offer this, but only occasionally.
 
-**An exploration branch.** *"I think we took a wrong turn after we dropped the offline idea. Can we go back and try it the other way?"* If you're stuck and want to explore a different piste from an earlier point, the agent walks you through creating a git branch from that earlier commit, step by step. **It never suggests this itself.** You have to ask. It needs versioning option (b) or (c).
+**An exploration branch.** *"I think we took a wrong turn after we dropped the offline idea. Can we go back and try it the other way?"* If you're stuck and want to explore a different piste from an earlier point, the agent walks you through creating a git branch from that earlier commit, step by step. **It never suggests this itself.** You have to ask. It needs git, so versioning option (b) or (c).
 
-**Memory.** If Claude Code's persistent memory is available, the agent records there what should outlive a session: how you like to work, your preferences, where the project stands. It doesn't copy what the corpus already holds.
 
 ## 11. Running a project by proxy: metamaieutics
 
@@ -164,15 +161,17 @@ The agent won't start these on its own, so you need to know they exist.
 
 **How it goes:**
 
-1. Type `/metamaieutics`, then give a brief or point to an existing maieutics project.
+1. Type `/metamaieutics`, then give a brief or point to an existing maieutics project. The folder must be under git: if it isn't, Claude offers to set it up, and offers to commit any uncommitted changes first.
 2. Claude drafts a **mandate** (`mandate.md`) from your brief, or from `author-intent.md` and the corpus. It covers your deeper intent, the branch's objectives and how to tell they've been met, the expected deliverables, a maximum number of iterations (30 by default), and a rule for questions outside the mandate.
-3. **You approve it.** Nothing starts without an explicit yes. This is your only step before the end.
-4. Claude creates a branch `metamaieutics/<subject>-<date>` and launches an agent that applies the maieutics method. Claude then plays **your** part. It isn't compliant: it pushes back, asks for precision, and refuses whatever strays from the mandate. Every exchange is logged and committed.
+3. **You approve it.** Nothing starts without an explicit yes. If the project has no `author-intent.md` yet, Claude writes one and you approve both together. If an approved `mandate.md` already exists, Claude reuses it instead of drafting a new one.
+4. Claude creates a branch `metamaieutics/<subject>-<date>` and launches an agent that applies the maieutics method. Claude then plays **your** part. It isn't compliant: it pushes back, asks for precision, and refuses whatever strays from the mandate. Every exchange is logged in `prompt-log.md` and committed, one commit per iteration.
 5. Decisions taken on your behalf are marked **[opus-5 as alice]**, never as yours. Claude settles a question outside the mandate only if the answer is consistent with it and reversible. Otherwise it leaves the question open.
 6. It stops when the objectives are met, when the iteration limit is reached, or when a question outside the mandate blocks the way.
 7. You receive a **handback report** (`handback-report.md`): what was achieved, the decisions taken by proxy, where Claude was unsure it represented you well, what is still open, what to re-read first, and the git commands to see, keep, take part of, or discard the work.
 
-**Always forbidden by the mandate:** publishing anything, sending anything to an outside service, touching your main branch, and removing anything from git history. You can add your own prohibitions.
+**Always forbidden by the mandate:** publishing anything; sending anything to an outside service (no mail, no message, no upload); touching your main branch; and removing anything from git history. Read-only web search stays allowed unless the mandate excludes it. You can add your own prohibitions.
+
+Apart from approving the mandate, and answering those setup questions, you have nothing to do until the handback.
 
 **You decide at the end.** Claude merges nothing. You merge it all, take part of it, or throw the branch away.
 

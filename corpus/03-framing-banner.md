@@ -52,7 +52,7 @@
 - ~~**[opus-5]** A few seconds of latency, once, is a defensible trade.~~ ↺ *Wrong: the trade was never necessary. `cat` costs nothing and the picture is identical.*
 
 ## Open questions
-- Whether the banner needs a light-background variant shipped alongside (`assets/make_bust.py` can invert it).
+- None at present. **[ploki]** No light variant ships; the agent can generate one with `make_bust.py --invert` (decision #48).
 
 ## History
 - 2026-10-03 — Opened; the author observed the latency and asked that the skill not be changed.
