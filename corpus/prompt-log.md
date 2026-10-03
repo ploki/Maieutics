@@ -4,6 +4,7 @@ A clean, concise rewrite of every author message, losing nothing. **Newest first
 
 *This file records what the author said, when he said it. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+40. 2026-10-03 — Asks that the installation be upgraded.
 39. 2026-10-03 — Says go ahead, for both new and existing projects.
 38. 2026-10-03 — Finds the agent too slow; clarifies: put the sentence at the end of the agent's reply, since the user may be expecting help right now.
 37. 2026-10-03 — Wants a sentence such as "can you help me getting started with the method?" shown, so it can be accepted with Tab and typed automatically.
