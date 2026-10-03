@@ -16,7 +16,7 @@ We talk. Substance gets written down as notes. Every structural decision and eve
 |---|---|
 | `corpus/` | The written memory: this index, the notes, the glossary, the intent, the logs |
 | `partus/` | The deliverables — *partus*, Latin for a birth, a delivery, that which is brought forth |
-| `tools/` | Scripts: calculations, simulations |
+| `instrumenta/` | Scripts: calculations, simulations — *instrumenta*, the midwife's own instruments |
 | `archive/` | Abandoned notes and deliverables, kept for the record |
 
 ## Tracking files
