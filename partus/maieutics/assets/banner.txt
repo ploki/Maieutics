@@ -32,10 +32,11 @@
                     ΣΩΚΡΑΤΗΣ
 
    ╭───────────╮   ╭───────────╮   ╭───────────╮   ╭───────────╮   ╭───────────╮
-   │  DIALOGUE │──▶│   CORPUS  │──▶│  JOURNAL  │──▶│ DELIVER   │──▶│   READ    │
-   │ we find out│   │   notes   │   │ decisions│   │    when    │   │  blind    │
-   │ by talking│   │ & sources │   │ & turns │   │ it's ripe │   │ A · P · N │
+   │  DIALOGUE │──▶│   CORPUS  │──▶│    LOG    │──▶│  DELIVER  │──▶│    READ   │
+   │ we find   │   │   notes   │   │ decisions │   │   when    │   │   blind   │
+   │ out by    │   │     &     │   │     &     │   │   it is   │   │           │
+   │ talking   │   │  sources  │   │   turns   │   │   ripe    │   │ A · P · N │
    ╰─────┬─────╯   ╰───────────╯   ╰───────────╯   ╰───────────╯   ╰─────┬─────╯
          ▲                                                               │
-         ╰────────────────── back round, and sharper   ───────────────────╯
+         ╰─────────────── round again, and sharper ──────────────────────╯
 
