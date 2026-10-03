@@ -15,6 +15,6 @@ partus/metamaieutique/
 
 `maieutique` is the method; `metamaieutique` runs it **by proxy** — Claude writes a mandate, the author approves it, and an agent then plays the author's part on a git branch, every exchange logged and committed. That is where the `[P]` marker comes from.
 
-These copies are a **snapshot**, not the live skills. The installed versions live in `~/.claude/skills/` and the two will drift apart. Keeping them in step — or deciding that this repository becomes the source and the installation a copy of it — is an open question (see `corpus/`).
+**This repository is the source.** The copies under `partus/` are what gets worked on; the versions installed in `~/.claude/skills/` are never modified from here. They will drift, and that is expected — the author refreshes his installation when he chooses. See `corpus/04-working-rule.md`.
 
 The banner is worth a note of its own: it is **not drawn by hand but computed** from a photograph of the Farnese Socrates, by `make_bust.py`.

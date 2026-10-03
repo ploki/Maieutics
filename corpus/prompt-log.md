@@ -8,3 +8,4 @@ A clean, concise rewrite of every author message, losing nothing.
 6. 2026-10-03 — Asks that the findings be recorded. Infers that in his case only the banner would need translating, and observes that the banner is slow to appear because it passes through the LLM. Asks that the skill not be modified.
 7. 2026-10-03 — Asks that the skill be received into `partus/`, exactly as it is installed on his computer.
 8. 2026-10-03 — Asks that `metamaieutique` be added.
+9. 2026-10-03 — States the working rule: in this repository the installed skill is not touched; what is worked on is the creation of the skill. Only the behaviour of the skill during the current exercise changes, to adapt to the skill's changes in the repository.
