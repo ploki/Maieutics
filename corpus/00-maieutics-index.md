@@ -39,8 +39,8 @@ We talk. Substance gets written down as notes. Every structural decision and eve
 |---|---|---|
 | 01-reference-glossary.md | living | Project terms |
 | 02-framing-multilingual.md | in force | What published skills do about languages; one `SKILL.md` in English, a French translation beside it. The banner is localised (`banner.fr.txt`); a translated README remains a proposal |
-| 03-framing-banner.md | open | Why the banner was slow; `cat` is hidden by Claude Code, so the agent reproduces a small buste with spaces for blank cells (1 320 → 188 Braille characters); the full one archived |
-| 04-decision-working-rule.md | in force | The installed skill is never touched here; `partus/` is the source; only the running session's behaviour adapts |
+| 03-framing-banner.md | in force | Why the banner was slow; `cat` is hidden by Claude Code, so the agent reproduces a small buste with spaces for blank cells (1 320 → 188 Braille characters); the full one archived |
+| 04-decision-working-rule.md | in force | The installed skill is never touched here; `partus/` is the source and holds the installable shape; the agent refreshes the installation only on request |
 | 05-framing-front-door.md | in force | How a visitor is meant to arrive: the README invites them to have their own agent read the skill before installing it |
 | 06-decision-english-skill.md | in force | The English `SKILL.md`, authoritative; `SKILL.fr.md` a translation kept in step; what the translation had to decide, markers above all |
 | 07-decision-identity.md | in force | Who said what: the human by git id, the agent by model name |

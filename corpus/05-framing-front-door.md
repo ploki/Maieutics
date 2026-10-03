@@ -15,7 +15,7 @@
 - **[ploki]** **Past the front door, the first reply must hand the user a sentence to send.** A newcomer may be expecting help right now; the skill's opening ends with a ready-made line — *"Can you help me get started with the method?"*, or for an existing project *"Let's take up the most pressing point."* — which Claude Code tends to offer as a Tab suggestion.
   - **[opus-5.5]** Likely, not guaranteed: Claude Code writes the suggestion itself, from the conversation.
 
-## Still open
+## Open questions
 - Whether to offer a second, shorter prompt for users who already trust the repository.
 - Whether the prompt should name the file to read (`partus/maieutics/SKILL.md`), which would make the agent's job easier but the invitation longer.
 

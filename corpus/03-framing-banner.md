@@ -1,6 +1,11 @@
 # 03 — The banner
 
 ## Current
+- **[ploki]** The banner is the **small buste**: 22 columns, 15 rows, **188 Braille characters**, blank cells as spaces. The full one is archived (`archive/banner-full.txt`, `archive/banner-full.fr.txt`).
+- **[ploki]** The agent **reproduces it verbatim in a code block** at the head of its reply (decision #35): Claude Code hides `cat` output, and at 188 Braille characters retyping is affordable. The skill asks that it not be enlarged.
+- **[ploki]** It is **localised**: `banner.txt` in English, `banner.fr.txt` in French, picked by the user's language.
+
+## The original diagnosis, 2026-10-03
 - **[ploki]** The banner is **slow to appear, because it goes through the LLM.**
   - **[opus-5]** The diagnosis is right, and the measurements below confirm it.
 - **Measured** (2026-10-03): `assets/banner.txt` is 41 lines, **2 254 characters, of which 1 320 are Braille** (U+2800–U+28FF), 5 475 UTF-8 bytes.
@@ -42,12 +47,13 @@
 | **Title and pipeline only**, buste on request | ~90 % of the tokens saved; the ASCII title and the diagram are cheap | Two tiers of welcome |
 | Keep as is | The effect is genuinely good | A few seconds, once per session |
 
-*The first option was taken. The skill's original caution — that shell output is not always visible — survives as a fallback rather than as the default.*
+*The first option was taken. The skill's original caution — that shell output is not always visible — survives as a fallback rather than as the default.* ↺ *Then reversed: the caution was right (decision #35), and the third option, shrinking the buste, is what made reproducing it affordable.*
 
 - ~~**[opus-5]** A few seconds of latency, once, is a defensible trade.~~ ↺ *Wrong: the trade was never necessary. `cat` costs nothing and the picture is identical.*
 
-## Still open
+## Open questions
 - Whether the banner needs a light-background variant shipped alongside (`assets/make_bust.py` can invert it).
 
 ## History
 - 2026-10-03 — Opened; the author observed the latency and asked that the skill not be changed.
+- 2026-10-03 — Pruned: a Current section stating today's banner; the original diagnosis kept below it.

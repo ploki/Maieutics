@@ -23,10 +23,10 @@
 - **It replaces one of the markers with a relation.** `[C → validated]` said that something had been validated; `[opus-5 → ploki]` says **by whom**. In a corpus with several readers, that is the difference between a fact and a fact someone stands behind.
 - **And it exposes a question the letters hid**: when nobody validates an agent's proposal, it stays in that agent's name forever. The corpus therefore shows, at a glance, how much of itself nobody has signed.
 
-## Still open
+## Open questions
 - Whether to prefer the git **handle** (`ploki`) or the git **name** (`Guillaume Gimenez`). The handle is shorter, stable, and already public; the name is friendlier. This project uses the handle.
-- What a session does when it cannot determine either — ask once and record it in the index, which is what the skill now says.
 - Whether the agent's id should carry the exact model string (`claude-opus-5`) rather than the short form.
 
 ## History
 - 2026-10-03 — Scheme introduced by the author; markers rewritten across the whole corpus.
+- 2026-10-03 — Pruned: the fallback when no id can be found, settled in the skill, removed from the open questions.

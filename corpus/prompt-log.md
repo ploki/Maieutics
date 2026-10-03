@@ -4,6 +4,7 @@ A clean, concise rewrite of every author message, losing nothing. **Newest first
 
 *This file records what the author said, when he said it. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+43. 2026-10-03 — Asks that "Still open" be renamed "Open questions" and the settled questions pruned.
 42. 2026-10-03 — Settles it: keep everything structural in English, headings included.
 41. 2026-10-03 — Takes up the most pressing point.
 40. 2026-10-03 — Asks that the installation be upgraded.

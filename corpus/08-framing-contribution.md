@@ -13,7 +13,7 @@
 - **It keeps the repository alive.** Variants fork and die; a single general skill accumulates every correction anyone makes. The thing that would have fragmented the project is now refused in writing.
 - **And it answers the oldest question in the corpus**, the one left open in note 02 about whether the created file names should follow the user's language: a general method has one vocabulary. Variants would have reopened it on every axis at once.
 
-## Still open
+## Open questions
 - Whether a contributor must have run the method themselves. The `CONTRIBUTING.md` asks it; nothing enforces it.
 
 ## Settled since

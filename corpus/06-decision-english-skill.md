@@ -19,10 +19,10 @@ Translating instructions is not translating prose: several things could not simp
 4. **The blind reading's classification.** `R / P / N` (*répondue, partiellement, non traitée*) becomes **`A / P / N`** (*answered, partially, not addressed*) — `R` would have meant nothing.
 5. **"Pas de principe de charité"** is kept as *no principle of charity*: it is a term of art in philosophy of language, and it travels.
 6. **Words kept untranslated**, because they carry the project's idea: *maieutics*, *partus*, *instrumenta*, and **piste**, which has no short English equivalent — *lead* is too investigative, *avenue* too grand, *thread* already taken.
-7. **The banner remains in French**, including the Theaetetus quotation. It is the only genuinely localised asset (note 02).
+7. **The banner remains in French**, including the Theaetetus quotation. It is the only genuinely localised asset (note 02). ↺ *Since localised properly: `banner.txt` in English, `banner.fr.txt` in French (note 03).*
 
-## Still open
-- Nothing at present. *(The question of French markers for a French user was settled on 2026-10-03: English structure throughout.)*
+## Open questions
+- None at present.
 
 ## History
 - 2026-10-03 — Translation done; the prompt log reversed.
