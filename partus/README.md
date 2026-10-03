@@ -6,7 +6,7 @@
 partus/maieutics/
   SKILL.md                            the skill, in English
   SKILL.fr.md                         the French original, kept
-  assets/banner.txt                   the Socrates buste, Braille, 41 lines
+  assets/banner.txt                   the Socrates buste, Braille, 26 lines
   assets/make_bust.py                 generates the buste from the portrait
   assets/socrate-anderson-farnese.jpg the source portrait
 

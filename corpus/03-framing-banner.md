@@ -13,12 +13,19 @@
 - **[ploki]** **The banner was localised, and that is fixed.** `banner.txt` is English, `banner.fr.txt` is French; the agent picks by the user's language and falls back to English. The French original keeps the Theaetetus quotation in French, which is where it belongs.
   - **[opus-5]** It is the only asset that needed this, exactly as note 02 predicted. The pipeline labels, the tagline and the quotation were the French; the buste and `ΣΩΚΡΑΤΗΣ` are language-neutral and unchanged.
 
+## Settled, 2026-10-03, later still
+- **[ploki]** **The small buste becomes the banner**: 22 columns, 15 rows, blank cells as spaces — **188 Braille characters**, against 1 320 originally. "This banner works for me."
+  - ↺ *Replaces the full 44-column buste kept a moment earlier with only the blank-cell fix (710).*
+  - **[opus-5.5]** The title, tagline and quotation sit beside the smaller buste, in both languages; the pipeline is unchanged.
+  - **[opus-5.5]** Trade-off accepted by ploki: a head, a brow and a beard rather than a recognisable portrait — earlier judged "no longer Socrates" by opus-5.5.
+- **[ploki]** **The full buste is archived**: `archive/banner-full.txt` and `archive/banner-full.fr.txt`. `make_bust.py` now defaults to 22 columns and writes spaces for blank cells; `make_bust.py 44` regenerates the large one.
+
 ## Found, 2026-10-03, later
 - **[opus-5.5]** **In Claude Code, `cat` shows the user nothing.** The host collapses command output; the agent sees the banner, the user does not. The fallback ("reproduce it if the user says they cannot see it") therefore fires on almost every opening, and brings back the cost #30 meant to remove.
 - **[opus-5.5]** **610 of the 1 320 Braille characters were blank cells** (U+2800), visually identical to a space but each costing tokens.
 - **[ploki]** Apply the blank-cell fix to the full banner. **Done** in `banner.txt` and `banner.fr.txt`: blank cells replaced by spaces, trailing spaces trimmed. **1 320 → 710 Braille characters**, the picture unchanged.
   - **[opus-5.5]** Caveat: where the title and the quotation sit to the right of the buste, alignment now relies on a Braille cell being as wide as a space. True in common monospace fonts; [Unverified] in all.
-- **Explored, not adopted** [opus-5.5]: a 22-column Braille buste (330 → 188 Braille characters with the fix) — seen by ploki, a head but no longer Socrates; ASCII art at 24–40 columns — cheaper still, the likeness gone. Kept in no file.
+- **Explored** [opus-5.5]: a 22-column Braille buste (330 → 188 Braille characters with the fix) — adopted, see above; ASCII art at 24–40 columns — cheaper still, the likeness gone. Kept in no file.
 - **Token figures remain estimates**: no tokenizer and no API key were available. Measuring with the `count_tokens` endpoint is the way to settle them.
 
 ## Options weighed [opus-5] — kept for the record
