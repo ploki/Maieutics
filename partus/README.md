@@ -1,6 +1,6 @@
 # partus — what this project brings forth
 
-**[G]** The first and principal deliverable is **the pair of skills**, received here exactly as they are installed on the author's machine (2026-10-03).
+**[ploki]** The first and principal deliverable is **the pair of skills**, received here exactly as they are installed on the author's machine (2026-10-03).
 
 ```
 partus/maieutique/

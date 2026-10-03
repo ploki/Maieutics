@@ -1,8 +1,8 @@
 # 02 — Framing: one language, or several?
 
 ## Current
-- **[G]** The repository ships its **outputs in English**; language variants of the skill were initially meant to live in their own directories (`corpus/author-intent.md`).
-- **[C → to confirm]** After looking at what published skills actually do, that plan looks like the wrong shape. See below.
+- **[ploki]** The repository ships its **outputs in English**; language variants of the skill were initially meant to live in their own directories (`corpus/author-intent.md`).
+- **[opus-5, to confirm]** After looking at what published skills actually do, that plan looks like the wrong shape. See below.
 
 ## What published skills do [S]
 Searched 2026-10-03. The dominant pattern is **one `SKILL.md`, in English, with translated documentation beside it** — never a translated skill body.
@@ -15,21 +15,21 @@ Searched 2026-10-03. The dominant pattern is **one `SKILL.md`, in English, with 
 
 **No example was found of a skill shipped as several language variants of its `SKILL.md`.**
 
-## The technical constraint [C]
+## The technical constraint [opus-5]
 A skill is **one directory plus one `SKILL.md`**, with a unique `name` in frontmatter. `fr/SKILL.md` and `en/SKILL.md` inside the same skill folder are not two skills — only the root `SKILL.md` is loaded. Shipping two variants means **two skill directories with two different names**, hence two commands (`/maieutics` and `/maieutique`), double maintenance, and a split user base. **[Unverified: the exact discovery rules for nested skill folders.]**
 
-## The argument against variants [C]
+## The argument against variants [opus-5]
 A `SKILL.md` is **not a text to be read: it is instructions addressed to Claude.** The skill already carries the line that settles the matter — *"Answer in the user's language."* An English `SKILL.md` therefore produces a French project when the user writes in French. That is exactly what happened on 2026-10-03, in reverse: a French skill ran an English project.
 
-## Proposed shape [C]
+## Proposed shape [opus-5]
 - **One `SKILL.md`, in English.**
 - **A translated README**, `README.fr.md`.
 - **The banner, in `assets/`, with one variant per language** — it is the only genuinely localised asset.
 
 ## Still open
-- **[G]** Is the banner the only thing to translate? *(The author's question, 2026-10-03.)*
+- **[ploki]** Is the banner the only thing to translate? *(The author's question, 2026-10-03.)*
 - **The names the skill creates**: `corpus/`, `partus/`, `decision-log.md`. Fixed, they make projects recognisable and tooling reusable; translated, they are more welcoming. None of the repositories examined settles this, because none of them creates a project structure.
-- **The provenance markers.** `[G]` stands for the user in the French skill. In English it would want to be `[A]` for author or `[U]` for user — so the markers are a localisation question too, and they appear on every line of every note.
+- **The provenance markers.** `[ploki]` stands for the user in the French skill. In English it would want to be `[A]` for author or `[U]` for user — so the markers are a localisation question too, and they appear on every line of every note.
 
 ## History
 - 2026-10-03 — Opened after a web search on how published skills handle several languages.
