@@ -4,7 +4,7 @@
 - **[ploki]** The banner is **slow to appear, because it goes through the LLM.** The author is right about the cause.
 - **Measured** (2026-10-03): `assets/banner.txt` is 41 lines, **2 254 characters, of which 1 320 are Braille** (U+2800–U+28FF), 5 475 UTF-8 bytes.
   - **[opus-5]** Braille characters are not in any tokeniser's common vocabulary: each one costs roughly a token, often more. **The buste alone is on the order of 1 300 to 2 000 output tokens**, generated one by one, before the session can say anything. That is the whole of the latency.
-- **[ploki]** The skill currently instructs Claude to **read the file and reproduce it verbatim in its reply**, precisely because the output of a shell command is not always visible to the user.
+- **[opus-5]** The skill instructs the agent to **read the file and reproduce it verbatim in its reply**, precisely because the output of a shell command is not always visible to the user.
 
 ## Options [opus-5] — none applied, the author asked that the skill not be modified
 | Option | Gain | Cost |

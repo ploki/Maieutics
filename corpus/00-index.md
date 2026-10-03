@@ -31,15 +31,15 @@ We talk. Substance gets written down as notes. Every structural decision and eve
 
 ## Deliverables
 - `README.md` at the root — the shop window: tagline, the copyable install prompt, what the skill is for, the layout.
-- `partus/maieutique/` and `partus/metamaieutique/` — both skills, received as installed on the author's machine on 2026-10-03. A snapshot, not the live copy. See `partus/README.md`.
+- `partus/maieutics/` and `partus/metamaieutics/` — both skills. First received as installed on 2026-10-03, worked on here since: **this repository is the source** (note 04). See `partus/README.md`.
 
-## Deliverables
+## Notes
 | Note | Status | Summary |
 |---|---|---|
 | 01-glossary.md | living | Project terms |
-| 02-multilingual.md | framing | What published skills do about languages; one `SKILL.md` in English, translated README, localised banner |
-| 07-identity.md | **in force** | Who said what: the human by git id, the agent by model name |
-| 06-the-english-skill.md | **in force** | The English `SKILL.md`; what the translation had to decide, markers above all |
-| 05-the-front-door.md | **in force** | How a visitor is meant to arrive: the README invites them to have their own agent read the skill before installing it |
-| 04-working-rule.md | **in force** | The installed skill is never touched here; `partus/` is the source; only the running session's behaviour adapts |
-| 03-the-banner.md | framing | Why the banner is slow (1 320 Braille characters through the LLM) and what could be done |
+| 02-framing-multilingual.md | in force | What published skills do about languages; one `SKILL.md` in English, a translated README, a localised banner |
+| 03-framing-banner.md | open | Why the banner is slow (1 320 Braille characters through the LLM) and what could be done |
+| 04-decision-working-rule.md | in force | The installed skill is never touched here; `partus/` is the source; only the running session's behaviour adapts |
+| 05-framing-front-door.md | in force | How a visitor is meant to arrive: the README invites them to have their own agent read the skill before installing it |
+| 06-decision-english-skill.md | in force | The English `SKILL.md`; what the translation had to decide, markers above all |
+| 07-decision-identity.md | in force | Who said what: the human by git id, the agent by model name |

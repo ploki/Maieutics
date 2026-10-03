@@ -2,7 +2,7 @@
 
 ## Current
 - **[ploki]** The repository ships its **outputs in English**; language variants of the skill were initially meant to live in their own directories (`corpus/author-intent.md`).
-- **[opus-5, to confirm]** After looking at what published skills actually do, that plan looks like the wrong shape. See below.
+- **[opus-5 → ploki]** After looking at what published skills actually do, that plan was the wrong shape. **It has been applied**: one English `SKILL.md` per skill, the French original kept beside it (note 06).
 
 ## What published skills do [S]
 Searched 2026-10-03. The dominant pattern is **one `SKILL.md`, in English, with translated documentation beside it** — never a translated skill body.
@@ -27,7 +27,7 @@ A `SKILL.md` is **not a text to be read: it is instructions addressed to Claude.
 - **The banner, in `assets/`, with one variant per language** — it is the only genuinely localised asset.
 
 ## Still open
-- **[ploki]** Is the banner the only thing to translate? *(The author's question, 2026-10-03.)*
+- **[ploki]** The author's reading, 2026-10-03: in his case only the banner would need translating. **Two things qualify it** — the names the skill creates, and the provenance markers (see below, and note 07).
 - **The names the skill creates**: `corpus/`, `partus/`, `decision-log.md`. Fixed, they make projects recognisable and tooling reusable; translated, they are more welcoming. None of the repositories examined settles this, because none of them creates a project structure.
 - **The provenance markers.** `[G]` stood for *l'utilisateur* in the French skill, and has no sense in English — so the markers are a localisation question too, and they appear on every line of every note. *(Settled the same day, and more radically than expected: see note 07.)*
 

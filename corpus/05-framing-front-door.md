@@ -14,7 +14,7 @@
 
 ## Still open
 - Whether to offer a second, shorter prompt for users who already trust the repository.
-- Whether the prompt should name the file to read (`partus/maieutique/SKILL.md`), which would make the agent's job easier but the invitation longer.
+- Whether the prompt should name the file to read (`partus/maieutics/SKILL.md`), which would make the agent's job easier but the invitation longer.
 
 ## History
 - 2026-10-03 — Opened; the author specified the invitation and its wording.

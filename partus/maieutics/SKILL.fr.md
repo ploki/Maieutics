@@ -35,7 +35,7 @@ Réponds dans la langue de l'utilisateur.
   - **[C → validé]** : proposition de Claude validée par l'utilisateur ;
   - **[S]** : une source citée ;
   - **[À vérifier]** : un fait non sourcé ;
-  - **[P]** : une décision prise par procuration, au nom de l'utilisateur, lors d'une session `metamaieutique`.
+  - **[P]** : une décision prise par procuration, au nom de l'utilisateur, lors d'une session `metamaieutics`.
 
 ## 3. Le corpus
 
@@ -75,7 +75,7 @@ Rien n'est perdu : git garde l'historique, et `archive/` garde la mémoire du ra
 - **Ce qu'il contient** : le but profond de l'utilisateur, ses convictions, ses principes, ce qu'il refuse, sa posture et son ton, ses états d'âme. Ce sont ses propos, cités autant que possible, **[G]**, et ce que Claude en observe, **[C]**, à confirmer.
 - **N'y garder que ce qui est lié à l'idée du projet.** Rien de personnel qui n'éclaire pas le projet.
 - **Le mettre à jour quand l'intention se précise ou change.** C'est souvent là que l'utilisateur découvre ce qu'il cherche vraiment.
-- Il est **à lire en premier** à chaque reprise, et il sert de **boussole** au mandat d'une session `metamaieutique`.
+- Il est **à lire en premier** à chaque reprise, et il sert de **boussole** au mandat d'une session `metamaieutics`.
 
 ## 5. Le journal des décisions
 
