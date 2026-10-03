@@ -4,6 +4,10 @@ A clean, concise rewrite of every author message, losing nothing. **Newest first
 
 *This file records what the author said, when he said it. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+39. 2026-10-03 — Says go ahead, for both new and existing projects.
+38. 2026-10-03 — Finds the agent too slow; clarifies: put the sentence at the end of the agent's reply, since the user may be expecting help right now.
+37. 2026-10-03 — Wants a sentence such as "can you help me getting started with the method?" shown, so he can press Tab and have it typed for him.
+36. 2026-10-03 — Asks: can you help me getting started with the method?
 35. 2026-10-03 — Asks that it be pushed, and the installation upgraded.
 34. 2026-10-03 — Asks for the same treatment for `metamaieutics`, and that note 04 be fixed.
 33. 2026-10-03 — Asks that the corrections go ahead, and that his installation then be upgraded.

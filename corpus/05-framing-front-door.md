@@ -12,9 +12,13 @@
   - And it costs the author nothing to maintain — no install script, no package, no version pinning.
 - **[opus-5]** Rendered as a fenced code block, so GitHub gives it a copy button.
 
+- **[ploki]** **Past the front door, the first reply must hand the user a sentence to send.** A newcomer may be expecting help right now; the skill's opening ends with a ready-made line — *"Can you help me get started with the method?"*, or for an existing project *"Let's take up the most pressing point."* — which Claude Code tends to offer as a Tab suggestion.
+  - **[opus-5.5]** Likely, not guaranteed: Claude Code writes the suggestion itself, from the conversation.
+
 ## Still open
 - Whether to offer a second, shorter prompt for users who already trust the repository.
 - Whether the prompt should name the file to read (`partus/maieutics/SKILL.md`), which would make the agent's job easier but the invitation longer.
 
 ## History
 - 2026-10-03 — Opened; the author specified the invitation and its wording.
+- 2026-10-03 — ploki, testing the opening as a newcomer, asked for a sentence he could accept with Tab; extended to existing projects.
