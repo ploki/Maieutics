@@ -25,7 +25,7 @@ We talk. Substance gets written down as notes. Every structural decision and eve
 - `corpus/prompt-log.md`
 
 ## Deliverables
-- `partus/maieutique/` — the skill, received as installed on the author's machine on 2026-10-03. A snapshot, not the live copy. See `partus/README.md`.
+- `partus/maieutique/` and `partus/metamaieutique/` — both skills, received as installed on the author's machine on 2026-10-03. A snapshot, not the live copy. See `partus/README.md`.
 
 ## Notes
 | Note | Status | Summary |
