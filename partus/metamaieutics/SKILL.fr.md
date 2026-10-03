@@ -29,7 +29,7 @@ Réponds dans la langue de l'utilisateur. Ce skill repose sur le skill **maieuti
 
 **Si un `mandate.md` marqué « approuvé » existe déjà** dans le dossier ou sur la branche courante — souvent parce qu'il a été préparé dans une autre session — **ne le réécris pas**. Relis-le avec `author-intent.md`, résume-le en trois lignes pour l'utilisateur, puis passe directement au lancement (section 3), sur la branche existante.
 
-Rédige-le à partir du cahier des charges ou, pour un projet existant, **d'abord à partir de `author-intent.md`**, puis du journal, des décisions de l'auteur lui-même, des sections « En vigueur » et de la mémoire. Si le fichier d'intention n'existe pas, crée-le avant le mandat, puis fais valider les deux ensemble. Il est court et concret :
+Rédige-le à partir du cahier des charges ou, pour un projet existant, **d'abord à partir de `author-intent.md`**, puis du journal, des décisions de l'auteur lui-même, des sections « Current » et de la mémoire. Si le fichier d'intention n'existe pas, crée-le avant le mandat, puis fais valider les deux ensemble. Il est court et concret :
 
 - **L'intention profonde** : le vrai but (sociétal, personnel, affectif…), les valeurs, ce que l'utilisateur refuse, son ton et ses préférences de travail ;
 - **Les objectifs de la branche** et les **critères qui disent qu'ils sont atteints** ;

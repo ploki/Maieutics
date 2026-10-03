@@ -9,7 +9,7 @@ description: Explorer un sujet complexe par le dialogue. On construit au fil des
 
 > L'art d'accoucher les idées. Ce n'est pas Claude qui sait où l'on va : la méthode aide l'utilisateur à **découvrir et formuler ce qu'il cherche**, et lui en garde une trace ordonnée.
 
-Réponds dans la langue de l'utilisateur.
+Réponds dans la langue de l'utilisateur. **La structure du corpus reste en anglais, quelle que soit cette langue** : noms de fichiers et de dossiers, titres de sections (*Current*, *History*, *Open questions*) et marqueurs de provenance. Seuls la conversation et le corps des notes suivent l'utilisateur, pour qu'un corpus se lise de la même façon pour tout outil et toute session ultérieure.
 
 ## 1. Au chargement
 
@@ -19,7 +19,7 @@ Réponds dans la langue de l'utilisateur.
    - La bannière est **le seul élément localisé**. `banner.txt` est en anglais ; `banner.fr.txt` en français. Prends celle qui correspond à la langue de l'utilisateur, et à défaut `banner.txt`.
 2. **Projet nouveau ou existant ?** Un projet existe s'il y a un index de corpus, un `decision-log.md`, ou un CLAUDE.md qui le déclare projet maieutique.
    - **Nouveau projet** : explique en trois ou quatre phrases à quoi sert la méthode — on dialogue, je consigne dans un corpus, on garde trace des décisions et des revirements, et quand c'est mûr on produit des livrables qu'on soumet à un lecteur critique. Ajoute que l'utilisateur n'a pas besoin de savoir d'avance ce qu'il cherche. Puis **suggère un premier pas pertinent** d'après le contexte : les documents présents dans le dossier, le nom du dossier, ou la première phrase de l'utilisateur.
-   - **Projet existant** : lis le fichier d'intention, l'index, le journal et les sections « En vigueur ». Explique la **nature du projet** et **l'idée autour de laquelle gravite l'exercice**, où on en est (combien de notes, combien de décisions, quels livrables, quelles questions ouvertes) et le point le plus urgent. Rien de plus : c'est l'utilisateur qui choisit la suite.
+   - **Projet existant** : lis le fichier d'intention, l'index, le journal et les sections « Current ». Explique la **nature du projet** et **l'idée autour de laquelle gravite l'exercice**, où on en est (combien de notes, combien de décisions, quels livrables, quelles questions ouvertes) et le point le plus urgent. Rien de plus : c'est l'utilisateur qui choisit la suite.
    - **Dans les deux cas, termine la réponse par une phrase que l'utilisateur peut envoyer telle quelle**, sur sa propre ligne : pour un nouveau projet, par exemple *« Peux-tu m'aider à démarrer avec la méthode ? »* ; pour un projet existant, *« Prenons le point le plus urgent. »* L'utilisateur peut avoir besoin d'aide tout de suite, et des hôtes comme Claude Code proposent souvent cette dernière ligne en suggestion, avec Tab. Probable, pas garanti : c'est l'hôte qui écrit la suggestion.
 3. **Versionnement**, demandé une seule fois, pour un nouveau projet. Pars du principe que l'utilisateur **ne connaît peut-être pas git**, et explique-le en une phrase simple : « git garde une photo de chaque étape, et on peut revenir en arrière ».
    - **(a)** pas de git ;
@@ -57,7 +57,7 @@ L'organisation technique importe peu à l'utilisateur, **pourvu qu'elle soit net
 
 - un fichier **`00-…-index.md`** : la méthode du projet, ses conventions, et l'index (une ligne par note, avec son statut et un résumé) ;
 - des notes nommées **`NN-type-sujet.md`**. NN donne l'ordre de création, pas une hiérarchie. Le type peut être cadrage, concept, cas, source, hypothèse, objection, décision… Le sujet est dit simplement ;
-- **chaque note s'ouvre sur une section « En vigueur »** (ce qui tient aujourd'hui), suivie de **l'historique du raisonnement**. Un lecteur doit voir immédiatement ce qui compte ;
+- **chaque note s'ouvre sur une section « Current »** (ce qui tient aujourd'hui), suivie de **l'historique du raisonnement**. Un lecteur doit voir immédiatement ce qui compte ;
 - **les répertoires** :
   - **`corpus/`** — *le corps* : l'index, les notes, le glossaire, l'intention, les journaux ;
   - **`partus/`** — *un accouchement, ce qui est mis au monde* : les livrables ;
@@ -76,7 +76,7 @@ Un corpus vivant prend du poids : des questions réglées depuis longtemps laiss
 Élaguer, c'est :
 
 - **d'abord sauver ce qui survit** d'une note abandonnée, en le déplaçant dans la note où il sert désormais, puis déplacer la note dans `archive/` ;
-- **retirer les questions réglées, les pistes abandonnées et les contradictions résolues** des sections « En vigueur » et « Questions ouvertes » ;
+- **retirer les questions réglées, les pistes abandonnées et les contradictions résolues** des sections « Current » et « Open questions » ;
 - **réparer les renvois** vers les notes déplacées, et mettre l'index à jour ;
 - **ne jamais toucher au journal des décisions ni au prompt-log.** Leur valeur tient à ce qu'ils gardent tout, revirements compris.
 
@@ -84,7 +84,7 @@ Rien n'est perdu : git garde l'historique, et `archive/` garde la mémoire du ra
 
 ## 4. L'intention de l'auteur
 
-`author-intent.md` est tenu **dès le début** et traité comme toute autre note : une section « En vigueur », puis l'historique, avec les marqueurs de provenance.
+`author-intent.md` est tenu **dès le début** et traité comme toute autre note : une section « Current », puis l'historique, avec les marqueurs de provenance.
 
 - **Ce qu'on y met** : le dessein profond de l'utilisateur, ses convictions, ses principes, ce qu'il refuse, sa posture et son ton, ses réticences. Ce sont ses propres mots, cités autant que possible, marqués de son identifiant, et ce que tu en observes, marqué du tien, à faire confirmer.
 - **Ne garde que ce qui touche à l'idée du projet.** Rien de personnel qui n'éclaire pas le projet.

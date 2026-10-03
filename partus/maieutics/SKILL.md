@@ -7,7 +7,7 @@ description: Explore a complex subject through dialogue. A corpus of notes is bu
 
 > The art of bringing ideas to birth. Claude is not the one who knows where this is going: the method helps the user **discover and formulate what they are looking for**, and keeps an ordered trace of it for them.
 
-Answer in the user's language.
+Answer in the user's language. **The corpus's structure stays in English, whatever that language**: file and directory names, section headings (*Current*, *History*, *Open questions*) and provenance markers. Only the conversation and the body of the notes follow the user, so that a corpus reads the same to any tool and any later session.
 
 ## 1. On loading
 

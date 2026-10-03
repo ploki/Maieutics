@@ -4,7 +4,10 @@
 - **[ploki]** `SKILL.md` is **translated into English**, and is authoritative.
 - **[ploki]** **`SKILL.fr.md` is a French translation kept in step with `SKILL.md`** (2026-10-03). The French original moves to `archive/maieutique-SKILL-original.fr.md`. **The same for `metamaieutics`**: its original moves to `archive/metamaieutique-SKILL-original.fr.md`.
   - ↺ *Until then `SKILL.fr.md` was the frozen French original. It had drifted into another, older skill — and its banner step was the one that turned out right (note 03, decision #35).*
-  - **[opus-5.5]** The translation translates prose only: file names, directories and markers stay exactly as in English, so a corpus is portable across languages. Section names are translated (« En vigueur » for *Current*).
+  - **[opus-5.5]** The translation translates prose only: file names, directories and markers stay exactly as in English, so a corpus is portable across languages.
+- **[opus-5.5 → ploki]** **Everything structural stays in English, whatever the user's language**: file and directory names, section headings (*Current*, *History*, *Open questions*) and provenance markers. Only the conversation and the body of the notes follow the user. Both `SKILL.md` and `SKILL.fr.md` say so (decision #42).
+  - ↺ *The French translation had first translated the section names (« En vigueur » for* Current*), leaving a French corpus half one convention and half the other: French headings over `[Unverified]` markers.*
+  - **[opus-5.5]** The price, accepted: a French user reads `## Current` and `[Unverified]` in their own notes. Of the markers, only `[Unverified]` and the `as` of `[opus-5 as ploki]` were English words at all; the rest are names, or `[S]`.
 - **[ploki]** The **prompt log is written newest first** — prepend, not append — so that whoever picks the project back up reads the freshest entry first. The rule is in the skill; `corpus/prompt-log.md` has been reversed.
 
 ## What the translation had to decide [opus-5]
@@ -19,7 +22,8 @@ Translating instructions is not translating prose: several things could not simp
 7. **The banner remains in French**, including the Theaetetus quotation. It is the only genuinely localised asset (note 02).
 
 ## Still open
-- Whether a French user gets the French markers — which would mean two conventions and no portable corpus — or the English ones with a French conversation. **The second is cheaper and is what the current file implies** — and the new French translation follows it [opus-5.5], pending ploki's word.
+- Nothing at present. *(The question of French markers for a French user was settled on 2026-10-03: English structure throughout.)*
 
 ## History
 - 2026-10-03 — Translation done; the prompt log reversed.
+- 2026-10-03 — ploki settled the open question: everything structural in English, headings included.
