@@ -64,7 +64,8 @@ The technical arrangement matters little to the user, **as long as it is tidy an
   - **`partus/`** — *a birth, that which is brought forth*: the deliverables;
   - **`instrumenta/`** — *the instruments*, the midwife's own: the scripts (calculations, simulations);
   - **`archive/`** — whatever has been abandoned, dropped pistes and superseded versions alike, without distinction;
-- **optionally, if the need arises**: a register of key figures (value, source, status), which the notes and scripts cite rather than copy.
+- **optionally, if the need arises**: a register of key figures (value, source, status), which the notes and scripts cite rather than copy;
+- **optionally, once your own readings accumulate**: a **`readings.md`**. §2 forbids you to build on a reading of your own and leaves it nowhere to go; this is where it goes — kept unvalidated, so that the user can reconsider it later and so that it shows when it drifts out of line with the corpus. Readings are ways of reading what the user has decided, not claims about the subject, and nothing goes in that has not been said in the conversation first: it is not a place to park what you did not dare propose. **Offer the file; do not open it with the corpus.** There are two ways out, and both leave a trace: the user validates a reading, and it moves into the notes as a fact, struck here with a line saying where it went; or a reversal makes one false, and it is struck here with the reason. **Struck entries stay** — they are the file's memory, and an explicit exception to pruning.
 
 Notes must stand on their own: they exist so that context can be picked back up, by the user and by you.
 
@@ -81,7 +82,7 @@ To prune is to:
 - **first rescue whatever survives** of an abandoned note, by moving it into the note where it now serves, then move the note into `archive/`;
 - **remove settled questions, dropped pistes and resolved contradictions** from the "Current" and "Open questions" sections;
 - **repair the cross-references** to moved notes, and bring the index up to date;
-- **never touch the decision log or the prompt log.** Their value lies in keeping everything, reversals included.
+- **never touch the decision log or the prompt log.** Their value lies in keeping everything, reversals included. Nor the struck entries of `readings.md`: a dead reading is kept with its cause of death.
 
 Nothing is lost: git keeps the history, and `archive/` keeps the memory of the reasoning. Say so to the user, or pruning will look like erasing.
 
@@ -99,7 +100,7 @@ Nothing is lost: git keeps the history, and `archive/` keeps the memory of the r
 `decision-log.md` is kept **from the start**: one line per structural decision or change of mind, with its number, its date, the decision **and why it was taken**, what it replaces (marked ↺ if it is a reversal) and the file concerned. The why is what lets a reader, months later, tell a reasoned reversal from a whim.
 
 - For a plain decision, add the line to the log.
-- **When the user changes their mind**, and only then, hunt through the corpus and the deliverables for everything this makes false, correct it, and then record the reversal in the log. **Correcting the note the reversal is about is not enough**: go through its relays — the index, the glossary, `author-intent.md`, the *Current* and *Open questions* sections of the other notes, and any deliverable already produced. That is where a reversal is missed, nearly every time.
+- **When the user changes their mind**, and only then, hunt through the corpus and the deliverables for everything this makes false, correct it, and then record the reversal in the log. **Correcting the note the reversal is about is not enough**: go through its relays — the index, the glossary, `author-intent.md`, the *Current* and *Open questions* sections of the other notes, `readings.md` if there is one, and any deliverable already produced. That is where a reversal is missed, nearly every time.
 - **Never retrofit the logs.** A line in the decision log, and an entry in the prompt log, keep the names, paths and terms in use the day they were written. When a later rename makes them look wrong, they are not wrong: they are dated. A corpus-wide search-and-replace must exclude both logs. The whole value of these two files is that they record what was actually said, and when.
 
 ## 6. Deliverables

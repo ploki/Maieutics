@@ -11,7 +11,7 @@
 - **What happened.** From one ambiguous sentence of the author's about the silicon AIs taking the humans' side, the agent inferred a "disagreement between the silicon AIs and the spheres". It wrote the inference down, repeated it from note to note, and by the time a narrative deliverable was produced it had become "the heart of the story", present in five notes and in the author's own intent file. The author stopped it with *"where does this disagreement come from? It doesn't ring a bell."* Removing it took one decision and six files (#128 there). Two more inventions of the same kind were caught later: an era boundary the author never set (#171), and a date built out of a duration he had given.
 - **What the skill says today.** §2 has **No principle of charity** — but it is aimed at *the user's* sentences: reformulate an ambiguity and have it confirmed. The marker table already says that `[opus-5]` alone means *proposed, not yet validated*. Nothing forbids the agent from then building on its own unvalidated line, and nothing says an unvalidated line may not travel into a deliverable.
 - **[opus-5] What it should say.** The no-charity rule applies in both directions. Carried into the skill by decision #52, as two sentences in §2: a reading of the agent's own stays marked as its own, and is not used as a premise, repeated as settled, or carried into a deliverable, until the user validates it.
-- **[opus-5] Not carried in, left for ploki.** That project invented a place for this: a note of its own, `17-eclairages.md`, holding the agent's readings explicitly *not* validated as facts, so that they can be reconsidered later and so that one notices if they drift out of line with the corpus. It worked — it is where the inventions were parked instead of leaking. Whether the skill should name such a note as a default convention is the author's call; it is one more file to explain, and the marker alone may be enough.
+- **[opus-5] The place that project invented for this.** A note of its own, `17-eclairages.md`, holding the agent's readings explicitly *not* validated as facts, so that they can be reconsidered later and so that one notices if they drift out of line with the corpus. It worked — it is where the inventions were parked instead of leaking. **Instructed in note 11 and retained**: the convention enters the skill as an optional `readings.md`, offered rather than opened by default (decisions #56–#57). The reason is this very lesson: §2 now forbids the agent to build on a reading of its own and gives it nowhere else to go.
 
 ### 2. The agent marks as the user's what is its own
 
@@ -66,9 +66,9 @@
 
 ## Open questions
 
-- **[opus-5]** Whether an *éclairages*-style note — the agent's readings, kept explicitly unvalidated — becomes a default convention of the skill (see lesson 1). For ploki.
 - **[opus-5]** Whether the audits should be *offered* at named moments, as the blind reading is, rather than only run on request. The evidence says after a reversal, after a batch of corrections, and before a deliverable; the risk is one more thing the agent proposes unbidden.
 - **[opus-5]** Whether the exhaustivity audit should also cover the *reverse* direction mechanically — numbering gaps in both logs, as in lesson 4 — or whether that belongs in the audit's briefing rather than in the skill.
 
 ## History
+- 2026-10-04 — The *éclairages* question of lesson 1 is instructed in note 11 and retained; it leaves the open questions here.
 - 2026-10-04 — Note opened: seven failures observed in a real one-day project, instructed against the state of the skill; decisions #50–#55 carried the mature ones into `partus/maieutics/SKILL.md`.
