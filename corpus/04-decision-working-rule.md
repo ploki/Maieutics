@@ -14,5 +14,8 @@
 - How the author refreshes his installation from the repository — by hand, by a symlink, by a script in `instrumenta/`? *(His business, but it affects whether `partus/` should hold an installable layout.)*
 - Whether `partus/` should mirror the installable shape exactly, so that a user can copy it straight into `~/.claude/skills/`.
 
+## Upgrades on request
+- **[ploki]** 2026-10-03: "upgrade my installation" — `~/.claude/skills/maieutics/` brought level with `partus/maieutics/` (decision #37). The rule is unchanged: the agent upgrades the installation only when the author asks.
+
 ## History
 - 2026-10-03 — Rule stated by the author.
