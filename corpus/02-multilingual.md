@@ -29,7 +29,7 @@ A `SKILL.md` is **not a text to be read: it is instructions addressed to Claude.
 ## Still open
 - **[ploki]** Is the banner the only thing to translate? *(The author's question, 2026-10-03.)*
 - **The names the skill creates**: `corpus/`, `partus/`, `decision-log.md`. Fixed, they make projects recognisable and tooling reusable; translated, they are more welcoming. None of the repositories examined settles this, because none of them creates a project structure.
-- **The provenance markers.** `[ploki]` stands for the user in the French skill. In English it would want to be `[A]` for author or `[U]` for user — so the markers are a localisation question too, and they appear on every line of every note.
+- **The provenance markers.** `[G]` stood for *l'utilisateur* in the French skill, and has no sense in English — so the markers are a localisation question too, and they appear on every line of every note. *(Settled the same day, and more radically than expected: see note 07.)*
 
 ## History
 - 2026-10-03 — Opened after a web search on how published skills handle several languages.

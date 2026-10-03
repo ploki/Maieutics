@@ -15,7 +15,7 @@
 | `[Unverified]` | an unsourced fact |
 | `[opus-5 as ploki]` | decided by proxy, in a `metamaieutics` session |
 
-## Why this is better than `[A]` / `[C]` [opus-5]
+## Why this is better than single letters [opus-5]
 - **It scales.** Two humans and two agents on one corpus, and the letters collapse. Names do not.
 - **It survives the model.** A corpus outlives the thing that wrote it. A reader in two years wants to know *which* model thought this — `opus-5` says it, "Claude" does not. The same argument applies to the human: `ploki` is a handle that will still resolve to someone.
 - **It makes attribution checkable.** The git identity is already in every commit, so the markers and the history agree by construction.
