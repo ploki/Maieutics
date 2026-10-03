@@ -1,4 +1,4 @@
-# 11 — Decision: a file for the agent's own readings
+# 11 — Decision: a file for the agent's own glosses
 
 ## Current
 
@@ -34,13 +34,13 @@ The project is `/home/ggim/tmp/mmm`, the hard-SF world of note 10. The file is `
 
 ### Objection 3, answered on the evidence
 
-- **[opus-5]** The dump was predicted and did not happen: twenty-two entries in a day, three of them struck, one promoted, 5.5 KB. It was read — by the author, who promoted from it; by the audit, which found a dead entry in it; and by the agent at closing. What made it read is that the **author asked for it**, which is the argument for offering the file rather than opening it with the corpus. A `readings.md` created on day one, before any reading exists, is the file the objection describes.
+- **[opus-5]** The dump was predicted and did not happen: twenty-two entries in a day, three of them struck, one promoted, 5.5 KB. It was read — by the author, who promoted from it; by the audit, which found a dead entry in it; and by the agent at closing. What made it read is that the **author asked for it**, which is the argument for offering the file rather than opening it with the corpus. A `glosses.md` created on day one, before any reading exists, is the file the objection describes.
 
 ## Open questions
 
-- **[opus-5]** **The name.** Written in as `readings.md`, because the skill's §2 already says "a reading of your own" and the file should be the obvious destination of that sentence. The author's own word was *éclairages*, which is better, and English-only (#45) costs it. `glosses.md` and `lenses.md` were the other candidates. For ploki.
+- **[opus-5]** **The name.** Written in as `glosses.md`. ↺ *The agent first chose `readings.md`, echoing §2's "a reading of your own"; ploki caught the collision with §7, **the blind reading**, where the same word names a different act. A gloss is a comment in the margin that lights the text without being part of it — the exact status of these lines. §2 now says "a gloss of your own".* and the file should be the obvious destination of that sentence. The author's own word was *éclairages*, which is better, and English-only (#45) costs it. `glosses.md` and `lenses.md` were the other candidates. For ploki.
 - **[opus-5]** Whether the file should be **numbered as a note** (`NN-reading-subject.md`) rather than carry a fixed name beside `author-intent.md`. Written in with a fixed name: there is one per project, it is not about a subject, and the Current/History shape does not fit it — the real one never had a Current section. The cost is one more named file in `corpus/`, against one more note type in the list.
 - **[opus-5]** Whether anything should ever make the agent **re-read** the file. In the real project only the audit and the author's closing question ever did. A periodic re-read is not evidenced and was not written in.
 
 ## History
-- 2026-10-04 — Note opened, instructing the question note 10 left to ploki (lesson 1). Decision #56. The convention was then carried into the skill by decision #57: `readings.md` in §3, as an optional file offered when readings accumulate, with its two exits and the explicit exception to pruning; and named among §5's relays of a reversal.
+- 2026-10-04 — Note opened, instructing the question note 10 left to ploki (lesson 1). Decision #56. The convention was then carried into the skill by decision #57: `glosses.md` in §3, as an optional file offered when readings accumulate, with its two exits and the explicit exception to pruning; and named among §5's relays of a reversal.

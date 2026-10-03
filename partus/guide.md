@@ -44,7 +44,7 @@ If it drifts away from any of this, say so. That's a fair correction.
 | `author-intent.md` | What you are really after (§4) |
 | `decision-log.md` | Every decision and every reversal (§5) |
 | `prompt-log.md` | What you said, newest first (§6) |
-| `readings.md` | The agent's own readings of the subject, kept unvalidated — only if you want it |
+| `glosses.md` | The agent's own glosses — its readings of what you decided, kept unvalidated — only if you want it |
 
 Every note opens with **Current**: what holds today. Read this and you know where the note stands. It is followed by the **History** of the reasoning, reversals included. A note may also have an **Open questions** section, when something in it isn't settled.
 
@@ -58,7 +58,7 @@ Beside `corpus/`:
 
 If figures recur across notes, the agent can keep a **register of key figures** (value, source, status), which the notes and scripts cite instead of copying. Ask for it when you need it.
 
-**`readings.md` is the one file the agent offers rather than keeps by default.** Its readings are not facts about your subject but ways of reading what you have decided, and the agent is forbidden to build on them. Keeping them somewhere means you can come back to them, and that it shows when one stops fitting the corpus. Two things can happen to a reading: you validate it, and it moves into the notes as a fact, with a struck line here saying where it went; or a change of mind makes it false, and it is struck here with the reason. The struck ones stay, so you can see what the corpus outgrew.
+**`glosses.md` is the one file the agent offers rather than keeps by default.** Its glosses are not facts about your subject but ways of reading what you have decided, and the agent is forbidden to build on them. Keeping them somewhere means you can come back to them, and that it shows when one stops fitting the corpus. Two things can happen to a reading: you validate it, and it moves into the notes as a fact, with a struck line here saying where it went; or a change of mind makes it false, and it is struck here with the reason. The struck ones stay, so you can see what the corpus outgrew.
 
 The layout is a default, not a law. If you'd rather arrange things differently, say so. What matters is that it stays tidy and you understand it.
 
@@ -141,7 +141,7 @@ Pruning means:
 
 - moving whatever survives of an abandoned note into the note where it now belongs, then moving the note to `archive/`;
 - clearing settled questions and dropped pistes out of **Current** and **Open questions**;
-- leaving the struck entries of `readings.md` alone: a dead reading is kept with its cause of death;
+- leaving the struck entries of `glosses.md` alone: a dead gloss is kept with its cause of death;
 - repairing links and bringing the index up to date.
 
 **The two logs are never touched.** And nothing is lost: git keeps every version, and `archive/` keeps the reasoning.
@@ -206,6 +206,6 @@ None of these are commands. Plain speech works, and these are just examples.
 | slim the corpus down | *"Let's prune."* |
 | go back and try another way | *"Can we branch from before we decided X?"* |
 | keep a list of numbers straight | *"Start a register of key figures."* |
-| keep the agent's readings without endorsing them | *"Keep those somewhere, I'm not validating them."* |
+| keep the agent's glosses without endorsing them | *"Keep those somewhere, I'm not validating them."* |
 | fix the banner on a light terminal | *"My terminal is light."* |
 | hand the work over | `/metamaieutics` |
