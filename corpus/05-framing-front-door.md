@@ -26,5 +26,5 @@
 
 ## History
 - 2026-10-03 — Opened; the author specified the invitation and its wording.
-- 2026-10-03 — Getting started and the guide written, on ploki's request.
 - 2026-10-03 — ploki, testing the opening as a newcomer, asked for a sentence to accept with Tab; extended to existing projects.
+- 2026-10-03 — Getting started and the guide written, on ploki's request.
