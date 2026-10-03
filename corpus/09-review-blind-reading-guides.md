@@ -2,10 +2,132 @@
 
 ## Current
 - **[ploki]** Blind reading requested on `partus/getting-started.md` (GS) and `partus/guide.md` (G), 2026-10-03.
-- Stage 1 done: 81 questions, recorded below unaltered. Stage 2 (grading against the corpus and the skills) pending.
+- Stage 1: 81 questions, recorded below unaltered. Stage 2: graded against the skills and the corpus — **A 12 · P 39 · N 30**.
+- **[opus-5.5]** The main finding is not the gaps but **13 places where the pages misdescribe the skills** (C1–C13 below), mostly by overstating them. Several are inherited from the skill itself (C5, C8, C13).
+- The blind reader also caught a bookkeeping error of the agent's: decision #45 written twice in the log, a stray copy after #39. Removed (decision #47).
 
-## Open questions
-- Grading A / P / N, and the follow-up list, to come.
+## Follow-up list
+Status: **open** · answered · decided. Tied to the decision log by number once settled.
+
+**Contradictions between the pages and the skills** (GS = getting-started, G = guide, MS / MMS = the two `SKILL.md`)
+| # | Point | Status |
+|---|---|---|
+| C1 | GS §2: plain speech mentioning the method starts the skill. MS triggers on `/maieutics` or the CLAUDE.md line only | open |
+| C2 | GS §3: "the agent sets one up" reads as unconditional; MS: `git init` only under (b) or (c) | open |
+| C3 | Note shape: GS says Current + History, G says Current + Open questions + History; MS requires only Current then history | open |
+| C4 | GS §4, G §3: "every claim" is marked. MS: keep track of who said what; the corpus has unmarked lines | open |
+| C5 | GS §5: the log shows "why you stopped thinking it". MS §5: the log line has no reason field | open |
+| C6 | GS §8: the blind reader "lists everything it couldn't understand"; MS §7: a pool of questions, then A/P/N grading | open |
+| C7 | G §8: *you* tell the agent which claims need verifying; MS §7.4: the orchestrating agent tells the blind reader | open |
+| C8 | G §10 "tools you have to ask for" includes memory (automatic, MS §9) and the devil's advocate (offered, MS §8) — MS §8 has the same tension | open |
+| C9 | G §11: nothing sent to an outside service; MMS §2: read-only web search stays allowed | open |
+| C10 | G §11: approving the mandate is "your only step"; MMS also offers `git init`/a first commit, has the intent file approved with the mandate, and reuses an already-approved mandate | open |
+| C11 | GS and G present `01-reference-glossary.md` as the default; MS names no glossary file | open |
+| C12 | GS: "the agent explains the method as it goes"; MS gives a 3–4 sentence opening; note 05 says the on-request tools are otherwise never learnt | open |
+| C13 | GS: the agent offers an inverted banner; none ships, `make_bust.py --invert` needs Pillow and outputs the buste without the title; note 03 still has it as an open question | open |
+| minor | G §10 "needs (b) or (c)", G §13 "Where are we?", G §7 "name the genre and the reader" — unsupported by MS but harmless | open |
+
+**Most pressing unaddressed questions for a newcomer** (the reader's ranking)
+| # | Question | Status |
+|---|---|---|
+| Q29 | How a proposal gets validated, `[opus-5]` → `[opus-5 → me]` | open |
+| Q2 | Plain speech or `/maieutics`? (= C1) | open |
+| Q38, Q45 | Will the agent rewrite a deliverable edited by hand; which wins, corpus or deliverable | open |
+| Q80 | How the user knows a note was written | open |
+| Q37, Q42 | What counts as "structural"; is the reason for a reversal recorded (= C5) | open |
+| Q11 | Who authors commits, what they say, is anything pushed | open |
+| Q10 | Changing the versioning option later | open |
+| Q65, Q73 | Interrupting a metamaieutics run; must the session stay open | open |
+| Q67 | Accepting or rejecting `[x as me]` decisions after handback | open |
+| Q60 | Exploration branch: finding the commit, rejoining | open |
+| Q40 | How a log corrects its own errors — made concrete by the duplicate #45 | open |
+
+## Grades [opus-5.5, the same fresh agent, after reading the skills and the corpus]
+A — answered · P — partially · N — not addressed. "absent from GS/G" means the skill answers it but the pages don't say.
+
+| Q | | Where | Note |
+|---|---|---|---|
+| 1 | P | README, 04 | Per-user install implied, never stated; metamaieutics install not mentioned |
+| 2 | P | MS | Triggers: `/maieutics` or the CLAUDE.md line (C1) |
+| 3 | P | MS | CLAUDE.md line meant to trigger; GS §7 doesn't say typing is optional |
+| 4 | P | MS §1.2 | Documents only seed the first step |
+| 5 | N | | |
+| 6 | A | MS §1.2 | "Likely, not guaranteed"; GS only says "often" |
+| 7 | P | README, 03 | What it depicts, not what it's for; no off switch |
+| 8 | N | | |
+| 9 | N | | |
+| 10 | P | MS §1.3, MMS §3.3 | Asked once; metamaieutics skips it; absent from GS. Changing later not covered |
+| 11 | P | MS §1.3 | Iteration defined; authorship, messages, pushing not |
+| 12 | P | MS §1.3 | `git init` only under (b)/(c) (C2) |
+| 13 | N | | "costs you nothing" unbacked |
+| 14 | N | MS §1.3 | Same tension in MS |
+| 15 | A | MMS §1.3 | Folder must be versioned; absent from G |
+| 16 | N | | |
+| 17 | P | MS §3 | C3 |
+| 18 | P | 00 | Index and glossary names unspecified in MS (C11) |
+| 19 | N | | |
+| 20 | P | MS §3 | List open; who picks, not said |
+| 21 | P | 00 | Statuses in use, undefined |
+| 22 | A | MS §4, §5, §2 | Intent and log from the start, glossary when terms appear; absent from GS/G |
+| 23 | N | | |
+| 24 | P | MS §1.2, §3 | Resumption needs an index, a log or the CLAUDE.md line |
+| 25 | A | 06 item 6 | Deliberate; undefined in the pages and the glossary |
+| 26 | P | 01, #6 | Why answered; telling apart not |
+| 27 | P | MS §2, 07, 00 | Open in note 07 |
+| 28 | P | 07 | Open in note 07 |
+| 29 | N | | |
+| 30 | N | | |
+| 31 | N | | Combined in practice (note 03) |
+| 32 | P | 07 | Motivation, not mechanics |
+| 33 | P | 00 | Practice, no rule |
+| 34 | P | MS §2, §4, MMS §3 | Deliverables not addressed |
+| 35 | P | MS §4, MMS §2 | From the start; absent from the pages |
+| 36 | P | MS §4 | Timing and privacy not addressed |
+| 37 | N | | |
+| 38 | N | | |
+| 39 | A | MS §5, log | |
+| 40 | N | | The log's duplicate #45 shows the gap |
+| 41 | P | MS §1.3 | Decision log order unspecified |
+| 42 | N | MS §5 | C5 |
+| 43 | N | | |
+| 44 | P | MS §6 | Flagging not addressed |
+| 45 | N | | |
+| 46 | N | | |
+| 47 | P | MS §6 | |
+| 48 | N | | |
+| 49 | A | MS §7 | G accurate, GS oversimplifies (C6) |
+| 50 | P | MS §7.3 | Same agent confirmed, no reason given |
+| 51 | P | MS §7.2, 09 | |
+| 52 | P | MS §7.5 | Mechanics unspecified |
+| 53 | N | | |
+| 54 | N | | |
+| 55 | P | MS §3, 03, 06 | History gets a "Pruned" entry in practice |
+| 56 | P | #43 | Logged in practice |
+| 57 | P | MS §3 | |
+| 58 | N | | |
+| 59 | P | MS §8 | C8 |
+| 60 | N | | |
+| 61 | A | MS §9 | Memory automatic (C8) |
+| 62 | N | | |
+| 63 | A | MMS Roles, §3–4 | Mostly absent from G |
+| 64 | P | MMS §3.2, §6 | On the branch; path implied |
+| 65 | N | | |
+| 66 | P | MMS §4 | One loop turn, one commit |
+| 67 | N | | |
+| 68 | A | MMS §4.3–4.4 | Prompt log + one commit per iteration; absent from G |
+| 69 | P | MMS §3.1 | |
+| 70 | P | MMS §2 | C9 |
+| 71 | P | MMS §1–3 | Corpus creation implied |
+| 72 | P | MMS §3.1 | `../<folder>-meta`; memory caveat absent from G |
+| 73 | N | | |
+| 74 | A | MMS | `/metamaieutics` only |
+| 75 | P | MS | Logs, glossary, deliverables unspecified |
+| 76 | N | | |
+| 77 | A | README, CONTRIBUTING | Relative link works only in the repository |
+| 78 | A | MS §1.2, 05 | C12 |
+| 79 | P | MS §2 | Logging of corrections not addressed |
+| 80 | N | | |
+| 81 | N | | |
 
 ## Questions from the blind reader, unaltered [opus-5.5, fresh agent, deliverables only]
 
@@ -116,3 +238,4 @@ Q81. Both pages: neither says which Claude models or Claude Code versions the sk
 
 ## History
 - 2026-10-03 — Opened; stage 1 questions recorded unaltered.
+- 2026-10-03 — Stage 2 grading recorded; follow-up list drawn up.
