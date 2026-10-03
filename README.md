@@ -60,11 +60,13 @@ So the repository contains both its own recipe and the record of its own cooking
 
 ## License
 
-MIT. See [`LICENSE`](LICENSE).
+MIT, for the skill and everything written here. See [`LICENSE`](LICENSE).
+
+The Socrates photograph in `partus/maieutique/assets/` is a separate matter: it is a public-domain work by Domenico Anderson (1854–1938), credited in [`CREDITS.md`](partus/maieutique/assets/CREDITS.md).
 
 ## Name
 
-*Maieutics*, from the Greek μαιευτική — the art of the midwife. Socrates' own word for what he did: he claimed to teach nothing, only to help minds give birth to what they were already carrying. The banner is a Braille rendering of the Farnese Socrates, computed from a photograph by [`partus/maieutique/assets/make_bust.py`](partus/maieutique/assets/make_bust.py).
+*Maieutics*, from the Greek μαιευτική — the art of the midwife. Socrates' own word for what he did: he claimed to teach nothing, only to help minds give birth to what they were already carrying. The banner is a Braille rendering of the Farnese Socrates, computed from a photograph by [`partus/maieutique/assets/make_bust.py`](partus/maieutique/assets/make_bust.py). The photograph is by Domenico Anderson (1854–1938) and is in the public domain — see [`CREDITS.md`](partus/maieutique/assets/CREDITS.md).
 
 > « Je n'enseigne rien ; j'aide les esprits à mettre au monde ce qu'ils portent. »
 > — after Plato, *Theaetetus*
