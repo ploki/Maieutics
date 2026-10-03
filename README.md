@@ -58,6 +58,10 @@ It is itself a Maieutics project, about the Maieutics skill — the method appli
 
 So the repository contains both its own recipe and the record of its own cooking. Start with [`corpus/decision-log.md`](corpus/decision-log.md) if you want to see the method at work rather than described.
 
+## License
+
+MIT. See [`LICENSE`](LICENSE).
+
 ## Name
 
 *Maieutics*, from the Greek μαιευτική — the art of the midwife. Socrates' own word for what he did: he claimed to teach nothing, only to help minds give birth to what they were already carrying. The banner is a Braille rendering of the Farnese Socrates, computed from a photograph by [`partus/maieutique/assets/make_bust.py`](partus/maieutique/assets/make_bust.py).

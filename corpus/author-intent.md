@@ -8,4 +8,4 @@
 - **[C, to confirm]** The author tests claims rather than accepting them: asked for the state of the art on multilingual skills before committing to the directory plan, and diagnosed the banner's latency unaided.
 
 ## History
-- 2026-10-03 — Project opened, in `/home/ggim/src/Maieutics`.
+- 2026-10-03 — Project opened.

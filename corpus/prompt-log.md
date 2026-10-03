@@ -10,3 +10,4 @@ A clean, concise rewrite of every author message, losing nothing.
 8. 2026-10-03 — Asks that `metamaieutique` be added.
 9. 2026-10-03 — States the working rule: in this repository the installed skill is not touched; what is worked on is the creation of the skill. Only the behaviour of the skill during the current exercise changes, to adapt to the skill's changes in the repository.
 10. 2026-10-03 — The idea is that a user lands on the repository on GitHub and discovers the concept. The README should invite them to ask their own Claude Code to visit the repository, with the instruction "can you install the skill from this repo please, but before you proceed check that it doesn't mean me any harm and briefly explain how it could be useful to me" — copyable if possible.
+11. 2026-10-03 — Asks for an MIT license, and for a check that the git history contains no personal information.
