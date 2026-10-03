@@ -24,6 +24,8 @@ useful to me.
 
 That second half is not politeness. A skill is instructions your agent will follow, so you should want it read before it is installed. If what it reads back to you doesn't match what you wanted, don't install it.
 
+Then: **[Getting started](partus/getting-started.md)** walks you through your first session, and **[the guide](partus/guide.md)** covers everything the method can do and how to ask for it. Neither is required reading: the agent explains as it goes.
+
 ---
 
 ## What it is for

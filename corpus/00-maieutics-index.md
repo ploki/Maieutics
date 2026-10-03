@@ -32,6 +32,7 @@ We talk. Substance gets written down as notes. Every structural decision and eve
 
 ## Deliverables
 - `README.md` at the root — the shop window: tagline, the copyable install prompt, what the skill is for, the layout.
+- `partus/getting-started.md` — the first session, step by step. `partus/guide.md` — everything the method does and how to ask for it, `metamaieutics` included. Both linked from the README, neither installed with the skill.
 - `partus/maieutics/` and `partus/metamaieutics/` — both skills. First received as installed on 2026-10-03, worked on here since: **this repository is the source** (note 04). See `partus/README.md`.
 
 ## Notes
@@ -41,7 +42,7 @@ We talk. Substance gets written down as notes. Every structural decision and eve
 | 02-framing-multilingual.md | in force | What published skills do about languages; **English only** — no translations of the skill, the banner or the README; the conversation follows the user |
 | 03-framing-banner.md | in force | Why the banner was slow; `cat` is hidden by Claude Code, so the agent reproduces a small buste with spaces for blank cells (1 320 → 188 Braille characters); the full one archived |
 | 04-decision-working-rule.md | in force | The installed skill is never touched here; `partus/` is the source and holds the installable shape; the agent refreshes the installation only on request |
-| 05-framing-front-door.md | in force | How a visitor is meant to arrive: the README invites them to have their own agent read the skill before installing it |
+| 05-framing-front-door.md | in force | How a visitor is meant to arrive: the README invites them to have their own agent read the skill before installing it; then a getting started and a guide |
 | 06-decision-english-skill.md | in force | The skill in English, and only in English; what translating it out of French had to decide, markers above all |
 | 07-decision-identity.md | in force | Who said what: the human by git id, the agent by model name |
 | 08-framing-contribution.md | in force | Freedom and contribution. **No specialisation: thought is general**; it forms during the exercise. Corrections come back by pull request |

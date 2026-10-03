@@ -1,7 +1,7 @@
 from PIL import Image, ImageOps, ImageEnhance, ImageFilter, ImageDraw
 import sys, os
 HERE=os.path.dirname(os.path.abspath(__file__))
-# usage: python3 make_bust.py [colonnes=22] [gamma=1.4] [seuil_fond=45] [--invert]
+# usage: python3 make_bust.py [columns=22] [gamma=1.4] [background_threshold=45] [--invert]
 a=[x for x in sys.argv[1:] if not x.startswith('--')]
 cols=int(a[0]) if len(a)>0 else 22; gamma=float(a[1]) if len(a)>1 else 1.4; bg=int(a[2]) if len(a)>2 else 45
 inv='--invert' in sys.argv

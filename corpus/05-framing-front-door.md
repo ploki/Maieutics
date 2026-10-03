@@ -14,6 +14,11 @@
 
 - **[ploki]** **Past the front door, the first reply must hand the user a sentence to send.** A newcomer may be expecting help right now; the skill's opening ends with a ready-made line — *"Can you help me get started with the method?"*, or for an existing project *"Let's take up the most pressing point."* — which Claude Code tends to offer as a Tab suggestion.
   - **[opus-5.5]** Likely, not guaranteed: Claude Code writes the suggestion itself, from the conversation.
+- **[ploki]** **Past the install, a getting started, then a full guide**, as separate files linked from the README: `partus/getting-started.md` and `partus/guide.md` (decision #46).
+  - **[opus-5.5 → ploki]** Getting started walks through the first session; the guide's real job is the tools that run only on request (contradiction hunt, devil's advocate, exploration branches), which a user who doesn't know of them never uses.
+  - **[opus-5.5]** Two guards against drift: the guide describes what the user sees and says, not the agent's rules, and names `SKILL.md` as the authority. Both pages say they are optional reading — the method's premise is that the user needn't know in advance.
+  - **[opus-5.5]** Getting started covers `maieutics` only; the guide gives `metamaieutics` a section of its own. *Proposed, not yet validated.*
+  - **[opus-5.5]** They sit at the top of `partus/`, outside the skill directories, so installing a skill doesn't copy them.
 
 ## Open questions
 - Whether to offer a second, shorter prompt for users who already trust the repository.
@@ -21,4 +26,5 @@
 
 ## History
 - 2026-10-03 — Opened; the author specified the invitation and its wording.
+- 2026-10-03 — Getting started and the guide written, on ploki's request.
 - 2026-10-03 — ploki, testing the opening as a newcomer, asked for a sentence to accept with Tab; extended to existing projects.

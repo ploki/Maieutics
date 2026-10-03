@@ -3,6 +3,9 @@
 **[opus-5 → ploki]** The deliverable is **the pair of skills**. They were first received as installed on the author's machine on 2026-10-03, and have been worked on here since — translated into English, renamed, re-marked.
 
 ```
+partus/getting-started.md             the first session, step by step
+partus/guide.md                       everything the method does, and how to ask for it
+
 partus/maieutics/
   SKILL.md                            the skill, in English
   assets/banner.txt                   the Socrates buste, Braille, 26 lines
