@@ -25,4 +25,8 @@ We talk. Substance gets written down as notes. Every structural decision and eve
 - `corpus/prompt-log.md`
 
 ## Notes
-*(none yet)*
+| Note | Status | Summary |
+|---|---|---|
+| 01-glossary.md | living | Project terms |
+| 02-multilingual.md | framing | What published skills do about languages; one `SKILL.md` in English, translated README, localised banner |
+| 03-the-banner.md | framing | Why the banner is slow (1 320 Braille characters through the LLM) and what could be done |
