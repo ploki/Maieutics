@@ -46,3 +46,4 @@ We talk. Substance gets written down as notes. Every structural decision and eve
 | 06-decision-english-skill.md | in force | The skill in English, and only in English; what translating it out of French had to decide, markers above all |
 | 07-decision-identity.md | in force | Who said what: the human by git id, the agent by model name |
 | 08-framing-contribution.md | in force | Freedom and contribution. **No specialisation: thought is general**; it forms during the exercise. Corrections come back by pull request |
+| 09-review-blind-reading-guides.md | in progress | Blind reading of the getting started and the guide: 81 questions; grading pending |

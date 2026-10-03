@@ -4,6 +4,7 @@ A clean, concise rewrite of every author message, losing nothing. **Newest first
 
 *This file records what the author said, when he said it. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+48. 2026-10-03 — Asks that it be pushed, then a blind reading run on the getting started and the guide.
 47. 2026-10-03 — Confirms: a getting started and a full guide, as separate files linked from the README.
 46. 2026-10-03 — Drops French right now: English is the new Latin, and we're too busy to learn Greek.
 45. 2026-10-03 — Says a getting started is missing, then a full guide — doesn't the agent think so?
