@@ -16,3 +16,5 @@
 | 13 | 2026-10-03 | MIT license, copyright Guillaume Gimenez | — | LICENSE, README.md |
 | 14 | 2026-10-03 | Git history and tracked content checked for personal information: the one absolute home path removed from `corpus/author-intent.md`; the commit identity (name and `ploki@blackmilk.fr`) is left as is, being the author's public git identity | — | corpus/author-intent.md |
 | 15 | 2026-10-03 | The Socrates photograph is verified public domain: Domenico Anderson (1854-1938), Farnese collection, catalogue 23185; copyright expired 2009; Commons marks it PD-old and Public Domain Mark 1.0. Credited in `CREDITS.md` and in the README | — | partus/maieutique/assets/CREDITS.md, README.md |
+| 16 | 2026-10-03 | The prompt log is written newest first (prepend, not append); the skill says so and `corpus/prompt-log.md` is reversed | — | partus/maieutique/SKILL.md, corpus/prompt-log.md |
+| 17 | 2026-10-03 | `SKILL.md` translated into English; the French original kept as `SKILL.fr.md`. Markers become `[A] [C] [S] [Unverified] [P]`, the skill is named `maieutics`, and the created file names are English | — | partus/maieutique/SKILL.md, corpus/06-the-english-skill.md |
