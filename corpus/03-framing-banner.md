@@ -10,8 +10,13 @@
 ## Settled, 2026-10-03
 - **[ploki]** **Stop burning millions of tokens for nothing.** The skill now says: show the banner with `cat assets/banner.txt`, **never by retyping it**. Only if the user reports seeing nothing does the agent reproduce it once, and note that this host hides command output.
   - **[opus-5]** Saving: the whole of it. Roughly 1 300–2 000 output tokens and several seconds, at every project opening, down to the cost of one shell call.
+  - ↺ *Reversed later the same day: Claude Code hides `cat` output from the user, so the banner was never seen. See below.*
 - **[ploki]** **The banner was localised, and that is fixed.** `banner.txt` is English, `banner.fr.txt` is French; the agent picks by the user's language and falls back to English. The French original keeps the Theaetetus quotation in French, which is where it belongs.
   - **[opus-5]** It is the only asset that needed this, exactly as note 02 predicted. The pipeline labels, the tagline and the quotation were the French; the buste and `ΣΩΚΡΑΤΗΣ` are language-neutral and unchanged.
+
+## Settled, 2026-10-03, last
+- **[ploki]** **The agent reproduces the banner in its reply, instead of `cat`.** The skill now says: read `assets/banner.txt` and copy it verbatim into a code block at the head of the reply.
+  - **[opus-5.5]** Affordable only because the buste is now small (188 Braille characters); the skill says so, and asks that it not be enlarged.
 
 ## Settled, 2026-10-03, later still
 - **[ploki]** **The small buste becomes the banner**: 22 columns, 15 rows, blank cells as spaces — **188 Braille characters**, against 1 320 originally. "This banner works for me."
@@ -42,7 +47,6 @@
 - ~~**[opus-5]** A few seconds of latency, once, is a defensible trade.~~ ↺ *Wrong: the trade was never necessary. `cat` costs nothing and the picture is identical.*
 
 ## Still open
-- How the banner should reach the user in Claude Code, where `cat` output is hidden: reproduce the fixed banner, ask the user to run `! cat`, a hook, or a smaller welcome.
 - Whether the banner needs a light-background variant shipped alongside (`assets/make_bust.py` can invert it).
 
 ## History

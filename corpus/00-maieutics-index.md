@@ -39,7 +39,7 @@ We talk. Substance gets written down as notes. Every structural decision and eve
 |---|---|---|
 | 01-reference-glossary.md | living | Project terms |
 | 02-framing-multilingual.md | in force | What published skills do about languages; one `SKILL.md` in English, the French original beside it. A translated README and a per-language banner remain a proposal |
-| 03-framing-banner.md | open | Why the banner is slow; shown with `cat`, which Claude Code hides from the user; now a small buste with spaces for blank cells (1 320 → 188 Braille characters); the full one archived |
+| 03-framing-banner.md | open | Why the banner was slow; `cat` is hidden by Claude Code, so the agent reproduces a small buste with spaces for blank cells (1 320 → 188 Braille characters); the full one archived |
 | 04-decision-working-rule.md | in force | The installed skill is never touched here; `partus/` is the source; only the running session's behaviour adapts |
 | 05-framing-front-door.md | in force | How a visitor is meant to arrive: the README invites them to have their own agent read the skill before installing it |
 | 06-decision-english-skill.md | in force | The English `SKILL.md`; what the translation had to decide, markers above all |

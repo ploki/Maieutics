@@ -4,6 +4,7 @@ A clean, concise rewrite of every author message, losing nothing. **Newest first
 
 *This file records what the author said, when he said it. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+30. 2026-10-03 — Asks that the agent reproduce the banner instead of using `cat`.
 29. 2026-10-03 — This banner works for him. Asks that the full one be archived.
 28. 2026-10-03 — Wanted the small version he had looked at.
 27. 2026-10-03 — Asks that the blank-cell fix be applied to the full banner, and that it be shown through the agent.

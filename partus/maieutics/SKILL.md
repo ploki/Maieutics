@@ -11,8 +11,8 @@ Answer in the user's language.
 
 ## 1. On loading
 
-1. **Show the banner — with `cat`, never by retyping it.** Run `cat assets/banner.txt` (the file sits next to this one) and leave it at that. **Do not reproduce its content in your reply.** Its buste is 188 Braille characters: generating them still costs hundreds of output tokens and seconds, every single time, for a picture the terminal can print for free.
-   - If the user says they cannot see it, reproduce it once, in a code block, and remember that this host hides command output.
+1. **Show the banner by reproducing it in your reply.** Read `assets/banner.txt` (the file sits next to this one) and copy it, verbatim, into a code block at the head of your reply. Do not merely `cat` it: hosts such as Claude Code hide command output from the user, who would see nothing.
+   - It is kept small on purpose — its buste is 188 Braille characters — so that retyping it stays cheap. Do not enlarge it.
    - The buste is drawn in light Braille dots, meant for a dark background. If the user has a light terminal, offer the inverted version (see `assets/make_bust.py`).
    - The banner is **the only localised asset**. `banner.txt` is English; `banner.fr.txt` is French. Use the one matching the user's language, and fall back to `banner.txt`.
 2. **New project or existing one?** A project exists if there is a corpus index, a `decision-log.md`, or a CLAUDE.md declaring it a maieutics project.
