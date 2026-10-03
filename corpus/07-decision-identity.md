@@ -1,7 +1,8 @@
 # 07 — Who said what: identity in the corpus
 
 ## Current
-- **[ploki]** The user should be **identified by their git id**; failing that, by their first name if the agent knows it; failing that, asked for.
+- **[ploki]** The user should be **identified by their git id**; failing that, by their first name if the agent knows it.
+- **[opus-5]** Failing both, ask once and record the answer in the index.
 - **[ploki]** **The agent identifies itself too** — today, by its **model name**.
 - **[ploki]** The reason: **a repository with several philosophers would need this. We want to track whose ideas are whose.**
 

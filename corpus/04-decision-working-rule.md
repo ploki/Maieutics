@@ -8,7 +8,7 @@
 ## What this settles [opus-5]
 - **The source question is closed.** `partus/` is the original; the installation is a copy that will be refreshed by the author when he chooses, by his own means. The drift noted on 2026-10-03 is no longer a problem to manage but an expected state.
 - **Two versions coexist during a session**, and that is deliberate: the installed one triggered the skill, the repository one governs how we go on. When they disagree, **the repository wins** — but only for the current session's conduct.
-- **A trap worth naming:** the running session loaded the *installed* `SKILL.md` into context at startup. The agent does not automatically see edits made to `partus/maieutics/SKILL.md` afterwards. Someone has to say so, or Claude has to re-read the file. **Re-read it before relying on it.**
+- **A trap worth naming:** the running session loaded the *installed* `SKILL.md` into context at startup. The agent does not automatically see edits made to `partus/maieutics/SKILL.md` afterwards. Someone has to say so, or the agent has to re-read the file. **Re-read it before relying on it.**
 
 ## Still open
 - How the author refreshes his installation from the repository — by hand, by a symlink, by a script in `instrumenta/`? *(His business, but it affects whether `partus/` should hold an installable layout.)*

@@ -38,7 +38,9 @@ Two rules do most of the work. **No charity**: an ambiguous sentence gets reform
 
 ## What it looks like after a day
 
-A real project, one day of conversation: **184 decisions, about twenty of them reversals**, all traced; twelve live notes; three abandoned ones in `archive/`; two deliverables; a world with its own arithmetic, checked by scripts. Three consistency audits by fresh agents found eighteen internal contradictions, sixteen of which were the agent's own bookkeeping failures — which is exactly what the audits are for.
+The method was first run for a full day on an unrelated project — building a hard-SF world. It produced **184 decisions, about twenty of them reversals**, all traced; twelve live notes; three abandoned ones in `archive/`; two deliverables; and a world with its own arithmetic, checked by scripts. Three consistency audits by fresh agents found eighteen internal contradictions, sixteen of which were the agent's own bookkeeping failures — which is exactly what the audits are for.
+
+*(That project is not in this repository. What you can read here is this one, which is smaller and about the skill itself.)*
 
 ## Layout of a project
 
