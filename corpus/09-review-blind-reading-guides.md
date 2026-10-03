@@ -19,7 +19,7 @@ Status: **open** · answered · decided. Tied to the decision log by number once
 | C5 | GS §5: the log shows "why you stopped thinking it". MS §5: the log line has no reason field | decided — yes: the log records why (#48) |
 | C6 | GS §8: the blind reader "lists everything it couldn't understand"; MS §7: a pool of questions, then A/P/N grading | answered — page fixed (#48) |
 | C7 | G §8: *you* tell the agent which claims need verifying; MS §7.4: the orchestrating agent tells the blind reader | answered — page fixed (#48) |
-| C8 | G §10 "tools you have to ask for" includes memory (automatic, MS §9) and the devil's advocate (offered, MS §8) — MS §8 has the same tension | open — the page part fixed (memory moved); the skill question awaits ploki |
+| C8 | G §10 "tools you have to ask for" includes memory (automatic, MS §9, now §10) and the devil's advocate (offered, MS §8, now §9) — MS has the same tension | open — the page part fixed (memory moved); the skill question awaits ploki, and since #50 it covers the audits too, which the skill tells the agent to offer |
 | C9 | G §11: nothing sent to an outside service; MMS §2: read-only web search stays allowed | answered — page fixed (#48) |
 | C10 | G §11: approving the mandate is "your only step"; MMS also offers `git init`/a first commit, has the intent file approved with the mandate, and reuses an already-approved mandate | answered — page fixed (#48) |
 | C11 | GS and G present `01-reference-glossary.md` as the default; MS names no glossary file | answered — page fixed (#48) |
@@ -105,9 +105,9 @@ A — answered · P — partially · N — not addressed. "absent from GS/G" mea
 | 56 | P | #43 | Logged in practice |
 | 57 | P | MS §3 | |
 | 58 | N | | |
-| 59 | P | MS §8 | C8 |
+| 59 | P | MS §9 (was §8) | C8 |
 | 60 | N | | |
-| 61 | A | MS §9 | Memory automatic (C8) |
+| 61 | A | MS §10 (was §9) | Memory automatic (C8) |
 | 62 | N | | |
 | 63 | A | MMS Roles, §3–4 | Mostly absent from G |
 | 64 | P | MMS §3.2, §6 | On the branch; path implied |

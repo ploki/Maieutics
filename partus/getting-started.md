@@ -113,4 +113,4 @@ my-subject/
 
 ## Next
 
-Some of the method's tools only run when you ask for them: hunting contradictions, a devil's advocate, pruning, exploring an old idea on a branch, and running a project by proxy with `metamaieutics`. They're all in the **[guide](guide.md)**.
+Some of the method's tools only run when you ask for them: the audits, a devil's advocate, pruning, exploring an old idea on a branch, and running a project by proxy with `metamaieutics`. They're all in the **[guide](guide.md)**.

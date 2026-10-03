@@ -146,7 +146,7 @@ Pruning means:
 
 The agent won't start these on its own, so you need to know they exist.
 
-**Hunt for contradictions.** *"Re-read the whole corpus and look for contradictions."* The agent lists them and resolves them with you one by one. It fixes nothing that needs a decision from you.
+**The audits.** *"Run a consistency audit on the corpus."* A fresh agent, read-only, goes through the corpus, the deliverables and the logs, and reports what contradicts what, what is a plain bookkeeping error, and what needs a decision from you. It fixes nothing that needs one, and you work through the list one point at a time. A second and different pass, the **exhaustivity audit** — *"Compare the prompt log with the corpus, both ways"* — checks that nothing you said got lost and that nothing in the corpus was never said; it needs versioning (c). Once the corrections are made, ask for a **verification pass** by another fresh agent: that is the one that catches what the fixing broke. The agent may offer an audit after a long session or a big reversal; you can ask at any time.
 
 **A devil's advocate.** *"Before I accept this, have someone attack it."* When the agent proposes something structural, an independent agent can argue against it before you validate. The agent may offer this, but only occasionally.
 
@@ -196,7 +196,8 @@ None of these are commands. Plain speech works, and these are just examples.
 | see where things stand | *"Where are we?"* |
 | get a deliverable | *"I think we have enough. Write a [genre] for [reader]."* |
 | test a deliverable | *"Run a blind reading on it."* |
-| find inconsistencies | *"Re-read the whole corpus and look for contradictions."* |
+| find inconsistencies | *"Run a consistency audit on the corpus."* |
+| check nothing you said got lost | *"Compare the prompt log with the corpus, both ways."* |
 | test a proposal before accepting it | *"Get a devil's advocate on this."* |
 | slim the corpus down | *"Let's prune."* |
 | go back and try another way | *"Can we branch from before we decided X?"* |
