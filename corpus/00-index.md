@@ -25,12 +25,14 @@ We talk. Substance gets written down as notes. Every structural decision and eve
 - `corpus/prompt-log.md`
 
 ## Deliverables
+- `README.md` at the root — the shop window: tagline, the copyable install prompt, what the skill is for, the layout.
 - `partus/maieutique/` and `partus/metamaieutique/` — both skills, received as installed on the author's machine on 2026-10-03. A snapshot, not the live copy. See `partus/README.md`.
 
-## Notes
+## Deliverables
 | Note | Status | Summary |
 |---|---|---|
 | 01-glossary.md | living | Project terms |
 | 02-multilingual.md | framing | What published skills do about languages; one `SKILL.md` in English, translated README, localised banner |
+| 05-the-front-door.md | **in force** | How a visitor is meant to arrive: the README invites them to have their own agent read the skill before installing it |
 | 04-working-rule.md | **in force** | The installed skill is never touched here; `partus/` is the source; only the running session's behaviour adapts |
 | 03-the-banner.md | framing | Why the banner is slow (1 320 Braille characters through the LLM) and what could be done |

@@ -12,3 +12,4 @@
 | 9 | 2026-10-03 | The skill, as installed on the author's machine, is received into `partus/` — it is the project's first deliverable. `metamaieutique` is not copied | — | partus/maieutique/, partus/README.md |
 | 10 | 2026-10-03 | `metamaieutique` joins `partus/`: the deliverable is the pair of skills, not one | completes #9 | partus/metamaieutique/, partus/README.md |
 | 11 | 2026-10-03 | When working in this repository the installed skill is never touched; `partus/` is the source. Only the running session's behaviour adapts to the repository's version | closes the source question raised under #9 | corpus/04-working-rule.md, partus/README.md, CLAUDE.md |
+| 12 | 2026-10-03 | The front door is the GitHub README, which invites the visitor to have their own Claude Code read and vet the skill before installing it, through a copyable prompt | — | README.md, corpus/05-the-front-door.md |
