@@ -35,3 +35,4 @@
 | 29 | 2026-10-03 | `CONTRIBUTING.md` written: corrections welcome, domain variants declined, and a contribution is evidenced by the decision log of the project it was tried on | carries out #27 | CONTRIBUTING.md, README.md |
 | 30 | 2026-10-03 | The banner is shown with `cat`, never retyped by the agent. Reproducing it cost 1 300-2 000 output tokens at every project opening, for a picture the terminal prints for free | ↺ the skill's original instruction to reproduce it verbatim | partus/maieutics/SKILL.md, corpus/03-framing-banner.md |
 | 31 | 2026-10-03 | The banner is localised properly: `banner.txt` in English, `banner.fr.txt` in French; the agent picks by the user's language | carries out the shape proposed in note 02 | partus/maieutics/assets/, partus/maieutics/SKILL.md |
+| 32 | 2026-10-03 | The Socrates photograph heads the README, below the title, captioned "The Socratic Method" | — | README.md |

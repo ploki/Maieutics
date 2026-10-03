@@ -1,5 +1,11 @@
 # Maieutics
 
+<p align="center">
+  <img src="partus/maieutics/assets/socrate-anderson-farnese.jpg" width="230" alt="Herm of Socrates, Farnese collection, photographed by Domenico Anderson">
+  <br>
+  <em>The Socratic Method</em>
+</p>
+
 **Socrates never wrote anything down. Your agent does.**
 
 A Claude Code skill for thinking something through out loud. You talk, your agent writes it down — and keeps a log of every time you change your mind.

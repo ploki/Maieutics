@@ -4,6 +4,7 @@ A clean, concise rewrite of every author message, losing nothing. **Newest first
 
 *This file records what the author said, when he said it. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+21. 2026-10-03 — Asks that the Socrates photograph be put at the head of the README, after the title, with "The Socratic Method" below it.
 20. 2026-10-03 — Insists that consuming millions of tokens for nothing must stop, and asks that the banner's localisation be fixed too.
 19. 2026-10-03 — Says firmly that the agent is wrong: there must be NO specialisation. Thought is general; the specialisation forms during the exercise with the model. Let's do the contributing.
 18. 2026-10-03 — Asks for a note on this. Specialisation branches remain an idea to be specified later; correction branches; a `CONTRIBUTING.md` is a good idea.
