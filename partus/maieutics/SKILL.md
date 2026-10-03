@@ -11,7 +11,10 @@ Answer in the user's language.
 
 ## 1. On loading
 
-1. **Show the banner.** Read `assets/banner.txt`, next to this file, and reproduce it **verbatim in your reply**, in a code block. The output of a shell command is not always visible to the user. The buste is drawn in light Braille dots, meant for a dark background. If the user has a light terminal, offer the inverted version (see `assets/make_bust.py`).
+1. **Show the banner — with `cat`, never by retyping it.** Run `cat assets/banner.txt` (the file sits next to this one) and leave it at that. **Do not reproduce its content in your reply.** It is 1 320 Braille characters: generating them costs thousands of output tokens and several seconds, every single time, for a picture the terminal can print for free.
+   - If the user says they cannot see it, reproduce it once, in a code block, and remember that this host hides command output.
+   - The buste is drawn in light Braille dots, meant for a dark background. If the user has a light terminal, offer the inverted version (see `assets/make_bust.py`).
+   - The banner is **the only localised asset**. `banner.txt` is English; `banner.fr.txt` is French. Use the one matching the user's language, and fall back to `banner.txt`.
 2. **New project or existing one?** A project exists if there is a corpus index, a `decision-log.md`, or a CLAUDE.md declaring it a maieutics project.
    - **New project**: explain in three or four sentences what the method is for — we talk, I write things down in a corpus, we keep track of decisions and reversals, and when it is ripe we produce deliverables and submit them to a critical reader. Add that the user does not need to know in advance what they are looking for. Then **suggest a relevant first step** from the context: the documents present in the folder, the folder's name, or the user's first sentence.
    - **Existing project**: read the intent file, the index, the log and the "Current" sections. Explain the **nature of the project** and **the idea the exercise revolves around**, where things stand (how many notes, how many decisions, which deliverables, which open questions) and the most pressing point. Nothing more: the user chooses what comes next.

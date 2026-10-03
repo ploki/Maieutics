@@ -4,6 +4,7 @@ A clean, concise rewrite of every author message, losing nothing. **Newest first
 
 *This file records what the author said, when he said it. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+20. 2026-10-03 — Insists that consuming millions of tokens for nothing must stop, and asks that the banner's localisation be fixed too.
 19. 2026-10-03 — Says firmly that the agent is wrong: there must be NO specialisation. Thought is general; the specialisation forms during the exercise with the model. Let's do the contributing.
 18. 2026-10-03 — Asks for a note on this. Specialisation branches remain an idea to be specified later; correction branches; a `CONTRIBUTING.md` is a good idea.
 17. 2026-10-03 — (Message sent by mistake to the audit agent, relayed back.) Raises the possibility, for someone working on a maieutics project, of specialising the skill: a branch in a repository elsewhere, a pull request, branches of disciplinary specialisation or of simple correction and efficiency — freedom and contribution.

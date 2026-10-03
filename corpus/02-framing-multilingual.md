@@ -24,7 +24,7 @@ A `SKILL.md` is **not a text to be read: it is instructions addressed to Claude.
 ## Proposed shape [opus-5]
 - **One `SKILL.md`, in English.**
 - **A translated README**, `README.fr.md`.
-- **The banner, in `assets/`, with one variant per language** — it is the only genuinely localised asset.
+- **The banner, in `assets/`, with one variant per language** — it is the only genuinely localised asset. **Done on 2026-10-03**: `banner.txt` (English) and `banner.fr.txt` (French).
 
 ## Still open
 - **[ploki]** The author's reading, 2026-10-03: in his case only the banner would need translating. **Two things qualify it** — the names the skill creates, and the provenance markers (see below, and note 07).

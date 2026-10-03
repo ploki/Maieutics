@@ -7,7 +7,13 @@
   - **[opus-5]** Braille characters are not in any tokeniser's common vocabulary: each one costs roughly a token, often more. **The buste alone is on the order of 1 300 to 2 000 output tokens**, generated one by one, before the session can say anything. That is the whole of the latency.
 - **[opus-5]** The skill instructs the agent to **read the file and reproduce it verbatim in its reply**, precisely because the output of a shell command is not always visible to the user.
 
-## Options [opus-5] — none applied, the author asked that the skill not be modified
+## Settled, 2026-10-03
+- **[ploki]** **Stop burning millions of tokens for nothing.** The skill now says: show the banner with `cat assets/banner.txt`, **never by retyping it**. Only if the user reports seeing nothing does the agent reproduce it once, and note that this host hides command output.
+  - **[opus-5]** Saving: the whole of it. Roughly 1 300–2 000 output tokens and several seconds, at every project opening, down to the cost of one shell call.
+- **[ploki]** **The banner was localised, and that is fixed.** `banner.txt` is English, `banner.fr.txt` is French; the agent picks by the user's language and falls back to English. The French original keeps the Theaetetus quotation in French, which is where it belongs.
+  - **[opus-5]** It is the only asset that needed this, exactly as note 02 predicted. The pipeline labels, the tagline and the quotation were the French; the buste and `ΣΩΚΡΑΤΗΣ` are language-neutral and unchanged.
+
+## Options weighed [opus-5] — kept for the record
 | Option | Gain | Cost |
 |---|---|---|
 | `cat assets/banner.txt` through Bash | Zero LLM tokens, instantaneous | Relies on the host showing command output; the skill's own caution is exactly about this |
@@ -16,10 +22,11 @@
 | **Title and pipeline only**, buste on request | ~90 % of the tokens saved; the ASCII title and the diagram are cheap | Two tiers of welcome |
 | Keep as is | The effect is genuinely good | A few seconds, once per session |
 
-- **[opus-5]** My own reading: the banner is shown **once per project opening**. A few seconds of latency, once, against the thing that gives the skill its identity, is a defensible trade — but only if the buste is the smallest it can be while still reading as a face.
+*The first option was taken. The skill's original caution — that shell output is not always visible — survives as a fallback rather than as the default.*
+
+- ~~**[opus-5]** A few seconds of latency, once, is a defensible trade.~~ ↺ *Wrong: the trade was never necessary. `cat` costs nothing and the picture is identical.*
 
 ## Still open
-- Which option, if any.
 - Whether the banner needs a light-background variant shipped alongside (`assets/make_bust.py` can invert it).
 
 ## History
