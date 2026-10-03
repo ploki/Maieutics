@@ -21,9 +21,9 @@ What is wanted is everything else: corrections, sharper wording, steps that turn
 3. If your change alters how a project is laid out or marked, say so: existing corpora have to remain readable.
 4. Open a pull request. Describe the problem before the solution.
 
-## Translations
+## Language
 
-The skill is written in English, and `SKILL.md` is authoritative. Each skill's `SKILL.fr.md` is a French translation kept in step with it: a change to a `SKILL.md` should carry the matching change to its `SKILL.fr.md`, or say in the pull request that it does not. File names, directories and provenance markers are identical in every language. Before starting a translation into another language, ask in an issue.
+The skill is written in English only, and so is everything else here. There are no translations: the agent already answers in the user's language, and a translation is one more text to keep in step. File names, directories, headings and provenance markers stay in English whatever language a project is conducted in.
 
 ## Reporting a problem without fixing it
 

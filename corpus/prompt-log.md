@@ -4,6 +4,8 @@ A clean, concise rewrite of every author message, losing nothing. **Newest first
 
 *This file records what the author said, when he said it. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+46. 2026-10-03 — Drops French right now: English is the new Latin, and we're too busy to learn Greek.
+45. 2026-10-03 — Says a getting started is missing, then a full guide — doesn't the agent think so?
 44. 2026-10-03 — Asks that it be pushed, and the installation upgraded.
 43. 2026-10-03 — Asks that "Still open" be renamed "Open questions" and the settled questions pruned.
 42. 2026-10-03 — Settles it: keep everything structural in English, headings included.

@@ -16,9 +16,6 @@
 ## Open questions
 - Whether a contributor must have run the method themselves. The `CONTRIBUTING.md` asks it; nothing enforces it.
 
-## Settled since
-- **[ploki]** `SKILL.fr.md` is a translation kept in step (note 06); `CONTRIBUTING.md` asks that a change to `SKILL.md` carry the matching French change.
-
 ## History
 - 2026-10-03 — Opened after the author's message, which had gone to an audit agent by mistake and was relayed back.
 - 2026-10-03 — ↺ Specialisation refused outright: thought is general, the specialisation forms during the exercise.

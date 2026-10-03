@@ -1,18 +1,16 @@
 # partus — what this project brings forth
 
-**[opus-5 → ploki]** The deliverable is **the pair of skills**. They were first received as installed on the author's machine on 2026-10-03, and have been worked on here since — translated, renamed, re-marked.
+**[opus-5 → ploki]** The deliverable is **the pair of skills**. They were first received as installed on the author's machine on 2026-10-03, and have been worked on here since — translated into English, renamed, re-marked.
 
 ```
 partus/maieutics/
   SKILL.md                            the skill, in English
-  SKILL.fr.md                         the French translation, kept in step
   assets/banner.txt                   the Socrates buste, Braille, 26 lines
   assets/make_bust.py                 generates the buste from the portrait
   assets/socrate-anderson-farnese.jpg the source portrait
 
 partus/metamaieutics/
   SKILL.md                            the companion: running a project by proxy
-  SKILL.fr.md                         the French translation, kept in step
 ```
 
 `maieutics` is the method; `metamaieutics` runs it **by proxy** — one agent writes a mandate, the author approves it, and a second agent then plays the author's part on a git branch, every exchange logged and committed. That is where the proxy marker — `[<agent id> as <user id>]` — comes from.

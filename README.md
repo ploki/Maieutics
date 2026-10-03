@@ -61,7 +61,7 @@ The method was first run for a full day on an unrelated project — building a h
 
 It is itself a Maieutics project, about the Maieutics skill — the method applied to its own making. `corpus/` is the working memory, `partus/` holds the two skills:
 
-- **`maieutics`** — the method, in English, with a French translation kept in step as `SKILL.fr.md`.
+- **`maieutics`** — the method, in English. The agent still talks to you in your own language.
 - **`metamaieutics`** — runs it by proxy: the agent drafts a mandate, you approve it, then another agent plays your part on a git branch, every exchange logged and committed.
 
 So the repository contains both its own recipe and the record of its own cooking. Start with [`corpus/decision-log.md`](corpus/decision-log.md) if you want to see the method at work rather than described.
@@ -80,5 +80,5 @@ The Socrates photograph in `partus/maieutics/assets/` is a separate matter: it i
 
 *Maieutics*, from the Greek μαιευτική — the art of the midwife. Socrates' own word for what he did: he claimed to teach nothing, only to help minds give birth to what they were already carrying. The banner is a Braille rendering of the Farnese Socrates, computed from a photograph by [`make_bust.py`](partus/maieutics/assets/make_bust.py), whose output was pasted into `banner.txt`. The photograph is by Domenico Anderson (1854–1938) and is in the public domain — see [`CREDITS.md`](partus/maieutics/assets/CREDITS.md).
 
-> « Je n'enseigne rien ; j'aide les esprits à mettre au monde ce qu'ils portent. »
+> “I teach nothing. I help minds give birth to what they already carry.”
 > — after Plato, *Theaetetus*

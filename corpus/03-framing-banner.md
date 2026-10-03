@@ -1,9 +1,9 @@
 # 03 — The banner
 
 ## Current
-- **[ploki]** The banner is the **small buste**: 22 columns, 15 rows, **188 Braille characters**, blank cells as spaces. The full one is archived (`archive/banner-full.txt`, `archive/banner-full.fr.txt`).
+- **[ploki]** The banner is the **small buste**: 22 columns, 15 rows, **188 Braille characters**, blank cells as spaces. The full one is archived (`archive/banner-full.txt`).
 - **[ploki]** The agent **reproduces it verbatim in a code block** at the head of its reply (decision #35): Claude Code hides `cat` output, and at 188 Braille characters retyping is affordable. The skill asks that it not be enlarged.
-- **[ploki]** It is **localised**: `banner.txt` in English, `banner.fr.txt` in French, picked by the user's language.
+- **[ploki]** It is **in English only**, whatever the user's language (decision #45). ↺ *Until then it was localised, with `banner.fr.txt` beside it; that file is archived.*
 
 ## The original diagnosis, 2026-10-03
 - **[ploki]** The banner is **slow to appear, because it goes through the LLM.**
