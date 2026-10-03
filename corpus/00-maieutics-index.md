@@ -43,4 +43,4 @@ We talk. Substance gets written down as notes. Every structural decision and eve
 | 05-framing-front-door.md | in force | How a visitor is meant to arrive: the README invites them to have their own agent read the skill before installing it |
 | 06-decision-english-skill.md | in force | The English `SKILL.md`; what the translation had to decide, markers above all |
 | 07-decision-identity.md | in force | Who said what: the human by git id, the agent by model name |
-| 08-framing-contribution.md | open | Freedom and contribution: correction branches come back by pull request, specialisation branches are for later; a `CONTRIBUTING.md` is wanted |
+| 08-framing-contribution.md | in force | Freedom and contribution. **No specialisation: thought is general**; it forms during the exercise. Corrections come back by pull request |

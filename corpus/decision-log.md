@@ -31,3 +31,5 @@
 | 25 | 2026-10-03 | Someone working on a maieutics project should be able to specialise the skill, with a branch elsewhere and a pull request back — freedom and contribution | — | corpus/08-framing-contribution.md |
 | 26 | 2026-10-03 | Two kinds of branch are distinguished: correction and efficiency branches, which come back; disciplinary specialisation branches, left to be specified later | — | corpus/08-framing-contribution.md |
 | 27 | 2026-10-03 | A `CONTRIBUTING.md` is wanted | — | corpus/08-framing-contribution.md |
+| 28 | 2026-10-03 | **No specialisation of the skill.** Thought is general; the specialisation forms during the exercise with the model, in the corpus, not in the method | ↺ the second half of #26, which had left disciplinary specialisation open | corpus/08-framing-contribution.md, CONTRIBUTING.md |
+| 29 | 2026-10-03 | `CONTRIBUTING.md` written: corrections welcome, domain variants declined, and a contribution is evidenced by the decision log of the project it was tried on | carries out #27 | CONTRIBUTING.md, README.md |

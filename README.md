@@ -60,6 +60,10 @@ It is itself a Maieutics project, about the Maieutics skill — the method appli
 
 So the repository contains both its own recipe and the record of its own cooking. Start with [`corpus/decision-log.md`](corpus/decision-log.md) if you want to see the method at work rather than described.
 
+## Contributing
+
+The skill is general on purpose, and stays that way: no domain variants. Everything else — corrections, sharper wording, things the method misses — is welcome. See [`CONTRIBUTING.md`](CONTRIBUTING.md), which asks for something unusual: the decision log of the project where you tried your change.
+
 ## License
 
 MIT, for the skill and everything written here. See [`LICENSE`](LICENSE).
