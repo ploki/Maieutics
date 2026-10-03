@@ -1,9 +1,10 @@
 # 04 — Working rule: the repository is the source
 
 ## Current
-- **[ploki]** **When working in this repository, the installed skill is not touched.** Whatever is installed under `~/.claude/skills/` is left alone — today that is still `maieutique/` and `metamaieutique/`, under their French names, while the repository has moved to `maieutics` and `metamaieutics`. The divergence is expected.
+- **[ploki]** **When working in this repository, the installed skill is not touched.** Whatever is installed under `~/.claude/skills/` is left alone **unless the author asks for an upgrade**. The installation is now `maieutics/` and `metamaieutics/`, under the repository's names; between upgrades, the divergence is expected.
+  - ↺ *Until 2026-10-03 the installation was still `maieutique/` and `metamaieutique/`, under their French names.*
 - **[ploki]** **What we work on here is the creation of the skill**: the files under `partus/`.
-- **[ploki]** **Only the behaviour of the running session adapts**, in the moment, to whatever the repository's skill now says. The agent follows the repository version while the exercise lasts; nothing is written back to the installation.
+- **[ploki]** **Only the behaviour of the running session adapts**, in the moment, to whatever the repository's skill now says. The agent follows the repository version while the exercise lasts; nothing is written back to the installation, except when the author asks (below).
 
 ## What this settles [opus-5]
 - **The source question is closed.** `partus/` is the original; the installation is a copy that will be refreshed by the author when he chooses, by his own means. The drift noted on 2026-10-03 is no longer a problem to manage but an expected state.

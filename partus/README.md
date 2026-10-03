@@ -12,7 +12,7 @@ partus/maieutics/
 
 partus/metamaieutics/
   SKILL.md                            the companion: running a project by proxy
-  SKILL.fr.md                         the French original, kept
+  SKILL.fr.md                         the French translation, kept in step
 ```
 
 `maieutics` is the method; `metamaieutics` runs it **by proxy** — one agent writes a mandate, the author approves it, and a second agent then plays the author's part on a git branch, every exchange logged and committed. That is where the proxy marker — `[<agent id> as <user id>]` — comes from.

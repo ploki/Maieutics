@@ -2,7 +2,7 @@
 
 ## Current
 - **[ploki]** `SKILL.md` is **translated into English**, and is authoritative.
-- **[ploki]** **`SKILL.fr.md` is a French translation kept in step with `SKILL.md`** (2026-10-03). The French original moves to `archive/maieutique-SKILL-original.fr.md`.
+- **[ploki]** **`SKILL.fr.md` is a French translation kept in step with `SKILL.md`** (2026-10-03). The French original moves to `archive/maieutique-SKILL-original.fr.md`. **The same for `metamaieutics`**: its original moves to `archive/metamaieutique-SKILL-original.fr.md`.
   - ↺ *Until then `SKILL.fr.md` was the frozen French original. It had drifted into another, older skill — and its banner step was the one that turned out right (note 03, decision #35).*
   - **[opus-5.5]** The translation translates prose only: file names, directories and markers stay exactly as in English, so a corpus is portable across languages. Section names are translated (« En vigueur » for *Current*).
 - **[ploki]** The **prompt log is written newest first** — prepend, not append — so that whoever picks the project back up reads the freshest entry first. The rule is in the skill; `corpus/prompt-log.md` has been reversed.

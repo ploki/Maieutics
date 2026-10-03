@@ -4,6 +4,7 @@ A clean, concise rewrite of every author message, losing nothing. **Newest first
 
 *This file records what the author said, when he said it. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+34. 2026-10-03 — Asks for the same treatment for `metamaieutics`, and that note 04 be fixed.
 33. 2026-10-03 — Asks that the corrections go ahead, and that his installation then be upgraded.
 32. 2026-10-03 — Chooses (b): `SKILL.fr.md` stops being a frozen original and becomes a French translation kept in step with `SKILL.md`.
 31. 2026-10-03 — Asks that `SKILL.fr.md` be updated too.
