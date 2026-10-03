@@ -2,7 +2,7 @@
 
 ## Current
 - **[ploki]** The repository ships its **outputs in English**; language variants of the skill were initially meant to live in their own directories (`corpus/author-intent.md`).
-- **[opus-5 → ploki]** After looking at what published skills actually do, that plan was the wrong shape. **It has been applied**: one English `SKILL.md` per skill, the French original kept beside it (note 06).
+- **[opus-5 → ploki]** After looking at what published skills actually do, that plan was the wrong shape. **It has been applied**: one English `SKILL.md` per skill, the French original kept beside it (note 06). ↺ *Since archived: `SKILL.fr.md` is now a translation kept in step.*
 
 ## What published skills do [S]
 Searched 2026-10-03. The dominant pattern is **one `SKILL.md`, in English, with translated documentation beside it** — never a translated skill body.

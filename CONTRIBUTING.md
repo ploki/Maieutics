@@ -23,7 +23,7 @@ What is wanted is everything else: corrections, sharper wording, steps that turn
 
 ## Translations
 
-The skill is in English. `SKILL.fr.md` is the French original, kept for the record. Whether it is maintained or allowed to drift is not settled — ask in an issue before translating anything.
+The skill is written in English, and `SKILL.md` is authoritative. `partus/maieutics/SKILL.fr.md` is a French translation kept in step with it: a change to `SKILL.md` should carry the matching change to `SKILL.fr.md`, or say in the pull request that it does not. File names, directories and provenance markers are identical in every language. Before starting a translation into another language, ask in an issue.
 
 ## Reporting a problem without fixing it
 

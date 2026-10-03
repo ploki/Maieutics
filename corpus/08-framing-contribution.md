@@ -14,8 +14,10 @@
 - **And it answers the oldest question in the corpus**, the one left open in note 02 about whether the created file names should follow the user's language: a general method has one vocabulary. Variants would have reopened it on every axis at once.
 
 ## Still open
-- Whether contributions to the **French original** are accepted, or whether `SKILL.fr.md` is frozen as the original and allowed to drift.
 - Whether a contributor must have run the method themselves. The `CONTRIBUTING.md` asks it; nothing enforces it.
+
+## Settled since
+- **[ploki]** `SKILL.fr.md` is a translation kept in step (note 06); `CONTRIBUTING.md` asks that a change to `SKILL.md` carry the matching French change.
 
 ## History
 - 2026-10-03 — Opened after the author's message, which had gone to an audit agent by mistake and was relayed back.

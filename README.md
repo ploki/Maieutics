@@ -61,7 +61,7 @@ The method was first run for a full day on an unrelated project — building a h
 
 It is itself a Maieutics project, about the Maieutics skill — the method applied to its own making. `corpus/` is the working memory, `partus/` holds the two skills:
 
-- **`maieutics`** — the method, in English, with the French original kept as `SKILL.fr.md`.
+- **`maieutics`** — the method, in English, with a French translation kept in step as `SKILL.fr.md`.
 - **`metamaieutics`** — runs it by proxy: the agent drafts a mandate, you approve it, then another agent plays your part on a git branch, every exchange logged and committed.
 
 So the repository contains both its own recipe and the record of its own cooking. Start with [`corpus/decision-log.md`](corpus/decision-log.md) if you want to see the method at work rather than described.

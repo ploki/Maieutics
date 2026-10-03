@@ -94,7 +94,7 @@ Nothing is lost: git keeps the history, and `archive/` keeps the memory of the r
 
 - For a plain decision, add the line to the log.
 - **When the user changes their mind**, and only then, hunt through the corpus and the deliverables for everything this makes false, correct it, and then record the reversal in the log.
-- **Never retrofit the logs.** A line in the decision log, and an entry in the prompt log, keep the names, paths and terms in use the day they were written. When a later rename makes them look wrong, they are not wrong: they are dated. A corpus-wide search-and-replace must exclude both logs, and the French originals of any translated file. The whole value of these two files is that they record what was actually said, and when.
+- **Never retrofit the logs.** A line in the decision log, and an entry in the prompt log, keep the names, paths and terms in use the day they were written. When a later rename makes them look wrong, they are not wrong: they are dated. A corpus-wide search-and-replace must exclude both logs. The whole value of these two files is that they record what was actually said, and when.
 
 ## 6. Deliverables
 
