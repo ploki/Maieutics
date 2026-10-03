@@ -11,6 +11,7 @@ We talk. Substance gets written down as notes. Every structural decision and eve
 - **Provenance markers name their source.** In this project:
   - **`[ploki]`** — Guillaume Gimenez, from the git identity;
   - **`[opus-5]`** — Claude Opus 5, the agent; unvalidated when it stands alone;
+  - **`[opus-5.5]`** — Claude Opus 5.5, the agent from the session of 2026-10-03 onwards; same rules;
   - **`[opus-5 → ploki]`** — proposed by the agent, validated by ploki;
   - **`[S]`** a cited source · **`[Unverified]`** an unsourced fact;
   - **`[opus-5 as ploki]`** — decided by proxy, during a `metamaieutics` session.
@@ -38,7 +39,7 @@ We talk. Substance gets written down as notes. Every structural decision and eve
 |---|---|---|
 | 01-reference-glossary.md | living | Project terms |
 | 02-framing-multilingual.md | in force | What published skills do about languages; one `SKILL.md` in English, the French original beside it. A translated README and a per-language banner remain a proposal |
-| 03-framing-banner.md | open | Why the banner is slow (1 320 Braille characters through the LLM) and what could be done |
+| 03-framing-banner.md | open | Why the banner is slow; shown with `cat`, which Claude Code hides from the user; blank Braille cells replaced by spaces (1 320 → 710) |
 | 04-decision-working-rule.md | in force | The installed skill is never touched here; `partus/` is the source; only the running session's behaviour adapts |
 | 05-framing-front-door.md | in force | How a visitor is meant to arrive: the README invites them to have their own agent read the skill before installing it |
 | 06-decision-english-skill.md | in force | The English `SKILL.md`; what the translation had to decide, markers above all |
