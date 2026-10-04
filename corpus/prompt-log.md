@@ -4,6 +4,7 @@ A clean, concise rewrite of every author message, losing nothing. **Newest first
 
 *This file records what the author said, when he said it. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+76. 2026-10-04 — Push.
 75. 2026-10-04 — Close it.
 74. 2026-10-04 — Only the first fix: the install prompt in the plural.
 73. 2026-10-04 — Notices that the metamaieutics skill is not mentioned on the page.
