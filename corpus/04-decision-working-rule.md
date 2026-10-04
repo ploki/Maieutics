@@ -17,6 +17,7 @@
 
 ## Upgrades on request
 - **[ploki]** 2026-10-03: "upgrade my installation" — `~/.claude/skills/maieutics/` brought level with `partus/maieutics/` (decision #37). Again after the push, both skills, `SKILL.fr.md` included (#39); and with decision #40 (#41); and with decision #42 (#44). The rule is unchanged: the agent upgrades the installation only when the author asks.
+- **[ploki]** From 2026-10-04 an upgrade of the installation is **no longer logged**: no line here, no decision, no prompt-log entry, no commit (decision #74). The entries above stay, dated.
 
 ## History
 - 2026-10-03 — Rule stated by the author.
