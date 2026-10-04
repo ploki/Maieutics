@@ -8,6 +8,8 @@
 - **[ploki]** This project is itself a maieutics project, about the maieutics skill — **the method applied to itself**.
 - **[opus-5]** What the author has valued so far, observed in a previous project: dialogue that is **not charitable** — ambiguity gets reformulated and confirmed before it is written down; **no multiple-choice questions**; corrections propagated through the whole corpus rather than patched locally.
 
+- **[ploki]** "The skill should ask questions in prose, never as multiple-choice questionnaires" (2026-10-04, prompt #55) — confirming the observation above.
+
 - **[opus-5]** The author tests claims rather than accepting them: asked for the state of the art on multilingual skills before committing to the directory plan, and diagnosed the banner's latency unaided.
 
 ## History
