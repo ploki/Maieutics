@@ -3,6 +3,7 @@
 ## Current
 - **[ploki]** The user should be **identified by their git id**; failing that, by their first name if the agent knows it.
 - **[opus-5]** Failing both, ask once and record the answer in the index.
+- **[opus-5 → ploki]** **The agent's short model name** in markers (`opus-5.5`); its exact model ID is recorded once, in the index (decision #71).
 - **[opus-5 → ploki]** **The handle first**, then `git config user.name`: short, stable and already public, and it keeps markers readable (decision #70).
 - **[ploki]** **The agent identifies itself too** — today, by its **model name**.
 - **[ploki]** The reason: **a repository with several philosophers would need this. We want to track whose ideas are whose.**
@@ -25,9 +26,10 @@
 - **And it exposes a question the letters hid**: when nobody validates an agent's proposal, it stays in that agent's name forever. The corpus therefore shows, at a glance, how much of itself nobody has signed.
 
 ## Open questions
-- Whether the agent's id should carry the exact model string (`claude-opus-5`) rather than the short form.
+- None at present.
 
 ## History
 - 2026-10-03 — Scheme introduced by the author; markers rewritten across the whole corpus.
 - 2026-10-03 — Pruned: the fallback when no id can be found, settled in the skill, removed from the open questions.
 - 2026-10-04 — ploki: the handle first, then the git name (#70); the question leaves the open questions.
+- 2026-10-04 — ploki: the short model name in markers, the exact ID in the index (#71). No open questions left.

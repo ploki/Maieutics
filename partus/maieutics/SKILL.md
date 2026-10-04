@@ -41,7 +41,7 @@ Answer in the user's language. **The corpus's structure stays in English, whatev
   - **Identify the human** by their **git handle** — the one in the remote, short and public. Failing that, by `git config user.name`. Failing that, by their first name if you know it. Failing that, ask once and record it in the index.
   - **Identify yourself** by your **model name** — today, for instance, `opus-5`. Not "Claude": the corpus will outlive the model, and a reader in two years will want to know which one thought this.
   - **Never attribute to the user what you inferred, reformulated or completed.** When in doubt the line is yours: mark it with your own id and ask.
-  - Record both identities in the index, under the conventions, so that a reader knows who the markers stand for.
+  - Markers carry your **short** model name; record both identities in the index, under the conventions, with your **exact model ID** beside the short name, so that a reader knows who the markers stand for.
 
   | Marker | Means |
   |---|---|

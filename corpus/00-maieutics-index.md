@@ -10,8 +10,8 @@ We talk. Substance gets written down as notes. Every structural decision and eve
 - Every note opens with a **Current** section (what holds today), followed by the **History** of the reasoning.
 - **Provenance markers name their source.** In this project:
   - **`[ploki]`** — Guillaume Gimenez, from the git identity;
-  - **`[opus-5]`** — Claude Opus 5, the agent; unvalidated when it stands alone;
-  - **`[opus-5.5]`** — Claude Opus 5.5, the agent from the session of 2026-10-03 onwards; same rules;
+  - **`[opus-5]`** — Claude Opus 5, the agent; unvalidated when it stands alone; exact model ID not recorded at the time;
+  - **`[opus-5.5]`** — Claude Opus 5.5 (`claude-opus-5-5`), the agent from the session of 2026-10-03 onwards; same rules;
   - **`[opus-5 → ploki]`** — proposed by the agent, validated by ploki;
   - **`[S]`** a cited source · **`[Unverified]`** an unsourced fact;
   - **`[opus-5 as ploki]`** — decided by proxy, during a `metamaieutics` session.
@@ -45,7 +45,7 @@ We talk. Substance gets written down as notes. Every structural decision and eve
 | 04-decision-working-rule.md | in force | The installed skill is never touched here; `partus/` is the source and holds the installable shape; the agent refreshes the installation only on request |
 | 05-framing-front-door.md | in force | How a visitor is meant to arrive: the README invites them to have their own agent read the skill before installing it; then a getting started and a guide |
 | 06-decision-english-skill.md | in force | The skill in English, and only in English; what translating it out of French had to decide, markers above all |
-| 07-decision-identity.md | in force | Who said what: the human by git id, the agent by model name |
+| 07-decision-identity.md | in force | Who said what: the human by git handle first, the agent by short model name (exact ID in the index) |
 | 08-framing-contribution.md | in force | Freedom and contribution. **No specialisation: thought is general**; it forms during the exercise. Corrections come back by pull request |
 | 09-review-blind-reading-guides.md | in progress | Blind reading of the getting started and the guide: 81 questions, A 12 · P 39 · N 30; 13 contradictions with the skills; follow-up list open |
 | 10-case-lessons-from-a-real-project.md | in force | Seven failures observed in a real one-day project (a hard-SF world): the agent's own proposals hardening into facts, markings wrongly signed with the author's name, reversals left in their relays, unchecked batches, the two audits, and when to compute. **The audits are now §8 of the skill**; no open questions left |
