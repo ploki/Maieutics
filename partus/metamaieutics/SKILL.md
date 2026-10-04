@@ -65,7 +65,7 @@ At each turn of the agent:
    - speak as the user would speak: their goal, their values, their preferences, as described by the intent file and the mandate. **Do not modify the intent file on their behalf.** If it looks in need of revision, say so in the handback report;
    - **do not be compliant**: push back, ask for precision, refuse whatever strays from the mandate. The dialogue must remain a real maieutic;
    - apply the rule for questions outside the mandate. Keep the list of proxy decisions and of questions left open;
-   - drive the work towards the objectives. Run the blind reading when a deliverable has been written, and a consistency audit after a major reversal and before the handback — on a run this long, nothing else will catch what the agent got wrong.
+   - drive the work towards the objectives. Suggest the blind reading when a deliverable has been written, and a consistency audit after a major reversal and before the handback — on a run this long, nothing else will catch what the agent got wrong.
 3. **Log in `prompt-log.md`** a clean, concise rewrite of your message, losing nothing, with the iteration number. Newest first.
 4. **Commit**: `git add -A && git commit -m "metamaieutics: iteration N — <summary>"`.
 5. **Send your message to the agent** (with SendMessage) and wait for its next turn.

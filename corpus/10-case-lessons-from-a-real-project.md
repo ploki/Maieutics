@@ -69,6 +69,6 @@
 - **[opus-5]** Whether the exhaustivity audit should also cover the *reverse* direction mechanically — numbering gaps in both logs, as in lesson 4 — or whether that belongs in the audit's briefing rather than in the skill.
 
 ## History
-- 2026-10-04 — Whether the audits are offered or run on request is settled by #64: the agent runs them at its own judgment and tells the user. It leaves the open questions here.
+- 2026-10-04 — Whether the audits are offered at named moments leaves the open questions here: §8 has offered them since #50. ↺ *#64 briefly had them run unasked; reverted by #65.*
 - 2026-10-04 — The *éclairages* question of lesson 1 is instructed in note 11 and retained; it leaves the open questions here.
 - 2026-10-04 — Note opened: seven failures observed in a real one-day project, instructed against the state of the skill; decisions #50–#55 carried the mature ones into `partus/maieutics/SKILL.md`.

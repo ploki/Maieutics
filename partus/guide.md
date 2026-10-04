@@ -123,7 +123,7 @@ A deliverable is produced only when **you** judge the corpus good enough and ask
 
 ## 8. The blind reading
 
-This is a way to find out what a deliverable fails to say. The agent runs it at good moments, typically right after a deliverable is written or heavily revised, and tells you when it has. You can also ask for it whenever you like.
+This is a way to find out what a deliverable fails to say. The agent suggests it at good moments, typically right after a deliverable is written or heavily revised. You can also ask for it whenever you like.
 
 1. A **fresh agent** reads only the deliverable, without the corpus, and writes down a substantial set of precise questions, grouped by theme.
 2. Those questions are recorded in a note immediately, unaltered.
@@ -147,13 +147,13 @@ Pruning means:
 
 **The two logs are never touched.** And nothing is lost: git keeps every version, and `archive/` keeps the reasoning.
 
-## 10. The agent's own tools
+## 10. Other tools
 
-These are there for the agent to do its work. It runs them when it judges them useful and tells you when it has. You don't need to ask, though you can.
+The agent won't run these without you. It may suggest them; you can ask at any time.
 
-**The audits.** *"Run a consistency audit on the corpus."* A fresh agent, read-only, goes through the corpus, the deliverables and the logs, and reports what contradicts what, what is a plain bookkeeping error, and what needs a decision from you. It fixes nothing — it reports — and you work through the list one point at a time. A second and different pass, the **exhaustivity audit** — *"Compare the prompt log with the corpus, both ways"* — checks that nothing you said got lost and that nothing in the corpus was never said; it needs versioning (c). Once the corrections are made, another fresh agent makes a **verification pass**: that is the one that catches what the fixing broke. The agent runs audits after a long session, a big reversal or a batch of corrections.
+**The audits.** *"Run a consistency audit on the corpus."* A fresh agent, read-only, goes through the corpus, the deliverables and the logs, and reports what contradicts what, what is a plain bookkeeping error, and what needs a decision from you. It fixes nothing — it reports — and you work through the list one point at a time. A second and different pass, the **exhaustivity audit** — *"Compare the prompt log with the corpus, both ways"* — checks that nothing you said got lost and that nothing in the corpus was never said; it needs versioning (c). Once the corrections are made, ask for a **verification pass** by another fresh agent: that is the one that catches what the fixing broke. The agent may offer an audit after a long session or a big reversal; you can ask at any time.
 
-**A devil's advocate.** *"Before I accept this, have someone attack it."* When the agent proposes something structural, an independent agent can argue against it before you validate.
+**A devil's advocate.** *"Before I accept this, have someone attack it."* When the agent proposes something structural, an independent agent can argue against it before you validate. The agent may offer this, but only occasionally.
 
 **Branches.** When to branch, and the rest of the git dance, is up to you. Ask in your own words; the agent knows how.
 
