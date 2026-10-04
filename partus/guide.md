@@ -103,7 +103,7 @@ The reversed line stays where it is. **The log is never rewritten.** If a file i
 
 ## 6. The prompt log
 
-If you chose versioning option (c), `corpus/prompt-log.md` keeps a clean, concise rewrite of each of your messages, losing nothing, **newest first**. Like the decision log, it is never edited afterwards.
+If you chose versioning option (c), `corpus/prompt-log.md` keeps a clean, concise rewrite of each of your messages, losing nothing, **newest first**. Typing `/maieutics` to load the skill is not logged. Like the decision log, it is never edited afterwards.
 
 It shows how your thinking moved. It also lets a new session see what you asked for, in the order that matters most: latest first.
 

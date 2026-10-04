@@ -22,7 +22,7 @@ Answer in the user's language. **The corpus's structure stays in English, whatev
 3. **Versioning**, asked once, for a new project. Assume the user **may not know git**, and explain it in one plain sentence: "git keeps a photograph of every step, and you can go back".
    - **(a)** no git;
    - **(b)** git, with a commit at each iteration;
-   - **(c)** git, with a commit at each iteration, plus an entry in `prompt-log.md`: a **clean, concise rewrite of the user's message, losing nothing**. **Newest first** — prepend, do not append, so that whoever picks the project back up reads the freshest first. It is also what makes the exhaustivity audit possible (§8).
+   - **(c)** git, with a commit at each iteration, plus an entry in `prompt-log.md`: a **clean, concise rewrite of the user's message, losing nothing**. **Newest first** — prepend, do not append, so that whoever picks the project back up reads the freshest first. It is also what makes the exhaustivity audit possible (§8). **Loading the skill is not a message**: `/maieutics` on its own gets no entry, and since it changes no file, no commit either.
 
    If the user picks (b) or (c) and the folder is not a repository, run `git init`. An iteration is an exchange that changes files.
 4. Once the subject is known, **offer to add a line to the folder's CLAUDE.md** — "This folder is a maieutics project about…" — so that later sessions recognise it.
