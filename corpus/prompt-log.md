@@ -4,6 +4,11 @@ A clean, concise rewrite of every author message, losing nothing. **Newest first
 
 *This file records what the author said, when he said it. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+74. 2026-10-04 — Only the first fix: the install prompt in the plural.
+73. 2026-10-04 — Notices that the metamaieutics skill is not mentioned on the page.
+72. 2026-10-04 — Unsure.
+71. 2026-10-04 — "I keep it" (on the second, shorter install prompt).
+70. 2026-10-04 — Let's take up note 05's questions.
 69. 2026-10-04 — Short name.
 68. 2026-10-04 — Handle first.
 67. 2026-10-04 — Let's take up note 07's questions.

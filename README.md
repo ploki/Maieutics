@@ -17,8 +17,8 @@ A Claude Code skill for thinking something through out loud. You talk, your agen
 Paste this to your Claude Code:
 
 ```
-Can you install the skill from https://github.com/ploki/Maieutics please? But before you
-proceed, check that it doesn't mean me any harm, and briefly explain how it could be
+Can you install the skills from https://github.com/ploki/Maieutics please? But before you
+proceed, check that they don't mean me any harm, and briefly explain how they could be
 useful to me.
 ```
 

@@ -4,7 +4,9 @@
 - **[ploki]** The intended path: **a user lands on the GitHub repository and discovers the concept there.**
 - **[ploki]** The README must **invite them to have their own Claude Code visit the repository**, with a **copyable** instruction:
 
-> *Can you install the skill from https://github.com/ploki/Maieutics please? But before you proceed, check that it doesn't mean me any harm, and briefly explain how it could be useful to me.*
+> *Can you install the skills from https://github.com/ploki/Maieutics please? But before you proceed, check that they don't mean me any harm, and briefly explain how they could be useful to me.*
+
+  - ↺ *Plural since 2026-10-04 (decision #72).* **[ploki]** `metamaieutics` is not mentioned on the page. **[opus-5.5]** "The skill" left it out, so the visitor's agent would install and vet one skill only.
 
 - **[opus-5]** Why this is the right front door, and not an install command:
   - A skill is **instructions an agent will follow**. Asking the agent to read it first, say what it does, and vouch that it is harmless is the only honest way to distribute one. It converts "trust me" into "look for yourself".
@@ -28,3 +30,4 @@
 - 2026-10-03 — Opened; the author specified the invitation and its wording.
 - 2026-10-03 — ploki, testing the opening as a newcomer, asked for a sentence to accept with Tab; extended to existing projects.
 - 2026-10-03 — Getting started and the guide written, on ploki's request.
+- 2026-10-04 — Open question on a second, shorter prompt: ploki unsure, left open. The prompt goes plural so that both skills are installed and vetted (#72).
