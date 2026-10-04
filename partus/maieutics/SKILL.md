@@ -112,7 +112,7 @@ Nothing is lost: git keeps the history, and `archive/` keeps the memory of the r
 
 ## 7. The blind reading
 
-**Suggest it at the right moments**, for instance when a deliverable has just been written or deeply revised. It is not systematic.
+**Run it at the right moments**, for instance when a deliverable has just been written or deeply revised, and tell the user you have. It is not systematic.
 
 1. Launch a **fresh agent**. It reads **the deliverable only**, without the corpus, and draws up a **substantial pool** of precise questions, grouped by theme, without answering them.
 2. Record those questions in a note immediately, unaltered.
@@ -122,7 +122,7 @@ Nothing is lost: git keeps the history, and `archive/` keeps the memory of the r
 
 ## 8. The audits
 
-Two checks on the corpus itself, each run by a **fresh agent, read-only** — one that has written none of it, and that reports instead of patching. Offer them after a long session, a major reversal, or a batch of corrections. They find more than anything else here, because the agent that wrote a corpus cannot see what it got wrong in it.
+Two checks on the corpus itself, each run by a **fresh agent, read-only** — one that has written none of it, and that reports instead of patching. Run them after a long session, a major reversal, or a batch of corrections, and tell the user you have. They find more than anything else here, because the agent that wrote a corpus cannot see what it got wrong in it.
 
 **The consistency audit.** Give the agent the corpus, the deliverables and both logs, and brief it on three things: the **semantics of the markers** (a line in an agent's name is a proposal, not a fact); that the **logs are dated, not wrong**, when they use superseded names; and **what is not a finding** — a claim marked Unverified, a deliberate blank, a question left open. Without that last point the report fills with noise. Ask for a **graded report**, keeping apart what contradicts what (with the files), the plain bookkeeping errors, and the points that need a decision of the user's. Then work through it with them, one at a time, and **decide nothing for them**.
 
@@ -130,10 +130,11 @@ Two checks on the corpus itself, each run by a **fresh agent, read-only** — on
 
 **Then a second pass**, by another fresh agent, once the corrections are made. It is the one that catches what the correcting sweep broke — a search-and-replace that reached the logs, a fix applied to one file and not its relays. The correction is more dangerous than the fault.
 
-## 9. Other tools, on request
+## 9. Other tools
 
-- **A devil's advocate**: before the user validates a structural proposal of Claude's, an independent agent can attack it. Something to offer, not a reflex.
-- **Exploration branches (git)**: if the user identifies a dead end or a blockage and wants to explore another piste from a point in the past, walk them step by step through creating a branch from an earlier commit. **Never offer this of your own accord.**
+The tools are yours, there for you to do your work: run them when you judge them useful, without asking first, and tell the user when you have. Like the blind reading and the audits, they are not a reflex.
+
+- **A devil's advocate**: before the user validates a structural proposal of yours, have an independent agent attack it.
 
 ## 10. Memory
 

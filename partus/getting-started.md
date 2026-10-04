@@ -92,7 +92,7 @@ The agent never produces a deliverable on its own initiative. When **you** judge
 
 It goes in `partus/`. A deliverable is a **starting point**, solid enough to build on, not a finished text. One corpus can yield several.
 
-After a deliverable, the agent may suggest a **blind reading**: a fresh agent reads the deliverable without the corpus and writes down the questions it leaves open. Then it reads the corpus and checks which of those the corpus answers. What neither answers shows you what's missing.
+After a deliverable, the agent may run a **blind reading**, and tell you: a fresh agent reads the deliverable without the corpus and writes down the questions it leaves open. Then it reads the corpus and checks which of those the corpus answers. What neither answers shows you what's missing.
 
 ## What you end up with
 
@@ -113,4 +113,4 @@ my-subject/
 
 ## Next
 
-Some of the method's tools only run when you ask for them: the audits, a devil's advocate, pruning, exploring an old idea on a branch, and running a project by proxy with `metamaieutics`. They're all in the **[guide](guide.md)**.
+The agent has tools of its own — the audits, a devil's advocate — which it runs when useful and tells you about. It also offers a pruning now and then, and there's `metamaieutics`, for running a project by proxy. They're all in the **[guide](guide.md)**.

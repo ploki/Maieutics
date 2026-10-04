@@ -34,7 +34,7 @@ We talk. Substance gets written down as notes. Every structural decision and eve
 - `README.md` at the root — the shop window: tagline, the copyable install prompt, what the skill is for, the layout.
 - `CONTRIBUTING.md` at the root — corrections welcome, domain variants declined; a contribution comes with the decision log of the project it was tried on (decision #29).
 - `partus/getting-started.md` — the first session, step by step. `partus/guide.md` — everything the method does and how to ask for it, `metamaieutics` included. Both linked from the README, neither installed with the skill.
-- `partus/maieutics/` and `partus/metamaieutics/` — both skills. First received as installed on 2026-10-03, worked on here since: **this repository is the source** (note 04). See `partus/README.md`. The skill's sections, as they now stand: 1 on loading · 2 how to conduct yourself · 3 the corpus · 4 the author's intent · 5 the decision log · 6 deliverables · 7 the blind reading · 8 **the audits** · 9 other tools, on request · 10 memory.
+- `partus/maieutics/` and `partus/metamaieutics/` — both skills. First received as installed on 2026-10-03, worked on here since: **this repository is the source** (note 04). See `partus/README.md`. The skill's sections, as they now stand: 1 on loading · 2 how to conduct yourself · 3 the corpus · 4 the author's intent · 5 the decision log · 6 deliverables · 7 the blind reading · 8 **the audits** · 9 other tools · 10 memory.
 
 ## Notes
 | Note | Status | Summary |
@@ -48,5 +48,5 @@ We talk. Substance gets written down as notes. Every structural decision and eve
 | 07-decision-identity.md | in force | Who said what: the human by git id, the agent by model name |
 | 08-framing-contribution.md | in force | Freedom and contribution. **No specialisation: thought is general**; it forms during the exercise. Corrections come back by pull request |
 | 09-review-blind-reading-guides.md | in progress | Blind reading of the getting started and the guide: 81 questions, A 12 · P 39 · N 30; 13 contradictions with the skills; follow-up list open |
-| 10-case-lessons-from-a-real-project.md | in force | Seven failures observed in a real one-day project (a hard-SF world): the agent's own proposals hardening into facts, markings wrongly signed with the author's name, reversals left in their relays, unchecked batches, the two audits, and when to compute. **The audits are now §8 of the skill**; two questions remain open for ploki |
+| 10-case-lessons-from-a-real-project.md | in force | Seven failures observed in a real one-day project (a hard-SF world): the agent's own proposals hardening into facts, markings wrongly signed with the author's name, reversals left in their relays, unchecked batches, the two audits, and when to compute. **The audits are now §8 of the skill**; one question remains open |
 | 11-decision-glosses-note.md | in force | The *éclairages* file of that project, instructed: a `glosses.md` for the agent's own readings, kept unvalidated, with two exits — promotion to a fact, or struck with its reason. **Retained**, as an optional file the agent offers; §3 and §5 of the skill. Name and shape still open |

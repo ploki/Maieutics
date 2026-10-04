@@ -66,9 +66,9 @@
 
 ## Open questions
 
-- **[opus-5]** Whether the audits should be *offered* at named moments, as the blind reading is, rather than only run on request. The evidence says after a reversal, after a batch of corrections, and before a deliverable; the risk is one more thing the agent proposes unbidden.
 - **[opus-5]** Whether the exhaustivity audit should also cover the *reverse* direction mechanically — numbering gaps in both logs, as in lesson 4 — or whether that belongs in the audit's briefing rather than in the skill.
 
 ## History
+- 2026-10-04 — Whether the audits are offered or run on request is settled by #64: the agent runs them at its own judgment and tells the user. It leaves the open questions here.
 - 2026-10-04 — The *éclairages* question of lesson 1 is instructed in note 11 and retained; it leaves the open questions here.
 - 2026-10-04 — Note opened: seven failures observed in a real one-day project, instructed against the state of the skill; decisions #50–#55 carried the mature ones into `partus/maieutics/SKILL.md`.

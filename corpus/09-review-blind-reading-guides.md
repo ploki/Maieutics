@@ -19,7 +19,7 @@ Status: **open** · answered · decided. Tied to the decision log by number once
 | C5 | GS §5: the log shows "why you stopped thinking it". MS §5: the log line has no reason field | decided — yes: the log records why (#48) |
 | C6 | GS §8: the blind reader "lists everything it couldn't understand"; MS §7: a pool of questions, then A/P/N grading | answered — page fixed (#48) |
 | C7 | G §8: *you* tell the agent which claims need verifying; MS §7.4: the orchestrating agent tells the blind reader | answered — page fixed (#48) |
-| C8 | G §10 "tools you have to ask for" includes memory (automatic, MS §9, now §10) and the devil's advocate (offered, MS §8, now §9) — MS has the same tension | open — the page part fixed (memory moved); the skill question awaits ploki, and since #50 it covers the audits too, which the skill tells the agent to offer |
+| C8 | G §10 "tools you have to ask for" includes memory (automatic, MS §9, now §10) and the devil's advocate (offered, MS §8, now §9) — MS has the same tension | decided — the tools are the agent's own: it runs them at its judgment and tells the user; §9 is no longer "on request", and the exploration-branch rule is dropped, git being the user's discretion (#64) |
 | C9 | G §11: nothing sent to an outside service; MMS §2: read-only web search stays allowed | answered — page fixed (#48) |
 | C10 | G §11: approving the mandate is "your only step"; MMS also offers `git init`/a first commit, has the intent file approved with the mandate, and reuses an already-approved mandate | answered — page fixed (#48) |
 | C11 | GS and G present `01-reference-glossary.md` as the default; MS names no glossary file | answered — page fixed (#48) |
@@ -39,7 +39,7 @@ Status: **open** · answered · decided. Tied to the decision log by number once
 | Q10 | Changing the versioning option later | open |
 | Q65, Q73 | Interrupting a metamaieutics run; must the session stay open | open |
 | Q67 | Accepting or rejecting `[x as me]` decisions after handback | open |
-| Q60 | Exploration branch: finding the commit, rejoining | open |
+| Q60 | Exploration branch: finding the commit, rejoining | decided — no longer specified: branching is the user's discretion, and the agent knows git (#64) |
 | Q40 | How a log corrects its own errors — made concrete by the duplicate #45 | open |
 
 ## Grades [opus-5.5, the same fresh agent, after reading the skills and the corpus]
@@ -240,3 +240,4 @@ Q81. Both pages: neither says which Claude models or Claude Code versions the sk
 - 2026-10-03 — Opened; stage 1 questions recorded unaltered.
 - 2026-10-03 — Stage 2 grading recorded; follow-up list drawn up.
 - 2026-10-04 — ploki settled C3, C5, C12 and C13 and asked for the page errors to be fixed (#48); C8 widened to the audits after #50. Q2 and Q37/Q42 brought in line with C1 and C5, and *piste* added to the glossary (Q25), after the audit of 2026-10-04.
+- 2026-10-04 — C8 and Q60 decided by ploki (#64): the tools are the agent's own, and branching is left to the user.
