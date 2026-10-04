@@ -4,6 +4,7 @@ A clean, concise rewrite of every author message, losing nothing. **Newest first
 
 *This file records what the author said, when he said it. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+64. 2026-10-04 — Write nothing.
 63. 2026-10-04 — Keep the fixed name.
 62. 2026-10-04 — Let's clear note 11's open questions.
 61. 2026-10-04 — Confirms the guide point. On the version check, no: first ask the user whether they want to upgrade the skill running locally.

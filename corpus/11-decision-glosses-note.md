@@ -5,6 +5,7 @@
 - **[opus-5]** The question left open by note 10, lesson 1: whether the *éclairages* note invented in the real project — a file holding the agent's readings, explicitly **not** validated as facts — becomes a convention of the skill. **Recommendation: yes**, as an optional file the agent *offers* when the need appears, never one it creates by reflex. Carried into `partus/maieutics/SKILL.md` §3 and §5 by decision #57.
 - **[opus-5]** The decisive argument is not the file's usefulness in that project but a **hole in the skill as it stands**. Decision #52 put into §2 that a reading of the agent's own stays marked as its own and is not used as a premise, repeated as settled, or carried into a deliverable. It says what not to do with such a reading and **gives it nowhere to go**. The agent is left with three options: write it into a note where it will read as a claim about the subject, say it in the conversation and lose it, or keep quiet. The file is the missing fourth. A convention that completes a rule already in the skill costs less than one that adds a rule.
 - **[opus-5 → ploki]** **A fixed name, not a numbered note.** `glosses.md` sits beside `author-intent.md`: there is one per project, it is not about a subject, and the Current/History shape does not fit it (decision #67).
+- **[opus-5 → ploki]** **No scheduled re-read.** Nothing in the skill makes the agent re-read `glosses.md`: the audits (§8) read the whole corpus, and §5 names it among the relays of a reversal (decision #68).
 
 ### What was observed, checked in the files
 
@@ -39,9 +40,10 @@ The project is `/home/ggim/tmp/mmm`, the hard-SF world of note 10. The file is `
 
 ## Open questions
 
-- **[opus-5]** Whether anything should ever make the agent **re-read** the file. In the real project only the audit and the author's closing question ever did. A periodic re-read is not evidenced and was not written in.
+- None at present.
 
 ## History
 - 2026-10-04 — Note opened, instructing the question note 10 left to ploki (lesson 1). Decision #56. The convention was then carried into the skill by decision #57: `glosses.md` in §3, as an optional file offered when readings accumulate, with its two exits and the explicit exception to pruning; and named among §5's relays of a reversal.
 - 2026-10-04 — The name question leaves the open questions: settled by ploki as `glosses.md` (#58), since "reading" already names the blind reading. Its entry had also kept a broken half-sentence from that edit.
 - 2026-10-04 — ploki keeps the fixed name rather than a numbered note (#67); the question moves to Current.
+- 2026-10-04 — ploki: write nothing about re-reading the file (#68). No open questions left.
