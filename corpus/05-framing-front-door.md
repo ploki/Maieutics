@@ -8,6 +8,8 @@
 
   - ↺ *Plural since 2026-10-04 (decision #72).* **[ploki]** `metamaieutics` is not mentioned on the page. **[opus-5.5]** "The skill" left it out, so the visitor's agent would install and vet one skill only.
 
+- **[opus-5.5 → ploki]** The prompt does not name a file: the plural "skills" covers both, and no path ties the README down (decision #73).
+
 - **[opus-5]** Why this is the right front door, and not an install command:
   - A skill is **instructions an agent will follow**. Asking the agent to read it first, say what it does, and vouch that it is harmless is the only honest way to distribute one. It converts "trust me" into "look for yourself".
   - It also **demonstrates the method in the act of installing it**: the first thing the skill does is make someone reformulate and confirm before committing.
@@ -24,10 +26,10 @@
 
 ## Open questions
 - Whether to offer a second, shorter prompt for users who already trust the repository.
-- Whether the prompt should name the file to read (`partus/maieutics/SKILL.md`), which would make the agent's job easier but the invitation longer.
 
 ## History
 - 2026-10-03 — Opened; the author specified the invitation and its wording.
 - 2026-10-03 — ploki, testing the opening as a newcomer, asked for a sentence to accept with Tab; extended to existing projects.
 - 2026-10-03 — Getting started and the guide written, on ploki's request.
 - 2026-10-04 — Open question on a second, shorter prompt: ploki unsure, left open. The prompt goes plural so that both skills are installed and vetted (#72).
+- 2026-10-04 — ploki closes the question of naming the file in the prompt: it is not named (#73).
