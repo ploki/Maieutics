@@ -7,6 +7,11 @@
 
 - ***Instrumenta*** [opus-5 → ploki] : Latin for *the instruments*; in Latin medical usage, the midwife's own. The scripts directory.
 - ***Limbus***, ***vestigia*** [opus-5] : **proposed by the agent, adopted for a few minutes, then refused by ploki.** Splitting abandoned ideas from superseded versions was a distinction the project does not need; `archive/` holds both.
+- ***Piste*** [opus-5.5] : a line of thought being followed, or dropped. Kept in French — *lead* is too investigative, *avenue* too grand, *thread* already taken (note 06).
+- **Gloss** [opus-5.5] : the agent's own interpretation of what the user has decided — a proposal, not a fact, until the user validates it. Kept in the optional `glosses.md` (note 11). ↺ *First called a* reading *(decision #57); renamed because the blind reading already uses the word (#58).*
+- **Relay** [opus-5.5] : a place that restates something decided elsewhere — the index, the glossary, `author-intent.md`, other notes' *Current* and *Open questions*, `glosses.md`, the deliverables — and so must be corrected when that decision is reversed (skill §5).
+- **Audit** [opus-5.5] : a check of the corpus by a fresh, read-only agent that reports and does not patch: the **consistency audit** and the **exhaustivity audit** (skill §8).
 
 ## History
 - 2026-10-03 — Created.
+- 2026-10-04 — *Piste*, gloss, relay and audit added after the audit of 2026-10-04.

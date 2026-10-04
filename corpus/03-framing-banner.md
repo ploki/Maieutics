@@ -13,11 +13,13 @@
 - **[opus-5]** The skill instructs the agent to **read the file and reproduce it verbatim in its reply**, precisely because the output of a shell command is not always visible to the user.
 
 ## Settled, 2026-10-03
-- **[ploki]** **Stop burning millions of tokens for nothing.** The skill now says: show the banner with `cat assets/banner.txt`, **never by retyping it**. Only if the user reports seeing nothing does the agent reproduce it once, and note that this host hides command output.
+- **[ploki]** **Stop burning millions of tokens for nothing.**
+  - **[opus-5]** The skill now says: show the banner with `cat assets/banner.txt`, **never by retyping it**. Only if the user reports seeing nothing does the agent reproduce it once, and note that this host hides command output.
   - **[opus-5]** Saving: the whole of it. Roughly 1 300–2 000 output tokens and several seconds, at every project opening, down to the cost of one shell call.
   - ↺ *Reversed later the same day: Claude Code hides `cat` output from the user, so the banner was never seen. See below.*
-- **[ploki]** **The banner was localised, and that is fixed.** `banner.txt` is English, `banner.fr.txt` is French; the agent picks by the user's language and falls back to English. The French original keeps the Theaetetus quotation in French, which is where it belongs.
-  - **[opus-5]** It is the only asset that needed this, exactly as note 02 predicted. The pipeline labels, the tagline and the quotation were the French; the buste and `ΣΩΚΡΑΤΗΣ` are language-neutral and unchanged.
+- **[ploki]** **The banner was localised, and that is fixed.**
+  - **[opus-5]** `banner.txt` is English, `banner.fr.txt` is French; the agent picks by the user's language and falls back to English. The French original keeps the Theaetetus quotation in French, which is where it belongs.
+  - **[opus-5]** It is the only asset that needed this, exactly as ploki had inferred from the start (prompt #6) and note 02 then proposed. The pipeline labels, the tagline and the quotation were the French; the buste and `ΣΩΚΡΑΤΗΣ` are language-neutral and unchanged.
 
 ## Settled, 2026-10-03, last
 - **[ploki]** **The agent reproduces the banner in its reply, instead of `cat`.** The skill now says: read `assets/banner.txt` and copy it verbatim into a code block at the head of the reply.
@@ -52,7 +54,7 @@
 - ~~**[opus-5]** A few seconds of latency, once, is a defensible trade.~~ ↺ *Wrong: the trade was never necessary. `cat` costs nothing and the picture is identical.*
 
 ## Open questions
-- None at present. **[ploki]** No light variant ships; the agent can generate one with `make_bust.py --invert` (decision #48).
+- None at present. **[ploki]** No light variant ships (decision #48). **[opus-5.5]** The agent can generate one with `make_bust.py --invert`.
 
 ## History
 - 2026-10-03 — Opened; the author observed the latency and asked that the skill not be changed.

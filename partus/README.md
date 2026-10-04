@@ -9,6 +9,7 @@ partus/guide.md                       everything the method does, and how to ask
 partus/maieutics/
   SKILL.md                            the skill, in English
   assets/banner.txt                   the Socrates buste, Braille, 26 lines
+  assets/CREDITS.md                   the portrait's source and licence
   assets/make_bust.py                 generates the buste from the portrait
   assets/socrate-anderson-farnese.jpg the source portrait
 

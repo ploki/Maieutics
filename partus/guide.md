@@ -44,7 +44,7 @@ If it drifts away from any of this, say so. That's a fair correction.
 | `author-intent.md` | What you are really after (§4) |
 | `decision-log.md` | Every decision and every reversal (§5) |
 | `prompt-log.md` | What you said, newest first (§6) |
-| `glosses.md` | The agent's own glosses — its readings of what you decided, kept unvalidated — only if you want it |
+| `glosses.md` | The agent's own glosses — its interpretations of what you decided, kept unvalidated — only if you want it |
 
 Every note opens with **Current**: what holds today. Read this and you know where the note stands. It is followed by the **History** of the reasoning, reversals included. A note may also have an **Open questions** section, when something in it isn't settled.
 
@@ -58,7 +58,7 @@ Beside `corpus/`:
 
 If figures recur across notes, the agent can keep a **register of key figures** (value, source, status), which the notes and scripts cite instead of copying. Ask for it when you need it.
 
-**`glosses.md` is the one file the agent offers rather than keeps by default.** Its glosses are not facts about your subject but ways of reading what you have decided, and the agent is forbidden to build on them. Keeping them somewhere means you can come back to them, and that it shows when one stops fitting the corpus. Two things can happen to a reading: you validate it, and it moves into the notes as a fact, with a struck line here saying where it went; or a change of mind makes it false, and it is struck here with the reason. The struck ones stay, so you can see what the corpus outgrew.
+**`glosses.md` is the one file the agent offers rather than keeps by default.** Its glosses are not facts about your subject but interpretations of what you have decided, and the agent is forbidden to build on them. Keeping them somewhere means you can come back to them, and that it shows when one stops fitting the corpus. Two things can happen to a gloss: you validate it, and it moves into the notes as a fact, with a struck line here saying where it went; or a change of mind makes it false, and it is struck here with the reason. The struck ones stay, so you can see what the corpus outgrew.
 
 The layout is a default, not a law. If you'd rather arrange things differently, say so. What matters is that it stays tidy and you understand it.
 
@@ -150,7 +150,7 @@ Pruning means:
 
 The agent won't start these on its own, so you need to know they exist.
 
-**The audits.** *"Run a consistency audit on the corpus."* A fresh agent, read-only, goes through the corpus, the deliverables and the logs, and reports what contradicts what, what is a plain bookkeeping error, and what needs a decision from you. It fixes nothing that needs one, and you work through the list one point at a time. A second and different pass, the **exhaustivity audit** — *"Compare the prompt log with the corpus, both ways"* — checks that nothing you said got lost and that nothing in the corpus was never said; it needs versioning (c). Once the corrections are made, ask for a **verification pass** by another fresh agent: that is the one that catches what the fixing broke. The agent may offer an audit after a long session or a big reversal; you can ask at any time.
+**The audits.** *"Run a consistency audit on the corpus."* A fresh agent, read-only, goes through the corpus, the deliverables and the logs, and reports what contradicts what, what is a plain bookkeeping error, and what needs a decision from you. It fixes nothing — it reports — and you work through the list one point at a time. A second and different pass, the **exhaustivity audit** — *"Compare the prompt log with the corpus, both ways"* — checks that nothing you said got lost and that nothing in the corpus was never said; it needs versioning (c). Once the corrections are made, ask for a **verification pass** by another fresh agent: that is the one that catches what the fixing broke. The agent may offer an audit after a long session or a big reversal; you can ask at any time.
 
 **A devil's advocate.** *"Before I accept this, have someone attack it."* When the agent proposes something structural, an independent agent can argue against it before you validate. The agent may offer this, but only occasionally.
 
