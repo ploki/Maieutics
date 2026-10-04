@@ -4,6 +4,7 @@ A clean, concise rewrite of every author message, losing nothing. **Newest first
 
 *This file records what the author said, when he said it. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+78. 2026-10-04 — Pushing is not to be logged either; stop that too.
 77. 2026-10-04 — Stop logging upgrades of the skill install; fix the skill so it says so.
 76. 2026-10-04 — Push.
 75. 2026-10-04 — Close it.
