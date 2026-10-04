@@ -76,7 +76,7 @@ Claims in the notes carry a marker saying who made them. A corpus can have sever
 | **[Unverified]** | an unsourced fact |
 | **[opus-5 as alice]** | decided by proxy on Alice's behalf, during a `metamaieutics` session (§11) |
 
-- **You** are identified by your git id (`git config user.name`, or your handle on the remote). Failing that, by your first name, or the agent asks once.
+- **You** are identified by your git handle on the remote. Failing that, by your git name (`git config user.name`). Failing that, by your first name, or the agent asks once.
 - **The agent** is identified by its model name, not "Claude". The corpus will outlive the model, and a reader in two years will want to know which one thought this.
 
 Both identities are recorded in the index, so any reader knows who the markers stand for.

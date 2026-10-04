@@ -49,7 +49,7 @@ Now talk. You lead: the subject, the form and the pace are yours. Expect three t
 - **It won't write after every exchange.** It writes a note only when something substantial appears. Several exchanges with no files changing is normal.
 - **It tells you when it disagrees.** Ask for its opinion and you get one, reservations included.
 
-When it does write, the notes go in `corpus/`. Each note opens with **Current**, what holds today, followed by **History**, how you got there. Claims are marked with who made them: your git id for you, the model's name for the agent.
+When it does write, the notes go in `corpus/`. Each note opens with **Current**, what holds today, followed by **History**, how you got there. Claims are marked with who made them: your git handle for you, the model's name for the agent.
 
 ```
 - **[alice]** The tool must work offline.
