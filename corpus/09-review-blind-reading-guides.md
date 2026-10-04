@@ -31,10 +31,10 @@ Status: **open** · answered · decided. Tied to the decision log by number once
 | # | Question | Status |
 |---|---|---|
 | Q29 | How a proposal gets validated, `[opus-5]` → `[opus-5 → me]` | open |
-| Q2 | Plain speech or `/maieutics`? (= C1) | open |
+| Q2 | Plain speech or `/maieutics`? (= C1) | answered with C1 (#48) |
 | Q38, Q45 | Will the agent rewrite a deliverable edited by hand; which wins, corpus or deliverable | open |
 | Q80 | How the user knows a note was written | open |
-| Q37, Q42 | What counts as "structural"; is the reason for a reversal recorded (= C5) | open |
+| Q37, Q42 | What counts as "structural"; is the reason for a reversal recorded (= C5) | partly — the reason is recorded (C5, #48); what counts as structural is still open |
 | Q11 | Who authors commits, what they say, is anything pushed | open |
 | Q10 | Changing the versioning option later | open |
 | Q65, Q73 | Interrupting a metamaieutics run; must the session stay open | open |
@@ -239,3 +239,4 @@ Q81. Both pages: neither says which Claude models or Claude Code versions the sk
 ## History
 - 2026-10-03 — Opened; stage 1 questions recorded unaltered.
 - 2026-10-03 — Stage 2 grading recorded; follow-up list drawn up.
+- 2026-10-04 — ploki settled C3, C5, C12 and C13 and asked for the page errors to be fixed (#48); C8 widened to the audits after #50. Q2 and Q37/Q42 brought in line with C1 and C5, and *piste* added to the glossary (Q25), after the audit of 2026-10-04.

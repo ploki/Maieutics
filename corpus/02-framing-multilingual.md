@@ -5,7 +5,8 @@
 - **[opus-5 → ploki]** After looking at what published skills actually do, that plan was the wrong shape: one English `SKILL.md` per skill (note 06).
 - **[ploki]** **French is dropped: the repository is in English only** (decision #45) — *"English is the new Latin; we're too busy to learn Greek."* No translation of the skill, of the banner, or of the README. The conversation still follows the user's language: the skill says *"Answer in the user's language"*, and that is all the localisation a method needs.
   - ↺ *Until then each skill had a `SKILL.fr.md` kept in step, and the banner a `banner.fr.txt`. All three are in `archive/`.*
-- **[ploki]** The names the skill creates stay fixed, since a general method has one vocabulary (note 08); and the corpus's whole structure — names, headings, markers — stays in English whatever the user's language (note 06, decision #42).
+- **[ploki]** The corpus's whole structure — names, headings, markers — stays in English whatever the user's language (note 06, decision #42).
+- **[opus-5]** The names the skill creates stay fixed, since a general method has one vocabulary (note 08).
 
 ## What published skills do [S]
 Searched 2026-10-03. The dominant pattern is **one `SKILL.md`, in English, with translated documentation beside it** — never a translated skill body.

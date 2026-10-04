@@ -4,6 +4,10 @@ A clean, concise rewrite of every author message, losing nothing. **Newest first
 
 *This file records what the author said, when he said it. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+53. 2026-10-04 — Asks that all the corrections go ahead, in order, one by one, each presented to him when it needs his decision.
+52. 2026-10-04 — Asks for an audit of the project.
+51. 2026-10-04 — Asks for a Remote Control session on his machine, then declines it.
+50. 2026-10-04 — Asks that the skill be loaded.
 49. 2026-10-04 — Fix the nine points. C3: no. C5: yes. C8: doesn't understand it. C12: no. C13: no.
 48. 2026-10-03 — Asks that it be pushed, then a blind reading run on the getting started and the guide.
 47. 2026-10-03 — Confirms: a getting started and a full guide, as separate files linked from the README.

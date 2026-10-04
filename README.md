@@ -40,7 +40,7 @@ Maieutics turns the conversation into a corpus:
 | **Corpus** | Substance gets written into notes. Every note opens with what holds *today*, followed by the history of how you got there. |
 | **Decision log** | One line per structural decision, and why — and per reversal, marked `↺`, with what it replaces. When you change your mind, the agent hunts down everything that is now false and fixes it. |
 | **Deliverables** | Produced only when *you* judge the corpus good enough. |
-| **Blind review** | A fresh agent reads the deliverable without the corpus and lists what it couldn't understand. |
+| **Blind review** | A fresh agent reads the deliverable without the corpus and draws up the questions it raises, then checks each against the corpus: answered, partly, or not at all. |
 
 Two rules do most of the work. **No charity**: an ambiguous sentence gets reformulated in one line and confirmed before it is written down, so the corpus says what you meant rather than what sounded best. And **the agent keeps track of who said what, by name** — your git id for you, its model name for itself, so that `[ploki]` and `[opus-5]` sit side by side in the notes. You can always tell your own thinking from your agent's suggestions, and a corpus with several contributors stays legible.
 
