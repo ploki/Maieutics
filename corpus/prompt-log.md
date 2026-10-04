@@ -4,6 +4,7 @@ A clean, concise rewrite of every author message, losing nothing. **Newest first
 
 *This file records what the author said, when he said it. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+54. 2026-10-04 — Asks that the skill be loaded.
 53. 2026-10-04 — Asks that all the corrections go ahead, in order, one by one, each presented to him when it needs his decision.
 52. 2026-10-04 — Asks for an audit of the project.
 51. 2026-10-04 — Asks for a Remote Control session on his machine, then declines it.
