@@ -33,13 +33,13 @@ You don't have to know what you're looking for. Not knowing is the starting poin
 
 ## 3. Answer one question about versioning
 
-The agent asks once how you want your work kept. git keeps a photograph of every step, so you can go back.
+The agent asks once, in plain conversation, how you want your work kept. git keeps a photograph of every step, so you can go back. There are three ways:
 
 - **(a)** no git;
 - **(b)** git, with a commit at each exchange that changes files;
 - **(c)** the same, plus a **prompt log**: a short, faithful rewrite of each of your messages, newest first.
 
-If you're unsure, pick (c). It costs you nothing, and it's the best record of how your thinking moved. If you pick (b) or (c) and the folder isn't a git repository yet, the agent runs `git init`.
+If you're unsure, take the third. It costs you nothing, and it's the best record of how your thinking moved. If you choose git and the folder isn't a git repository yet, the agent runs `git init`.
 
 ## 4. Talk
 
@@ -102,7 +102,7 @@ my-subject/
   corpus/
     00-…-index.md            how the project works, and one line per note
     …-glossary.md            the project's terms, once there are any
-    author-intent.md         what you are really after, in your words
+    author-intent.md         the agent's notebook on your intent and mood, read first
     decision-log.md          every decision and reversal
     prompt-log.md            what you said, newest first, if you chose (c)
     NN-type-subject.md       the notes

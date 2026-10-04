@@ -10,6 +10,8 @@
 
 - **[ploki]** "The skill should ask questions in prose, never as multiple-choice questionnaires" (2026-10-04, prompt #55) — confirming the observation above.
 
+- **[ploki]** `author-intent.md` is for the agent, "to keep track of my mood/intent/big picture/foggy perception" (2026-10-04, prompt #56). Skill §4 now says so.
+
 - **[opus-5]** The author tests claims rather than accepting them: asked for the state of the art on multilingual skills before committing to the directory plan, and diagnosed the banner's latency unaided.
 
 ## History

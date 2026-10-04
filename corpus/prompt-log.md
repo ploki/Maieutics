@@ -4,6 +4,7 @@ A clean, concise rewrite of every author message, losing nothing. **Newest first
 
 *This file records what the author said, when he said it. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+56. 2026-10-04 — `author-intent.md` is for the agent, to keep track of the author's mood, intent, big picture and foggy perception. On the question box: the agent is probably overthinking it.
 55. 2026-10-04 — Asks to check that `corpus/author-intent.md` is read as early as possible when starting on a project; and states that the skill should ask its questions in prose, never as multiple-choice questionnaires.
 54. 2026-10-04 — Loading the skill should not have produced an entry; the skill should prevent that.
 53. 2026-10-04 — Asks that all the corrections go ahead, in order, one by one, each presented to him when it needs his decision.

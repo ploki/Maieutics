@@ -25,6 +25,7 @@ This page describes what you see and what you can say. What the agent itself is 
 
 - **You steer.** The agent imposes no plan, no thesis and no deliverable you didn't ask for. It doesn't fix the goal at the outset either: finding the real goal is part of the work.
 - **No principle of charity.** If something you say is ambiguous (a vague word, a negation that could go either way, a name that could mean two things), the agent rephrases it in one line and asks you to confirm. It does not pick the likeliest meaning and move on. It also keeps a glossary as soon as the project has terms of its own.
+- **Questions in prose.** The agent asks in sentences, never through multiple-choice menus or question boxes.
 - **It talks before it writes.** Notes change only when something substantial appears. Replies are short.
 - **It's frank.** Ask for its opinion and it gives one, with reservations. When it makes a mistake, it says so and corrects the corpus.
 
@@ -41,7 +42,7 @@ If it drifts away from any of this, say so. That's a fair correction.
 | `00-…-index.md` | The project's method and conventions, then one line per note with its status and a summary |
 | `NN-type-subject.md` | A note. `NN` is creation order, not importance. The type is framing, concept, case, source, hypothesis, objection, decision… |
 | a glossary note | The project's own terms, started as soon as any appear |
-| `author-intent.md` | What you are really after (§4) |
+| `author-intent.md` | The agent's notebook on your intent and mood (§4) |
 | `decision-log.md` | Every decision and every reversal (§5) |
 | `prompt-log.md` | What you said, newest first (§6) |
 | `glosses.md` | The agent's own glosses — its interpretations of what you decided, kept unvalidated — only if you want it |
@@ -84,9 +85,9 @@ A note full of the agent's name with no arrow is a note full of things you haven
 
 ## 4. The author's intent
 
-`corpus/author-intent.md` holds your deeper purpose: your convictions, what you refuse, your stance and your misgivings. It uses your own words where possible. Things the agent has observed about you are marked with its name, for you to confirm.
+`corpus/author-intent.md` is the agent's notebook about you, kept for its own use: your mood, your intent, the big picture, and what you perceive only dimly. It also holds your convictions, what you refuse, your stance and your misgivings, in your own words where possible. Things the agent has observed about you are marked with its name, for you to confirm.
 
-It holds only what bears on the project. It is updated whenever your intent sharpens or shifts, which is often where you find out what you are really after. The agent reads it first every time the project is picked back up.
+It holds only what bears on the project. It is updated whenever your intent sharpens or shifts, which is often where you find out what you are really after. The agent reads it first every time the project is picked back up, and the line it adds to `CLAUDE.md` tells any later session to do the same.
 
 If it says something about you that isn't true, correct it. It's the compass for everything else, including `metamaieutics`.
 

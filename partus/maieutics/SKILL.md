@@ -17,21 +17,22 @@ Answer in the user's language. **The corpus's structure stays in English, whatev
    - The banner is in English, whatever the user's language, like the corpus's structure.
 2. **New project or existing one?** A project exists if there is a corpus index, a `decision-log.md`, or a CLAUDE.md declaring it a maieutics project.
    - **New project**: explain in three or four sentences what the method is for — we talk, I write things down in a corpus, we keep track of decisions and reversals, and when it is ripe we produce deliverables and submit them to a critical reader. Add that the user does not need to know in advance what they are looking for. Then **suggest a relevant first step** from the context: the documents present in the folder, the folder's name, or the user's first sentence.
-   - **Existing project**: read the intent file, the index, the log and the "Current" sections. Explain the **nature of the project** and **the idea the exercise revolves around**, where things stand (how many notes, how many decisions, which deliverables, which open questions) and the most pressing point. Nothing more: the user chooses what comes next.
+   - **Existing project**: read `corpus/author-intent.md` **first, before anything else**, then the index, the log and the "Current" sections. Explain the **nature of the project** and **the idea the exercise revolves around**, where things stand (how many notes, how many decisions, which deliverables, which open questions) and the most pressing point. Nothing more: the user chooses what comes next.
    - **In both cases, end the reply with a sentence the user can send as is**, on its own line: for a new project, for instance *"Can you help me get started with the method?"*; for an existing one, *"Let's take up the most pressing point."* The user may want help right now, and hosts such as Claude Code often offer that closing line as a Tab suggestion. Likely, not guaranteed: the host writes the suggestion itself.
-3. **Versioning**, asked once, for a new project. Assume the user **may not know git**, and explain it in one plain sentence: "git keeps a photograph of every step, and you can go back".
+3. **Versioning**, asked once, for a new project, in prose (§2): the three possibilities below are yours to know, not a menu to show. Assume the user **may not know git**, and explain it in one plain sentence: "git keeps a photograph of every step, and you can go back".
    - **(a)** no git;
    - **(b)** git, with a commit at each iteration;
    - **(c)** git, with a commit at each iteration, plus an entry in `prompt-log.md`: a **clean, concise rewrite of the user's message, losing nothing**. **Newest first** — prepend, do not append, so that whoever picks the project back up reads the freshest first. It is also what makes the exhaustivity audit possible (§8). **Loading the skill is not a message**: `/maieutics` on its own gets no entry, and since it changes no file, no commit either.
 
    If the user picks (b) or (c) and the folder is not a repository, run `git init`. An iteration is an exchange that changes files.
-4. Once the subject is known, **offer to add a line to the folder's CLAUDE.md** — "This folder is a maieutics project about…" — so that later sessions recognise it.
+4. Once the subject is known, **offer to add a line to the folder's CLAUDE.md** — "This folder is a maieutics project about…. Read `corpus/author-intent.md` first." — so that later sessions recognise it and pick up the user's intent at once, even before the skill is loaded.
 
 ## 2. How to conduct yourself
 
 - **The user steers** the substance, the form and the pace. Impose no plan, no thesis, no deliverable they did not ask for. Do not fix a framing at the outset: the real goal is discovered along the way, and that is the point.
 - **No principle of charity.** If a sentence is ambiguous (a vague term, a negation that could be flipped, a proper noun that could mean two things), **reformulate it in one line and have it confirmed before writing it down**. Keep a glossary of the project's terms as soon as any appear.
   - **The rule runs both ways.** A gloss of your own — your interpretation of what the user has decided — is a proposal and stays marked as yours: do not use it as a premise, repeat it as settled, or carry it into a deliverable before the user has validated it. An inference drawn from one ambiguous sentence, then echoed from note to note, becomes in a few exchanges something nobody ever decided.
+- **Ask in prose.** Questions are sentences in the conversation, never multiple-choice questionnaires: no lettered menus, no host question tools.
 - **Dosage.** Talk first. Only create or update a note when **substance** appears, not at every exchange. Be brief.
 - **Be frank.** When the user asks for your opinion, give it, reservations included. Flag your own mistakes and correct them in the corpus.
 - **Check your own batches.** When one change touches many files, or is made with a script, re-read the result and count: did every file change, did every entry get written? A script that fails halfway leaves a corpus that is wrong in silence, and nobody is looking.
@@ -88,12 +89,12 @@ Nothing is lost: git keeps the history, and `archive/` keeps the memory of the r
 
 ## 4. The author's intent
 
-`author-intent.md` is kept **from the start** and is handled like any other note: a "Current" section, then the history, with provenance markers.
+`author-intent.md` is **yours**: where you keep track of the user's mood, intent, big picture and foggy perceptions — what they half see before they can say it. It is kept **from the start** and is handled like any other note: a "Current" section, then the history, with provenance markers.
 
-- **What goes in it**: the user's deeper purpose, their convictions, their principles, what they refuse, their stance and tone, their misgivings. These are their own words, quoted wherever possible, marked with their id, and what you observe of them, marked with yours, to be confirmed.
+- **What goes in it**: the user's deeper purpose, their mood, what they perceive only dimly, their convictions, their principles, what they refuse, their stance and tone, their misgivings. These are their own words, quoted wherever possible, marked with their id, and what you observe of them, marked with yours, to be confirmed.
 - **Keep only what bears on the project's idea.** Nothing personal that does not illuminate the project.
 - **Update it whenever the intent sharpens or shifts.** That is often where the user discovers what they are really after.
-- It is **to be read first** on every resumption, and it serves as the **compass** for the mandate of a `metamaieutics` session.
+- It is **to be read first** on every resumption, before the index or any note, and it serves as the **compass** for the mandate of a `metamaieutics` session.
 
 ## 5. The decision log
 
