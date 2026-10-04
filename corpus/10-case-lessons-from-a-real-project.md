@@ -29,7 +29,7 @@
 
 - **What happened.** Twice, in two different projects. **Here**: a script failed silently in the middle of a batch — decisions #18 to #21 were never written to the log, and the `-ics` rename was not propagated to twelve paths. Discovered only by the first audit (#22). Later a blanket `sed`, run to fix that very audit, rewrote the author's own words in the prompt log; the verification pass caught it (#23). **There**: the two logs have holes nobody ever noticed — decisions **#127** and **#185** and author message **#82** were given numbers and never written; they appear in no commit of that repository. Three audits missed them, because an audit compares content and no one was counting.
 - **What the skill says today.** Nothing. §5 forbids retrofitting the logs, which is the rule the `sed` broke, but the skill never asks the agent to look at what its own edits actually did.
-- **[opus-5] What it should say.** One bullet in §2: after a batch, and above all after a script, re-read the result and count — a half-failed script leaves a corpus that is wrong in silence. Carried in by decision #54. The specific instance of counting log numbers for gaps is left to the audit prompt rather than put in the skill.
+- **[opus-5] What it should say.** One bullet in §2: after a batch, and above all after a script, re-read the result and count — a half-failed script leaves a corpus that is wrong in silence. Carried in by decision #54. The specific instance of counting log numbers for gaps is left to the audit prompt rather than put in the skill. ↺ *ploki put it in the skill after all: §8's exhaustivity audit counts both logs (decision #69).*
 
 ### 5. The consistency audit is the method's best tool and is barely in the skill
 
@@ -66,9 +66,10 @@
 
 ## Open questions
 
-- **[opus-5]** Whether the exhaustivity audit should also cover the *reverse* direction mechanically — numbering gaps in both logs, as in lesson 4 — or whether that belongs in the audit's briefing rather than in the skill.
+- None at present.
 
 ## History
+- 2026-10-04 — Numbering gaps in both logs: ploki puts the count into §8's exhaustivity audit (#69). No open questions left.
 - 2026-10-04 — Whether the audits are offered at named moments leaves the open questions here: §8 has offered them since #50. ↺ *#64 briefly had them run unasked; reverted by #65.*
 - 2026-10-04 — The *éclairages* question of lesson 1 is instructed in note 11 and retained; it leaves the open questions here.
 - 2026-10-04 — Note opened: seven failures observed in a real one-day project, instructed against the state of the skill; decisions #50–#55 carried the mature ones into `partus/maieutics/SKILL.md`.

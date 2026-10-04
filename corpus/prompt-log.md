@@ -4,6 +4,8 @@ A clean, concise rewrite of every author message, losing nothing. **Newest first
 
 *This file records what the author said, when he said it. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+66. 2026-10-04 — Add it.
+65. 2026-10-04 — Let's take up note 10's question.
 64. 2026-10-04 — Write nothing.
 63. 2026-10-04 — Keep the fixed name.
 62. 2026-10-04 — Let's clear note 11's open questions.
