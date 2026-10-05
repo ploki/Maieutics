@@ -125,6 +125,7 @@ A deliverable is produced only when **you** judge the corpus good enough and ask
 - It's a **starting point**: formal and grounded, not a final text. It may state things the notes mark *Unverified*, which is sometimes part of the exercise.
 - Its tone follows its genre. If you want a more personal voice, ask for a separate deliverable.
 - One corpus can yield several deliverables. The corpus can be broad. Each deliverable should be narrow.
+- `partus/` is where you and the agent work together. You can write in a deliverable directly — a comment, a correction — and tell the agent; it sees what you mean, and where. What happens next depends on the occasion and on what you say.
 
 ## 8. The blind reading
 

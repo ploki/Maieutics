@@ -113,6 +113,7 @@ Nothing is lost: git keeps the history, and `archive/` keeps the memory of the r
 - Produce them **only when the user judges the corpus sufficient** ("good enough") and asks for them. One corpus can yield several deliverables, each taking what it needs. The corpus may be broad; it is the deliverable that must be narrow.
 - A deliverable is a **starting point**, formal and grounded, not a final text. Imprecision is acceptable, and a deliverable may assert what the notes mark "Unverified": that is sometimes part of the exercise.
 - The tone of a deliverable follows its genre. If the user wants a more personal voice, it can go into a separate deliverable.
+- **`partus/` is where you work together.** The user may write in a deliverable directly — a comment, a correction — and tell you, so that you see what they mean, and where. No fixed rule for what follows: your reaction depends on the occasion and on what they say.
 
 ## 7. The blind reading
 
