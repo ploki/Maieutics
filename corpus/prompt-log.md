@@ -4,6 +4,7 @@ A clean, concise rewrite of every author message that modifies something else, l
 
 *This file records what the author said, when he said it. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+100. 2026-10-05 — Audit C1: proposal 4 yes — metamaieutics keeps logging every exchange, as an explicit exception to #78, because there the log is the trace of the proxy's conduct.
 99. 2026-10-05 — Audit B6: proposals 3 and 5 yes (the index says Opus 5 also worked on 2026-10-04; note 07's two markers for #70/#71 become `[opus-5.5 → ploki]`).
 98. 2026-10-05 — Audit B5: yes, add the erratum.
 97. 2026-10-05 — On the upgrade feature: yes; check at least once a day — every load is fine; the published version is named in the skill (github.com/ploki/Maieutics), forks change it; maieutics drives the check for both skills; it sits beside the existing project-upgrade rule; "what's new" comes from comparing the installed and published SKILL.md, not a changelog.

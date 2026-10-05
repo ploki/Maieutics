@@ -66,7 +66,7 @@ At each turn of the agent:
    - **do not be compliant**: push back, ask for precision, refuse whatever strays from the mandate. The dialogue must remain a real maieutic;
    - apply the rule for questions outside the mandate. Keep the list of proxy decisions and of questions left open;
    - drive the work towards the objectives. Suggest the blind reading when a deliverable has been written, and a consistency audit after a major reversal and before the handback — on a run this long, nothing else will catch what the agent got wrong.
-3. **Log in `prompt-log.md`** a clean, concise rewrite of your message, losing nothing, with the iteration number. Newest first.
+3. **Log in `prompt-log.md`** a clean, concise rewrite of your message, losing nothing, with the iteration number. Newest first. **Every message is logged, even one that changes no file** — an exception to maieutics' rule: here the log is the trace of how you represented the user, and a refusal or a push-back is what they will want to see.
 4. **Commit**: `git add -A && git commit -m "metamaieutics: iteration N — <summary>"`.
 5. **Send your message to the agent** (with SendMessage) and wait for its next turn.
 
