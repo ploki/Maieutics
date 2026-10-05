@@ -55,6 +55,7 @@ Answer in the user's language. **The corpus's structure stays in English, whatev
   | **[opus-5 as ploki]** | decided by proxy on that person's behalf, during a `metamaieutics` session |
 
   Use the project's own ids, not these examples.
+  - **What validates.** A "yes" validates exactly the point the user was asked about, and nothing else. A general "fine, go on" validates nothing. The user can validate several lines at once by naming them — "I validate all of note 07". If they change your wording before agreeing, the line takes their wording and their marker alone.
 
 ## 3. The corpus
 

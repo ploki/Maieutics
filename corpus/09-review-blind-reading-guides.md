@@ -30,7 +30,7 @@ Status: **open** · answered · decided. Tied to the decision log by number once
 **Most pressing unaddressed questions for a newcomer** (the reader's ranking)
 | # | Question | Status |
 |---|---|---|
-| Q29 | How a proposal gets validated, `[opus-5]` → `[opus-5 → me]` | open |
+| Q29 | How a proposal gets validated, `[opus-5]` → `[opus-5 → me]` | decided — a "yes" validates exactly the point asked; a general assent validates nothing; a batch only when named; a reworded line takes the user's marker alone (#80) |
 | Q2 | Plain speech or `/maieutics`? (= C1) | answered with C1 (#48) |
 | Q38, Q45 | Will the agent rewrite a deliverable edited by hand; which wins, corpus or deliverable | open |
 | Q80 | How the user knows a note was written | open |
