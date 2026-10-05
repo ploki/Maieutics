@@ -26,6 +26,7 @@ This page describes what you see and what you can say. What the agent itself is 
 - **You steer.** The agent imposes no plan, no thesis and no deliverable you didn't ask for. It doesn't fix the goal at the outset either: finding the real goal is part of the work.
 - **No principle of charity.** If something you say is ambiguous (a vague word, a negation that could go either way, a name that could mean two things), the agent rephrases it in one line and asks you to confirm. It does not pick the likeliest meaning and move on. It also keeps a glossary as soon as the project has terms of its own.
 - **Questions in prose.** The agent asks in sentences, never through multiple-choice menus or question boxes.
+- **Numbered points.** Each observation, question and proposal in a reply is numbered, so you can answer by reference: "1 yes, 3 no".
 - **It talks before it writes.** Notes change only when something substantial appears. Replies are short.
 - **It's frank.** Ask for its opinion and it gives one, with reservations. When it makes a mistake, it says so and corrects the corpus.
 

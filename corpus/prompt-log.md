@@ -4,6 +4,7 @@ A clean, concise rewrite of every author message, losing nothing. **Newest first
 
 *This file records what the author said, when he said it. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+83. 2026-10-05 — The agent takes the problem backward: its questions are hard to answer because it asks several at once, often unrelated. Put numbers, letters or whatever in front of observations, questions and notes, so the author can reference them quickly and answer as well as possible.
 82. 2026-10-05 — Restates point 3: no line is logged, in the prompt log or the chores, unless there is something else to modify; that statement should be sufficient.
 81. 2026-10-05 — Upgrades of the installed skill and pushes stay unlogged; closed. The exhaustivity audit reads `prompt-chores.md` too. Chitchat: no — only messages that modify the corpus are logged; no log line that talks about itself.
 80. 2026-10-05 — Wants the prompts addressing the maintenance and chores of the project under consideration — upgrading the project's format, adding skill customizations to its CLAUDE.md, things like that — in a `prompt-chores.md`.
