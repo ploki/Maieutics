@@ -105,7 +105,7 @@ The reversed line stays where it is. **The log is never rewritten.** If a file i
 
 ## 6. The prompt log
 
-If you chose versioning option (c), `corpus/prompt-log.md` keeps a clean, concise rewrite of each of your messages, losing nothing, **newest first**. Typing `/maieutics` to load the skill is not logged, nor is upgrading the skill installed on your machine, nor pushing. Like the decision log, it is never edited afterwards.
+If you chose versioning option (c), `corpus/prompt-log.md` keeps a clean, concise rewrite of each of your messages, losing nothing, **newest first**. A message is logged only if it modifies something else: typing `/maieutics`, upgrading the skill installed on your machine, pushing, or a remark that changes nothing leave no entry. Like the decision log, it is never edited afterwards.
 
 Messages about the upkeep of the project rather than its subject — upgrading the project to a newer format of the skill, adding skill customizations to its `CLAUDE.md`, and the like — go to `corpus/prompt-chores.md` instead, in the same form. The prompt log keeps to the subject.
 
