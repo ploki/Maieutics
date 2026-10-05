@@ -38,7 +38,7 @@ Maieutics turns the conversation into a corpus:
 |---|---|
 | **Dialogue** | You lead. The agent doesn't impose a plan, a thesis, or a deliverable you didn't ask for. |
 | **Corpus** | Substance gets written into notes. Every note opens with what holds *today*, followed by the history of how you got there. |
-| **Decision log** | One line per structural decision, and why — and per reversal, marked `↺`, with what it replaces. When you change your mind, the agent hunts down everything that is now false and fixes it. |
+| **Decision log** | One line per decision, and why — and per reversal, marked `↺`, with what it replaces. When you change your mind, the agent hunts down everything that is now false and fixes it. |
 | **Deliverables** | Produced only when *you* judge the corpus good enough. |
 | **Blind review** | A fresh agent reads the deliverable without the corpus and draws up the questions it raises, then checks each against the corpus: answered, partly, or not at all. |
 

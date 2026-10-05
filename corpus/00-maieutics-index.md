@@ -3,7 +3,7 @@
 **This is a maieutics project about the maieutics skill itself.** The method is used to design the thing that defines the method.
 
 ## How this project works
-We talk. Substance gets written down as notes. Every structural decision and every change of mind goes in the decision log. When the author judges the corpus good enough, we produce deliverables, which can then be handed to a blind reader.
+We talk. Substance gets written down as notes. Every decision and every change of mind goes in the decision log. When the author judges the corpus good enough, we produce deliverables, which can then be handed to a blind reader.
 
 ## Conventions
 - Notes are `NN-type-subject.md`. `NN` is creation order, not hierarchy. Types: framing, concept, case, source, hypothesis, objection, decision.

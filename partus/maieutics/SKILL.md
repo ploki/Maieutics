@@ -103,7 +103,7 @@ Nothing is lost: git keeps the history, and `archive/` keeps the memory of the r
 
 ## 5. The decision log
 
-`decision-log.md` is kept **from the start**: one line per structural decision or change of mind, with its number, its date, the decision **and why it was taken**, what it replaces (marked ↺ if it is a reversal) and the file concerned. The why is what lets a reader, months later, tell a reasoned reversal from a whim.
+`decision-log.md` is kept **from the start**: one line per decision or change of mind, with its number, its date, the decision **and why it was taken**, what it replaces (marked ↺ if it is a reversal) and the file concerned. The why is what lets a reader, months later, tell a reasoned reversal from a whim.
 
 - For a plain decision, add the line to the log.
 - **When the user changes their mind**, and only then, hunt through the corpus and the deliverables for everything this makes false, correct it, and then record the reversal in the log. **Correcting the note the reversal is about is not enough**: go through its relays — the index, the glossary, `author-intent.md`, the *Current* and *Open questions* sections of the other notes, `glosses.md` if there is one, and any deliverable already produced. That is where a reversal is missed, nearly every time.

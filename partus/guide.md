@@ -97,7 +97,7 @@ If it says something about you that isn't true, correct it. It's the compass for
 
 ## 5. Decisions and changes of mind
 
-`corpus/decision-log.md` has one line per structural decision: number, date, the decision and why it was taken, what it replaces, and the files concerned.
+`corpus/decision-log.md` has one line per decision and per change of mind: number, date, the decision and why it was taken, what it replaces, and the files concerned.
 
 When you **change your mind**, say so plainly. The agent:
 
