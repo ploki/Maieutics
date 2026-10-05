@@ -47,7 +47,7 @@ Draft it from the brief or, for an existing project, **from `author-intent.md` f
 
 1. Create the branch **`metamaieutics/<subject>-<YYYY-MM-DD>`** from the current one, or pick it up if it already exists. Note the name of the starting branch; it will be needed at handback.
    - **If another session keeps working in the main folder**, use a **worktree**: `git worktree add ../<folder>-meta -b <branch>`. The branch is then checked out in a separate folder and the two sessions do not tread on each other. Run the metamaieutics session in that folder. **Careful**: Claude's memory depends on the folder path. Copy the project's memory across to the new folder, or remind the agent to read the intent file, the index, the log and the glossary.
-   - To come back at the end there is no need to switch branch inside the worktree: the report explains how to merge from the main folder, then remove the worktree (`git worktree remove`).
+   - To come back at the end there is no need to switch branch inside the worktree: you merge from the main folder once the user has decided, then remove the worktree (`git worktree remove`).
 2. Commit `mandate.md` on that branch and create `prompt-log.md`.
 3. Launch a **fresh agent** (a general-purpose one) with these instructions:
    - read and apply `~/.claude/skills/maieutics/SKILL.md` in this folder. It must **not** display the banner or ask the versioning question: the orchestrator handles git;
@@ -88,10 +88,10 @@ Write it on the branch, commit it, then **return to the starting branch**. It co
 - **The hesitations**, that is, the places where you are not sure you represented the user well;
 - **The questions left open**, and the reason for stopping;
 - **What to re-read first**;
-- **How to decide**, explained plainly, with the commands:
-  - to **see the differences**: `git diff <starting branch>..<branch>`;
-  - to **keep everything**: `git merge <branch>`;
-  - to **keep part of it**: take only certain files or commits;
-  - to **throw the branch away**: `git branch -D <branch>`.
+- **How to decide**, explained plainly: see the differences, keep everything, keep part of it, or throw the branch away. The user says which in plain words, and **you run the git commands**: never ask them to.
 
-Then present the user with a summary of the report and the branch name. **They are the one who merges, takes part of it, or throws it away**: you merge nothing of your own accord. If you have learned something lasting about their expectations, offer to record it in memory.
+Then present the user with a summary of the report and the branch name. **They are the one who decides to merge, take part of it, or throw it away**: you merge nothing of your own accord, and you carry out what they decide.
+
+Then offer to **go through the decisions taken by proxy**, one at a time and numbered. What the user validates becomes `[x → user]`: you proposed it, even while speaking for them. What they reject is reversed, as any change of mind (maieutics §5). What they leave aside stays `[x as user]`. A merge alone validates nothing.
+
+If you have learned something lasting about their expectations, offer to record it in memory.

@@ -181,13 +181,13 @@ The agent won't run these without you. It may suggest them; you can ask at any t
 4. Claude creates a branch `metamaieutics/<subject>-<date>` and launches an agent that applies the maieutics method. Claude then plays **your** part. It isn't compliant: it pushes back, asks for precision, and refuses whatever strays from the mandate. Every exchange is logged in `prompt-log.md` and committed, one commit per iteration.
 5. Decisions taken on your behalf are marked **[opus-5 as alice]**, never as yours. Claude settles a question outside the mandate only if the answer is consistent with it and reversible. Otherwise it leaves the question open.
 6. It stops when the objectives are met, when the iteration limit is reached, or when a question outside the mandate blocks the way.
-7. You receive a **handback report** (`handback-report.md`): what was achieved, the decisions taken by proxy, where Claude was unsure it represented you well, what is still open, what to re-read first, and the git commands to see, keep, take part of, or discard the work.
+7. You receive a **handback report** (`handback-report.md`): what was achieved, the decisions taken by proxy, where Claude was unsure it represented you well, what is still open, what to re-read first, and how to see, keep, take part of, or discard the work. You say which in plain words; Claude runs the git commands.
 
 **Always forbidden by the mandate:** publishing anything; sending anything to an outside service (no mail, no message, no upload); touching your main branch; and removing anything from git history. Read-only web search stays allowed unless the mandate excludes it. You can add your own prohibitions.
 
 Apart from approving the mandate, and answering those setup questions, you have nothing to do until the handback.
 
-**You decide at the end.** Claude merges nothing. You merge it all, take part of it, or throw the branch away.
+**You decide at the end.** Claude merges nothing of its own accord. You decide to keep it all, take part of it, or throw the branch away, and Claude carries it out. It then offers to go through the decisions taken on your behalf, one at a time: what you validate becomes **[opus-5 → alice]**, what you reject is reversed, what you leave aside stays **[opus-5 as alice]**. Merging alone validates nothing.
 
 If another session is still working in the same folder, Claude can run the branch in a separate **worktree** (a second folder on the same repository), so the two don't collide.
 

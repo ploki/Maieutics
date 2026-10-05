@@ -38,7 +38,7 @@ Status: **open** · answered · decided. Tied to the decision log by number once
 | Q11 | Who authors commits, what they say, is anything pushed | decided — no change: the current behaviour is kept, nothing written (#84) |
 | Q10 | Changing the versioning option later | decided — no change: over-specifying (#85) |
 | Q65, Q73 | Interrupting a metamaieutics run; must the session stay open | decided — closed, no change (#88) |
-| Q67 | Accepting or rejecting `[x as me]` decisions after handback | open |
+| Q67 | Accepting or rejecting `[x as me]` decisions after handback | decided — the agent offers to go through them one at a time: validated → `[x → me]`, rejected → reversed, left aside → stays; a merge alone validates nothing (#89) |
 | Q60 | Exploration branch: finding the commit, rejoining | decided — no longer specified: branching is the user's discretion, and the agent knows git (#64) |
 | Q40 | How a log corrects its own errors — made concrete by the duplicate #45 | open |
 

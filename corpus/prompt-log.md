@@ -4,6 +4,7 @@ A clean, concise rewrite of every author message, losing nothing. **Newest first
 
 *This file records what the author said, when he said it. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+93. 2026-10-05 — On Q67: proposal 3 yes (after the handback, the agent goes through the decisions taken by proxy one at a time; validated → `[opus-5 → alice]`, rejected → reversed, left aside → unchanged). On 4: we should not demand the user to do git stuff.
 92. 2026-10-05 — One by one. Q65/Q73: close. Let's talk about Q67.
 91. 2026-10-05 — On the other open questions: note 05's second, shorter install prompt, no; note 08, whether a contributor must have run the method themselves, it is implied.
 90. 2026-10-05 — Q10 (changing the versioning option later) is over-specifying.
