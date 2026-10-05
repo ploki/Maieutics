@@ -4,6 +4,7 @@ A clean, concise rewrite of every author message that modifies something else, l
 
 *This file records what the author said, when he said it. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+99. 2026-10-05 — Audit B6: proposals 3 and 5 yes (the index says Opus 5 also worked on 2026-10-04; note 07's two markers for #70/#71 become `[opus-5.5 → ploki]`).
 98. 2026-10-05 — Audit B5: yes, add the erratum.
 97. 2026-10-05 — On the upgrade feature: yes; check at least once a day — every load is fine; the published version is named in the skill (github.com/ploki/Maieutics), forks change it; maieutics drives the check for both skills; it sits beside the existing project-upgrade rule; "what's new" comes from comparing the installed and published SKILL.md, not a changelog.
 96. 2026-10-05 — On A4. (1) Two cases: working on this very project, where the current behaviour is fine; and someone upgrading their own installation of the skill from the internet. For other users, the skill should help them upgrade, remind them to do so because it evolves, and tell them what's new in the new version by looking it up — for instance proposing to tell them what's new in the SKILL.md. (2) Both lines meant the same thing: "by his own means" may be by way of the agent. (4) Fix the pronouns.

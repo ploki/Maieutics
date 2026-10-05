@@ -11,7 +11,7 @@ We talk. Substance gets written down as notes. Every decision and every change o
 - **Provenance markers name their source.** In this project:
   - **`[ploki]`** — Guillaume Gimenez, from the git identity;
   - **`[opus-5]`** — Claude Opus 5, the agent; unvalidated when it stands alone; exact model ID not recorded at the time;
-  - **`[opus-5.5]`** — Claude Opus 5.5 (`claude-opus-5-5`), the agent from the session of 2026-10-03 onwards; same rules;
+  - **`[opus-5.5]`** — Claude Opus 5.5 (`claude-opus-5-5`), in sessions from 2026-10-03; Opus 5 also worked on the project on 2026-10-04 (notes 10–11, decisions #49–#58); same rules;
   - **`[opus-5 → ploki]`** — proposed by the agent, validated by ploki;
   - **`[S]`** a cited source · **`[Unverified]`** an unsourced fact;
   - **`[opus-5 as ploki]`** — decided by proxy, during a `metamaieutics` session.
