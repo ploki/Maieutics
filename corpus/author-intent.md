@@ -14,5 +14,9 @@
 
 - **[opus-5]** The author tests claims rather than accepting them: asked for the state of the art on multilingual skills before committing to the directory plan, and diagnosed the banner's latency unaided.
 
+- **[ploki]** The skill should be "friendly (and a total proxy) to users that do not know version control" (2026-10-05, prompt #88); then: "current behavior is good enough and agent can provide help" — no change to the skill.
+
+- **[opus-5.5]** The author dislikes having to untangle several questions at once (#83) and declines fixed rules where the occasion should decide (#85); the user is not to be burdened with the method's bookkeeping (#86, notes).
+
 ## History
 - 2026-10-03 — Project opened.
