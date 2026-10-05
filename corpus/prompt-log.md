@@ -4,6 +4,8 @@ A clean, concise rewrite of every author message, losing nothing. **Newest first
 
 *This file records what the author said, when he said it. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+80. 2026-10-05 — Wants the prompts addressing the maintenance and chores of the project under consideration — upgrading the project's format, adding skill customizations to its CLAUDE.md, things like that — in a `prompt-chores.md`.
+79. 2026-10-05 — Finds it annoying, in a maieutics project, that the chores and chitchat on the project are logged in the prompt log alongside the project's matter.
 78. 2026-10-04 — Pushing is not to be logged either; stop that too.
 77. 2026-10-04 — Stop logging upgrades of the skill install; fix the skill so it says so.
 76. 2026-10-04 — Push.

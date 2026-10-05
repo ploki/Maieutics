@@ -45,6 +45,7 @@ If it drifts away from any of this, say so. That's a fair correction.
 | `author-intent.md` | The agent's notebook on your intent and mood (§4) |
 | `decision-log.md` | Every decision and every reversal (§5) |
 | `prompt-log.md` | What you said, newest first (§6) |
+| `prompt-chores.md` | What you said about the project's upkeep, newest first (§6) |
 | `glosses.md` | The agent's own glosses — its interpretations of what you decided, kept unvalidated — only if you want it |
 
 Every note opens with **Current**: what holds today. Read this and you know where the note stands. It is followed by the **History** of the reasoning, reversals included. A note may also have an **Open questions** section, when something in it isn't settled.
@@ -105,6 +106,8 @@ The reversed line stays where it is. **The log is never rewritten.** If a file i
 ## 6. The prompt log
 
 If you chose versioning option (c), `corpus/prompt-log.md` keeps a clean, concise rewrite of each of your messages, losing nothing, **newest first**. Typing `/maieutics` to load the skill is not logged, nor is upgrading the skill installed on your machine, nor pushing. Like the decision log, it is never edited afterwards.
+
+Messages about the upkeep of the project rather than its subject — upgrading the project to a newer format of the skill, adding skill customizations to its `CLAUDE.md`, and the like — go to `corpus/prompt-chores.md` instead, in the same form. The prompt log keeps to the subject.
 
 It shows how your thinking moved. It also lets a new session see what you asked for, in the order that matters most: latest first.
 

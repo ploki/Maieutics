@@ -37,7 +37,7 @@ The agent asks once, in plain conversation, how you want your work kept. git kee
 
 - **(a)** no git;
 - **(b)** git, with a commit at each exchange that changes files;
-- **(c)** the same, plus a **prompt log**: a short, faithful rewrite of each of your messages, newest first.
+- **(c)** the same, plus a **prompt log**: a short, faithful rewrite of each of your messages, newest first; those about the project's upkeep go in a log of their own.
 
 If you're unsure, take the third. It costs you nothing, and it's the best record of how your thinking moved. If you choose git and the folder isn't a git repository yet, the agent runs `git init`.
 
@@ -105,6 +105,7 @@ my-subject/
     author-intent.md         the agent's notebook on your intent and mood, read first
     decision-log.md          every decision and reversal
     prompt-log.md            what you said, newest first, if you chose (c)
+    prompt-chores.md         what you said about the project's upkeep, likewise
     NN-type-subject.md       the notes
   partus/                    the deliverables
   instrumenta/               scripts, if the subject needs calculations

@@ -24,6 +24,7 @@ Answer in the user's language. **The corpus's structure stays in English, whatev
    - **(a)** no git;
    - **(b)** git, with a commit at each iteration;
    - **(c)** git, with a commit at each iteration, plus an entry in `prompt-log.md`: a **clean, concise rewrite of the user's message, losing nothing**. **Newest first** — prepend, do not append, so that whoever picks the project back up reads the freshest first. It is also what makes the exhaustivity audit possible (§8). **Loading the skill is not a message**: `/maieutics` on its own gets no entry, and since it changes no file, no commit either. Nor is **upgrading the skill installed locally**, nor **pushing**: they are not project events, so no prompt-log entry, no decision, no commit.
+   - **Chores go apart.** A message about the upkeep of the project rather than its subject — upgrading the project to a newer format of the skill, adding skill customizations to its CLAUDE.md, and the like — gets its entry in **`prompt-chores.md`** instead, in the same form, newest first, so that the prompt log keeps to the subject.
 
    If the user picks (b) or (c) and the folder is not a repository, run `git init`. An iteration is an exchange that changes files.
 4. Once the subject is known, **offer to add a line to the folder's CLAUDE.md** — "This folder is a maieutics project about…. Read `corpus/author-intent.md` first." — so that later sessions recognise it and pick up the user's intent at once, even before the skill is loaded.
@@ -84,7 +85,7 @@ To prune is to:
 - **first rescue whatever survives** of an abandoned note, by moving it into the note where it now serves, then move the note into `archive/`;
 - **remove settled questions, dropped pistes and resolved contradictions** from the "Current" and "Open questions" sections;
 - **repair the cross-references** to moved notes, and bring the index up to date;
-- **never touch the decision log or the prompt log.** Their value lies in keeping everything, reversals included. Nor the struck entries of `glosses.md`: a dead gloss is kept with its cause of death.
+- **never touch the decision log or the prompt logs** (`prompt-log.md`, `prompt-chores.md`). Their value lies in keeping everything, reversals included. Nor the struck entries of `glosses.md`: a dead gloss is kept with its cause of death.
 
 Nothing is lost: git keeps the history, and `archive/` keeps the memory of the reasoning. Say so to the user, or pruning will look like erasing.
 
@@ -103,7 +104,7 @@ Nothing is lost: git keeps the history, and `archive/` keeps the memory of the r
 
 - For a plain decision, add the line to the log.
 - **When the user changes their mind**, and only then, hunt through the corpus and the deliverables for everything this makes false, correct it, and then record the reversal in the log. **Correcting the note the reversal is about is not enough**: go through its relays — the index, the glossary, `author-intent.md`, the *Current* and *Open questions* sections of the other notes, `glosses.md` if there is one, and any deliverable already produced. That is where a reversal is missed, nearly every time.
-- **Never retrofit the logs.** A line in the decision log, and an entry in the prompt log, keep the names, paths and terms in use the day they were written. When a later rename makes them look wrong, they are not wrong: they are dated. A corpus-wide search-and-replace must exclude both logs. The whole value of these two files is that they record what was actually said, and when.
+- **Never retrofit the logs.** A line in the decision log, and an entry in either prompt log, keep the names, paths and terms in use the day they were written. When a later rename makes them look wrong, they are not wrong: they are dated. A corpus-wide search-and-replace must exclude both logs. The whole value of these two files is that they record what was actually said, and when.
 
 ## 6. Deliverables
 

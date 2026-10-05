@@ -15,7 +15,7 @@ We talk. Substance gets written down as notes. Every structural decision and eve
   - **`[opus-5 → ploki]`** — proposed by the agent, validated by ploki;
   - **`[S]`** a cited source · **`[Unverified]`** an unsourced fact;
   - **`[opus-5 as ploki]`** — decided by proxy, during a `metamaieutics` session.
-- Versioning: git, one commit per iteration, plus `prompt-log.md`, a clean rewrite of every author message, **newest first**.
+- Versioning: git, one commit per iteration, plus `prompt-log.md`, a clean rewrite of every author message, **newest first**; messages about the project's upkeep go to `prompt-chores.md` instead (#76).
 
 ## Layout
 | Directory | What's in it |
@@ -29,6 +29,7 @@ We talk. Substance gets written down as notes. Every structural decision and eve
 - `corpus/author-intent.md` — **read this first** on every resumption.
 - `corpus/decision-log.md`
 - `corpus/prompt-log.md`
+- `corpus/prompt-chores.md`
 
 ## Deliverables
 - `README.md` at the root — the shop window: tagline, the copyable install prompt, what the skill is for, the layout.
