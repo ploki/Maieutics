@@ -4,6 +4,7 @@ A clean, concise rewrite of every author message, losing nothing. **Newest first
 
 *This file records what the author said, when he said it. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+89. 2026-10-05 — On Q11 (note 09): both proposals (never push unless asked, written into the skill; commit author and message left to the host) change the current behaviour, which the author wants to keep.
 88. 2026-10-05 — Before answering Q11: wants the skill to be friendly to, and a total proxy for, users who do not know version control. Asked to clarify, settles for: current behaviour is good enough, and the agent can provide help.
 87. 2026-10-05 — On Q37/Q42 (note 09): proposal 3 yes — drop "structural", every decision and every change of mind gets a line; proposal 4 (defining the word) no.
 86. 2026-10-05 — On Q80 (note 09): proposal 2 no — actually, the author doesn't want the user to get bothered about the notes in the corpus; question 3 then n/a.

@@ -35,7 +35,7 @@ Status: **open** · answered · decided. Tied to the decision log by number once
 | Q38, Q45 | Will the agent rewrite a deliverable edited by hand; which wins, corpus or deliverable | decided — no fixed rule: `partus/` is a shared workspace; the user writes in it and says so, and the agent's reaction depends on the occasion (#81) |
 | Q80 | How the user knows a note was written | decided — the agent doesn't report on the notes; the user is not to be bothered with them (#82) |
 | Q37, Q42 | What counts as "structural"; is the reason for a reversal recorded (= C5) | decided — the reason is recorded (C5, #48); "structural" is dropped: every decision gets a line (#83) |
-| Q11 | Who authors commits, what they say, is anything pushed | open |
+| Q11 | Who authors commits, what they say, is anything pushed | decided — no change: the current behaviour is kept, nothing written (#84) |
 | Q10 | Changing the versioning option later | open |
 | Q65, Q73 | Interrupting a metamaieutics run; must the session stay open | open |
 | Q67 | Accepting or rejecting `[x as me]` decisions after handback | open |
