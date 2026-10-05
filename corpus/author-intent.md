@@ -14,10 +14,12 @@
 
 - **[opus-5]** The author tests claims rather than accepting them: asked for the state of the art on multilingual skills before committing to the directory plan, and diagnosed the banner's latency unaided.
 
-- **[ploki]** The skill should be "friendly (and a total proxy) to users that do not know version control" (2026-10-05, prompt #88); then: "current behavior is good enough and agent can provide help" — no change to the skill.
+- **[ploki]** The skill should be "friendly (and a total proxy) to users that do not know version control" (2026-10-05, prompt #88); then: "current behavior is good enough and agent can provide help" — no change at that point; decision #90 later applied it to metamaieutics' handback (the user runs no git).
 
-- **[opus-5.5]** The author dislikes having to untangle several questions at once (#83) and declines fixed rules where the occasion should decide (#85); the user is not to be burdened with the method's bookkeeping (#86, notes).
-- **[ploki]** "Q10 is over specifying" (prompt #90). **[opus-5.5]** With Q11 (#89), a pattern: the skill should not spell out what the agent can sensibly handle on request.
+- **[opus-5.5]** The author dislikes having to untangle several questions at once (prompt #83, decision #79) and declines fixed rules where the occasion should decide (prompt #85, decision #81); the user is not to be burdened with the method's bookkeeping (prompt #86, decision #82).
+- **[ploki]** "Q10 is over specifying" (prompt #90). **[opus-5.5]** With Q11 (prompt #89, decision #84), a pattern: the skill should not spell out what the agent can sensibly handle on request.
 
 ## History
 - 2026-10-03 — Project opened.
+- 2026-10-04 — Questions in prose confirmed (prompt #55); the file's purpose stated by ploki (prompt #56).
+- 2026-10-05 — Friendliness to users who don't know git; the author's dislike of over-specification and of tangled questions.

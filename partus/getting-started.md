@@ -37,7 +37,7 @@ The agent asks once, in plain conversation, how you want your work kept. git kee
 
 - **(a)** no git;
 - **(b)** git, with a commit at each exchange that changes files;
-- **(c)** the same, plus a **prompt log**: a short, faithful rewrite of each of your messages, newest first; those about the project's upkeep go in a log of their own.
+- **(c)** the same, plus a **prompt log**: a short, faithful rewrite of each of your messages that changes something, newest first; those about the project's upkeep go in a log of their own.
 
 If you're unsure, take the third. It costs you nothing, and it's the best record of how your thinking moved. If you choose git and the folder isn't a git repository yet, the agent runs `git init`.
 

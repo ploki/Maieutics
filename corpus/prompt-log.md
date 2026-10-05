@@ -1,9 +1,10 @@
 # Prompt log
 
-A clean, concise rewrite of every author message, losing nothing. **Newest first.**
+A clean, concise rewrite of every author message that modifies something else, losing nothing. **Newest first.** Messages about the project's upkeep go to `prompt-chores.md`.
 
 *This file records what the author said, when he said it. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+95. 2026-10-05 — After the consistency audit: make the plain corrections, then take A4.
 94. 2026-10-05 — Q40: alternative 6, close it.
 93. 2026-10-05 — On Q67: proposal 3 yes (after the handback, the agent goes through the decisions taken by proxy one at a time; validated → `[opus-5 → alice]`, rejected → reversed, left aside → unchanged). On 4: we should not demand the user to do git stuff.
 92. 2026-10-05 — One by one. Q65/Q73: close. Let's talk about Q67.

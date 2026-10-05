@@ -4,7 +4,7 @@
 - **[ploki]** Blind reading requested on `partus/getting-started.md` (GS) and `partus/guide.md` (G), 2026-10-03.
 - Stage 1: 81 questions, recorded below unaltered. Stage 2: graded against the skills and the corpus — **A 12 · P 39 · N 30**.
 - **[opus-5.5]** The main finding is not the gaps but **13 places where the pages misdescribe the skills** (C1–C13 below), mostly by overstating them. Several are inherited from the skill itself (C5, C8, C13).
-- **The follow-up list is closed** (2026-10-05, #80–#91). The other questions graded N or P in stage 2 have not been revisited.
+- **The follow-up list is closed** (2026-10-05, #80–#85, #88, #89, #91). The other questions graded N or P in stage 2 have not been revisited.
 - The blind reader also caught a bookkeeping error of the agent's: decision #45 written twice in the log, a stray copy after #39. Removed (decision #47).
 
 ## Follow-up list
@@ -40,7 +40,7 @@ Status: **open** · answered · decided. Tied to the decision log by number once
 | Q10 | Changing the versioning option later | decided — no change: over-specifying (#85) |
 | Q65, Q73 | Interrupting a metamaieutics run; must the session stay open | decided — closed, no change (#88) |
 | Q67 | Accepting or rejecting `[x as me]` decisions after handback | decided — the agent offers to go through them one at a time: validated → `[x → me]`, rejected → reversed, left aside → stays; a merge alone validates nothing (#89) |
-| Q60 | Exploration branch: finding the commit, rejoining | decided — no longer specified: branching is the user's discretion, and the agent knows git (#64) |
+| Q60 | Exploration branch: finding the commit, rejoining | decided — no longer specified: branching is the user's discretion, and the agent knows git (#64, corrected by #65) |
 | Q40 | How a log corrects its own errors — made concrete by the duplicate #45 | decided — closed, over-specifying; the practice (#60, #61) stays unwritten (#91) |
 
 ## Grades [opus-5.5, the same fresh agent, after reading the skills and the corpus]
@@ -74,8 +74,8 @@ A — answered · P — partially · N — not addressed. "absent from GS/G" mea
 | 24 | P | MS §1.2, §3 | Resumption needs an index, a log or the CLAUDE.md line |
 | 25 | A | 06 item 6 | Deliberate; undefined in the pages and the glossary |
 | 26 | P | 01, #6 | Why answered; telling apart not |
-| 27 | P | MS §2, 07, 00 | Open in note 07 |
-| 28 | P | 07 | Open in note 07 |
+| 27 | P | MS §2, 07, 00 | Open in note 07 — closed since (#70, #71) |
+| 28 | P | 07 | Open in note 07 — closed since (#70, #71) |
 | 29 | N | | |
 | 30 | N | | |
 | 31 | N | | Combined in practice (note 03) |
@@ -242,3 +242,4 @@ Q81. Both pages: neither says which Claude models or Claude Code versions the sk
 - 2026-10-03 — Stage 2 grading recorded; follow-up list drawn up.
 - 2026-10-04 — ploki settled C3, C5, C12 and C13 and asked for the page errors to be fixed (#48); C8 widened to the audits after #50. Q2 and Q37/Q42 brought in line with C1 and C5, and *piste* added to the glossary (Q25), after the audit of 2026-10-04.
 - 2026-10-04 — C8 and Q60 settled (#64). ↺ #64 had the agent run the blind reading, the audits and the devil's advocate unasked: the agent's own reading of ploki, which he rejected; reverted by #65. What stands: branching left to the user, and no "on request" heading.
+- 2026-10-05 — Follow-up list worked through and closed: Q29 (#80), Q38/Q45 (#81), Q80 (#82), Q37/Q42 (#83), Q11 (#84), Q10 (#85), Q65/Q73 (#88), Q67 (#89), Q40 (#91). Consistency audit of the same day: stale references corrected (#92).

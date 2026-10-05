@@ -92,6 +92,6 @@ Write it on the branch, commit it, then **return to the starting branch**. It co
 
 Then present the user with a summary of the report and the branch name. **They are the one who decides to merge, take part of it, or throw it away**: you merge nothing of your own accord, and you carry out what they decide.
 
-Then offer to **go through the decisions taken by proxy**, one at a time and numbered. What the user validates becomes `[x → user]`: you proposed it, even while speaking for them. What they reject is reversed, as any change of mind (maieutics §5). What they leave aside stays `[x as user]`. A merge alone validates nothing.
+Then offer to **go through the decisions taken by proxy**, one at a time and numbered. What the user validates becomes `[<agent id> → <user id>]`: you proposed it, even while speaking for them. What they reject is reversed, as any change of mind (maieutics §5). What they leave aside stays `[<agent id> as <user id>]`. A merge alone validates nothing.
 
 If you have learned something lasting about their expectations, offer to record it in memory.

@@ -17,7 +17,7 @@ partus/metamaieutics/
   SKILL.md                            the companion: running a project by proxy
 ```
 
-`maieutics` is the method; `metamaieutics` runs it **by proxy** — one agent writes a mandate, the author approves it, and a second agent then plays the author's part on a git branch, every exchange logged and committed. That is where the proxy marker — `[<agent id> as <user id>]` — comes from.
+`maieutics` is the method; `metamaieutics` runs it **by proxy** — one agent writes a mandate, the author approves it, then that agent plays the author's part on a git branch while a second agent applies the method, every exchange logged and committed. That is where the proxy marker — `[<agent id> as <user id>]` — comes from.
 
 **This repository is the source.** The copies under `partus/` are what gets worked on; the versions installed in `~/.claude/skills/` are never modified from here. They will drift, and that is expected — the author refreshes his installation when he chooses. See `corpus/04-decision-working-rule.md`.
 

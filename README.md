@@ -24,7 +24,7 @@ useful to me.
 
 That second half is not politeness. A skill is instructions your agent will follow, so you should want it read before it is installed. If what it reads back to you doesn't match what you wanted, don't install it.
 
-Then: **[Getting started](partus/getting-started.md)** walks you through your first session, and **[the guide](partus/guide.md)** covers everything the method can do and how to ask for it. Neither is required reading, but the guide is the only place that lists the tools you have to ask for.
+Then: **[Getting started](partus/getting-started.md)** walks you through your first session, and **[the guide](partus/guide.md)** covers everything the method can do and how to ask for it. Neither is required reading.
 
 ---
 
@@ -40,7 +40,7 @@ Maieutics turns the conversation into a corpus:
 | **Corpus** | Substance gets written into notes. Every note opens with what holds *today*, followed by the history of how you got there. |
 | **Decision log** | One line per decision, and why — and per reversal, marked `↺`, with what it replaces. When you change your mind, the agent hunts down everything that is now false and fixes it. |
 | **Deliverables** | Produced only when *you* judge the corpus good enough. |
-| **Blind review** | A fresh agent reads the deliverable without the corpus and draws up the questions it raises, then checks each against the corpus: answered, partly, or not at all. |
+| **Blind reading** | A fresh agent reads the deliverable without the corpus and draws up the questions it raises, then checks each against the corpus: answered, partly, or not at all. |
 
 Two rules do most of the work. **No charity**: an ambiguous sentence gets reformulated in one line and confirmed before it is written down, so the corpus says what you meant rather than what sounded best. And **the agent keeps track of who said what, by name** — your git id for you, its model name for itself, so that `[ploki]` and `[opus-5]` sit side by side in the notes. You can always tell your own thinking from your agent's suggestions, and a corpus with several contributors stays legible.
 
@@ -64,7 +64,7 @@ The method was first run for a full day on an unrelated project — building a h
 It is itself a Maieutics project, about the Maieutics skill — the method applied to its own making. `corpus/` is the working memory, `partus/` holds the two skills:
 
 - **`maieutics`** — the method, in English. The agent still talks to you in your own language.
-- **`metamaieutics`** — runs it by proxy: the agent drafts a mandate, you approve it, then another agent plays your part on a git branch, every exchange logged and committed.
+- **`metamaieutics`** — runs it by proxy: the agent drafts a mandate, you approve it, then it plays your part on a git branch while a second agent applies the method, every exchange logged and committed.
 
 So the repository contains both its own recipe and the record of its own cooking. Start with [`corpus/decision-log.md`](corpus/decision-log.md) if you want to see the method at work rather than described.
 

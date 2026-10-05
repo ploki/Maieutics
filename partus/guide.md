@@ -14,7 +14,7 @@ This page describes what you see and what you can say. What the agent itself is 
 7. [Deliverables](#7-deliverables)
 8. [The blind reading](#8-the-blind-reading)
 9. [Pruning](#9-pruning)
-10. [Tools you have to ask for](#10-tools-you-have-to-ask-for)
+10. [Other tools](#10-other-tools)
 11. [Running a project by proxy: metamaieutics](#11-running-a-project-by-proxy-metamaieutics)
 12. [Languages](#12-languages)
 13. [Things you can say](#13-things-you-can-say)
