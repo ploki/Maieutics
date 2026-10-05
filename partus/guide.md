@@ -28,6 +28,7 @@ This page describes what you see and what you can say. What the agent itself is 
 - **Questions in prose.** The agent asks in sentences, never through multiple-choice menus or question boxes.
 - **Numbered points.** Each observation, question and proposal in a reply is numbered, so you can answer by reference: "1 yes, 3 no".
 - **It talks before it writes.** Notes change only when something substantial appears. Replies are short.
+- **It doesn't bother you with the notes.** It doesn't report which notes it wrote or changed.
 - **It's frank.** Ask for its opinion and it gives one, with reservations. When it makes a mistake, it says so and corrects the corpus.
 
 If Claude Code's persistent memory is available, the agent also records there, on its own, what should outlive a session: how you like to work, your preferences, where the project stands. It doesn't copy what the corpus already holds.

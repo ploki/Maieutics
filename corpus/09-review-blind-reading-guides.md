@@ -33,7 +33,7 @@ Status: **open** · answered · decided. Tied to the decision log by number once
 | Q29 | How a proposal gets validated, `[opus-5]` → `[opus-5 → me]` | decided — a "yes" validates exactly the point asked; a general assent validates nothing; a batch only when named; a reworded line takes the user's marker alone (#80) |
 | Q2 | Plain speech or `/maieutics`? (= C1) | answered with C1 (#48) |
 | Q38, Q45 | Will the agent rewrite a deliverable edited by hand; which wins, corpus or deliverable | decided — no fixed rule: `partus/` is a shared workspace; the user writes in it and says so, and the agent's reaction depends on the occasion (#81) |
-| Q80 | How the user knows a note was written | open |
+| Q80 | How the user knows a note was written | decided — the agent doesn't report on the notes; the user is not to be bothered with them (#82) |
 | Q37, Q42 | What counts as "structural"; is the reason for a reversal recorded (= C5) | partly — the reason is recorded (C5, #48); what counts as structural is still open |
 | Q11 | Who authors commits, what they say, is anything pushed | open |
 | Q10 | Changing the versioning option later | open |
