@@ -8,7 +8,7 @@
 - **[ploki]** **The installation is refreshed by the agent, on request**, by copying `partus/maieutics/` and `partus/metamaieutics/` into `~/.claude/skills/`. `partus/` therefore holds the installable shape exactly (decisions #37, #39, #41).
 
 ## What this settles [opus-5]
-- **The source question is closed.** `partus/` is the original; the installation is a copy that will be refreshed by the author when he chooses, by his own means. The drift noted on 2026-10-03 is no longer a problem to manage but an expected state.
+- **The source question is closed.** `partus/` is the original; the installation is a copy that will be refreshed when the author chooses, by the author's own means — which may be the agent, on request (same sense as the line above; audit of 2026-10-05, A4). The drift noted on 2026-10-03 is no longer a problem to manage but an expected state.
 - **Two versions coexist during a session**, and that is deliberate: the installed one triggered the skill, the repository one governs how we go on. When they disagree, **the repository wins** — but only for the current session's conduct.
 - **A trap worth naming:** the running session loaded the *installed* `SKILL.md` into context at startup. The agent does not automatically see edits made to `partus/maieutics/SKILL.md` afterwards. Someone has to say so, or the agent has to re-read the file. **Re-read it before relying on it.**
 

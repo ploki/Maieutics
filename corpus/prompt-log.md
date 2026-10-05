@@ -4,6 +4,7 @@ A clean, concise rewrite of every author message that modifies something else, l
 
 *This file records what the author said, when he said it. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+96. 2026-10-05 — On A4. (1) Two cases: working on this very project, where the current behaviour is fine; and someone upgrading their own installation of the skill from the internet. For other users, the skill should help them upgrade, remind them to do so because it evolves, and tell them what's new in the new version by looking it up — for instance proposing to tell them what's new in the SKILL.md. (2) Both lines meant the same thing: "by his own means" may be by way of the agent. (4) Fix the pronouns.
 95. 2026-10-05 — After the consistency audit: make the plain corrections, then take A4.
 94. 2026-10-05 — Q40: alternative 6, close it.
 93. 2026-10-05 — On Q67: proposal 3 yes (after the handback, the agent goes through the decisions taken by proxy one at a time; validated → `[opus-5 → alice]`, rejected → reversed, left aside → unchanged). On 4: we should not demand the user to do git stuff.
