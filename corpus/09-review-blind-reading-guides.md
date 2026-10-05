@@ -4,6 +4,7 @@
 - **[ploki]** Blind reading requested on `partus/getting-started.md` (GS) and `partus/guide.md` (G), 2026-10-03.
 - Stage 1: 81 questions, recorded below unaltered. Stage 2: graded against the skills and the corpus — **A 12 · P 39 · N 30**.
 - **[opus-5.5]** The main finding is not the gaps but **13 places where the pages misdescribe the skills** (C1–C13 below), mostly by overstating them. Several are inherited from the skill itself (C5, C8, C13).
+- **The follow-up list is closed** (2026-10-05, #80–#91). The other questions graded N or P in stage 2 have not been revisited.
 - The blind reader also caught a bookkeeping error of the agent's: decision #45 written twice in the log, a stray copy after #39. Removed (decision #47).
 
 ## Follow-up list
@@ -40,7 +41,7 @@ Status: **open** · answered · decided. Tied to the decision log by number once
 | Q65, Q73 | Interrupting a metamaieutics run; must the session stay open | decided — closed, no change (#88) |
 | Q67 | Accepting or rejecting `[x as me]` decisions after handback | decided — the agent offers to go through them one at a time: validated → `[x → me]`, rejected → reversed, left aside → stays; a merge alone validates nothing (#89) |
 | Q60 | Exploration branch: finding the commit, rejoining | decided — no longer specified: branching is the user's discretion, and the agent knows git (#64) |
-| Q40 | How a log corrects its own errors — made concrete by the duplicate #45 | open |
+| Q40 | How a log corrects its own errors — made concrete by the duplicate #45 | decided — closed, over-specifying; the practice (#60, #61) stays unwritten (#91) |
 
 ## Grades [opus-5.5, the same fresh agent, after reading the skills and the corpus]
 A — answered · P — partially · N — not addressed. "absent from GS/G" means the skill answers it but the pages don't say.
