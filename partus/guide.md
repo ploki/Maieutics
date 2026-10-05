@@ -79,7 +79,7 @@ Claims in the notes carry a marker saying who made them. A corpus can have sever
 | **[Unverified]** | an unsourced fact |
 | **[opus-5 as alice]** | decided by proxy on Alice's behalf, during a `metamaieutics` session (§11) |
 
-- **You** are identified by your git handle on the remote. Failing that, by your git name (`git config user.name`). Failing that, by your first name, or the agent asks once.
+- **You** are identified by your git name (`git config user.name`), matched against a **roster** in the index: one line per contributor, with their marker and their handle if known. Your marker is your handle when the roster has one. If you're not on the roster, the agent asks once and adds you. Several people can work on the same corpus this way.
 - **Validating.** A "yes" validates exactly the point you were asked about; a general "fine, go on" validates nothing. To validate several lines at once, name them: *"I validate all of note 07."* If you change the agent's wording before agreeing, the line takes your wording and your marker alone.
 - **The agent** is identified by its short model name, not "Claude"; the index gives its exact model ID. The corpus will outlive the model, and a reader in two years will want to know which one thought this.
 

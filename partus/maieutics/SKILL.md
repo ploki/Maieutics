@@ -42,10 +42,10 @@ Answer in the user's language. **The corpus's structure stays in English, whatev
 - **Be frank.** When the user asks for your opinion, give it, reservations included. Flag your own mistakes and correct them in the corpus.
 - **Check your own batches.** When one change touches many files, or is made with a script, re-read the result and count: did every file change, did every entry get written? A script that fails halfway leaves a corpus that is wrong in silence, and nobody is looking.
 - **Keep track of who said what** in the notes, **by name**. A corpus can have several contributors, human and not, and the point is to know whose idea a thing was.
-  - **Identify the human** by their **git handle** — the one in the remote, short and public. Failing that, by `git config user.name`. Failing that, by their first name if you know it. Failing that, ask once and record it in the index.
+  - **Identify the human** from the **local git identity** (`git config user.name`), which names whoever is at the keyboard, and match it against the **roster** in the index: one line per contributor, with their marker, their git name and their handle if known. The marker is their **handle** when the roster has one — short and public — otherwise their git name or first name. Take a handle from the remote only when it is clearly the current user's own: in a shared repository the remote names its owner. No match: ask once, and add a line to the roster.
   - **Identify yourself** by your **model name** — today, for instance, `opus-5`. Not "Claude": the corpus will outlive the model, and a reader in two years will want to know which one thought this.
   - **Never attribute to the user what you inferred, reformulated or completed.** When in doubt the line is yours: mark it with your own id and ask.
-  - Markers carry your **short** model name; record both identities in the index, under the conventions, with your **exact model ID** beside the short name, so that a reader knows who the markers stand for.
+  - Markers carry your **short** model name; record yourself in the roster too, with your **exact model ID** beside the short name, so that a reader knows who the markers stand for.
 
   | Marker | Means |
   |---|---|

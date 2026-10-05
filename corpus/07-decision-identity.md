@@ -2,9 +2,11 @@
 
 ## Current
 - **[ploki]** The user should be **identified by their git id**; failing that, by their first name if the agent knows it.
-- **[opus-5]** Failing both, ask once and record the answer in the index.
+- **[opus-5.5 → ploki]** **A roster in the index**, one line per contributor: marker, git name, handle if known. The human is identified by the **local git identity** (`git config user.name`), matched against the roster; the marker is the handle when known. The remote's handle is used only when it is clearly the current user's — in a shared repository it names the owner. No match: ask once and add a line (decision #100).
+  - ↺ *Until 2026-10-05: "Failing both, ask once and record the answer in the index" [opus-5], never validated as such; now per person, in the roster.*
 - **[opus-5.5 → ploki]** **The agent's short model name** in markers (`opus-5.5`); its exact model ID is recorded once, in the index (decision #71).
-- **[opus-5.5 → ploki]** **The handle first**, then `git config user.name`: short, stable and already public, and it keeps markers readable (decision #70).
+- **[opus-5.5 → ploki]** **The handle** is what the marker shows, when known: short, stable, public, readable (decision #70).
+  - ↺ *#70 took the handle from the remote first. In a multi-user repository the remote names the owner, not the person typing; superseded by #100.*
 - **[ploki]** **The agent identifies itself too** — today, by its **model name**.
 - **[ploki]** The reason: **a repository with several philosophers would need this. We want to track whose ideas are whose.**
 
@@ -33,3 +35,4 @@
 - 2026-10-03 — Pruned: the fallback when no id can be found, settled in the skill, removed from the open questions.
 - 2026-10-04 — ploki: the handle first, then the git name (#70); the question leaves the open questions.
 - 2026-10-04 — ploki: the short model name in markers, the exact ID in the index (#71). No open questions left.
+- 2026-10-05 — Multi-user check (audit C5): the remote's handle misattributes in a shared repository. ↺ #70 in part: identity from the local git config, matched against a roster in the index (#100).
