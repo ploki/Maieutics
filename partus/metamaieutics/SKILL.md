@@ -48,9 +48,9 @@ Draft it from the brief or, for an existing project, **from `author-intent.md` f
 1. Create the branch **`metamaieutics/<subject>-<YYYY-MM-DD>`** from the current one, or pick it up if it already exists. Note the name of the starting branch; it will be needed at handback.
    - **If another session keeps working in the main folder**, use a **worktree**: `git worktree add ../<folder>-meta -b <branch>`. The branch is then checked out in a separate folder and the two sessions do not tread on each other. Run the metamaieutics session in that folder. **Careful**: Claude's memory depends on the folder path. Copy the project's memory across to the new folder, or remind the agent to read the intent file, the index, the log and the glossary.
    - To come back at the end there is no need to switch branch inside the worktree: you merge from the main folder once the user has decided, then remove the worktree (`git worktree remove`).
-2. Commit `mandate.md` on that branch. The run logs in the **project's own logs**, `corpus/prompt-log.md` and `corpus/prompt-chores.md`; create them only if the project has none.
+2. Commit `mandate.md` on that branch. The run logs in the **project's own logs**, `corpus/prompt-log.md` and `corpus/prompt-chores.md`.
 3. Launch a **fresh agent** (a general-purpose one) with these instructions:
-   - read and apply `~/.claude/skills/maieutics/SKILL.md` in this folder. It must **not** display the banner or ask the versioning question: the orchestrator handles git;
+   - read and apply `~/.claude/skills/maieutics/SKILL.md` in this folder. It must **not** display the banner, check for a newer version or ask the versioning question: the orchestrator handles git;
    - read `mandate.md`, `author-intent.md` and, for an existing project, the index, the log and the notes;
    - **never commit, change branch, publish, or send anything outside**;
    - mark every decision taken on your proxy answer as **by proxy** — `[<agent id> as <user id>]` — in the notes and in the log, never as the user's own;
@@ -66,7 +66,7 @@ At each turn of the agent:
    - **do not be compliant**: push back, ask for precision, refuse whatever strays from the mandate. The dialogue must remain a real maieutic;
    - apply the rule for questions outside the mandate. Keep the list of proxy decisions and of questions left open;
    - drive the work towards the objectives. Suggest the blind reading when a deliverable has been written, and a consistency audit after a major reversal and before the handback — on a run this long, nothing else will catch what the agent got wrong.
-3. **Log in the project's `prompt-log.md`** — or in `prompt-chores.md` for a chore — a clean, concise rewrite of your message, losing nothing, with the iteration number and the marker `[<agent id> as <user id>]`, so that it never passes for the user's own words. Newest first. **Every message is logged, even one that changes no file** — an exception to maieutics' rule: here the log is the trace of how you represented the user, and a refusal or a push-back is what they will want to see.
+3. **Log in the project's `prompt-log.md`** — or in `prompt-chores.md` for a chore — a clean, concise rewrite of your message, losing nothing, numbered as the log's next entry, with the iteration number inside it and the marker `[<agent id> as <user id>]`, so that it never passes for the user's own words. Newest first. **Every message is logged, even one that changes no file** — an exception to maieutics' rule: here the log is the trace of how you represented the user, and a refusal or a push-back is what they will want to see.
 4. **Commit**: `git add -A && git commit -m "metamaieutics: iteration N — <summary>"`.
 5. **Send your message to the agent** (with SendMessage) and wait for its next turn.
 

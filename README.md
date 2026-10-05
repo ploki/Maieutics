@@ -42,7 +42,7 @@ Maieutics turns the conversation into a corpus:
 | **Deliverables** | Produced only when *you* judge the corpus good enough. |
 | **Blind reading** | A fresh agent reads the deliverable without the corpus and draws up the questions it raises, then checks each against the corpus: answered, partly, or not at all. |
 
-Two rules do most of the work. **No charity**: an ambiguous sentence gets reformulated in one line and confirmed before it is written down, so the corpus says what you meant rather than what sounded best. And **the agent keeps track of who said what, by name** — your git id for you, its model name for itself, so that `[ploki]` and `[opus-5]` sit side by side in the notes. You can always tell your own thinking from your agent's suggestions, and a corpus with several contributors stays legible.
+Two rules do most of the work. **No charity**: an ambiguous sentence gets reformulated in one line and confirmed before it is written down, so the corpus says what you meant rather than what sounded best. And **the agent keeps track of who said what, by name** — your handle or git name for you, from a roster in the index, its model name for itself, so that `[ploki]` and `[opus-5]` sit side by side in the notes. You can always tell your own thinking from your agent's suggestions, and a corpus with several contributors stays legible.
 
 ## What it looks like after a day
 

@@ -2,8 +2,9 @@
 
 A clean, concise rewrite of every author message that modifies something else, losing nothing. **Newest first.** Messages about the project's upkeep go to `prompt-chores.md`.
 
-*This file records what the author said, when he said it. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
+*This file records what the author said, and when. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+104. 2026-10-05 — On the second pass: 6 ok (proxy entries take the log's next number, the iteration inside; maieutics names the exception); 7 ok (the run's agent skips the version check); 8, leave it undefined, the model will choose at the moment; 9, doesn't understand; 10, fix it (the remaining "he").
 103. 2026-10-05 — Audit C5: tell me if it would work in a multi-user repository. Then: proposal 5 yes (identity from the local git config, matched against a roster in the index; handle as marker when known; remote's handle only when clearly the user's; no match, ask once and add a line); likes the roster idea.
 102. 2026-10-05 — Audit C3: no, the home path in note 11 is fine. Audit C4: proposal 2 yes — a metamaieutics run logs in the project's own prompt log and prompt chores, created only if missing.
 101. 2026-10-05 — Audit C2: all yes — the seven rules the Opus 5 session put into the skill (#50–#55, #57/#58) are validated; the skill does not change. Then show, for each rule, the skill's sentence that carries it.

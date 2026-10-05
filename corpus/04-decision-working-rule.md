@@ -22,3 +22,4 @@
 ## History
 - 2026-10-03 — Rule stated by the author.
 - 2026-10-03 — Pruned: the two questions on how the installation is refreshed, answered by practice, moved into Current.
+- 2026-10-05 — The agent's line on how the installation is refreshed reworded: it means the same as the author's — the author chooses when, by their own means, which may be the agent (#93).

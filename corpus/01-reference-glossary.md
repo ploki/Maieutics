@@ -16,3 +16,4 @@
 ## History
 - 2026-10-03 — Created.
 - 2026-10-04 — *Piste*, gloss, relay and audit added after the audit of 2026-10-04.
+- 2026-10-05 — *Roster* added (#100).

@@ -69,8 +69,8 @@
 - None at present.
 
 ## History
-- 2026-10-04 — Numbering gaps in both logs: ploki puts the count into §8's exhaustivity audit (#69). No open questions left.
-- 2026-10-04 — Whether the audits are offered at named moments leaves the open questions here: §8 has offered them since #50. ↺ *#64 briefly had them run unasked; reverted by #65.*
-- 2026-10-04 — The *éclairages* question of lesson 1 is instructed in note 11 and retained; it leaves the open questions here.
 - 2026-10-04 — Note opened: seven failures observed in a real one-day project, instructed against the state of the skill; decisions #50–#55 carried the mature ones into `partus/maieutics/SKILL.md`.
+- 2026-10-04 — The *éclairages* question of lesson 1 is instructed in note 11 and retained; it leaves the open questions here.
+- 2026-10-04 — Whether the audits are offered at named moments leaves the open questions here: §8 has offered them since #50. ↺ *#64 briefly had them run unasked; reverted by #65.*
+- 2026-10-04 — Numbering gaps in both logs: ploki puts the count into §8's exhaustivity audit (#69). No open questions left.
 - 2026-10-05 — The seven "What it should say" lines validated by ploki, all at once (#98).

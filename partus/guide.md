@@ -31,6 +31,8 @@ This page describes what you see and what you can say. What the agent itself is 
 - **It doesn't bother you with the notes.** It doesn't report which notes it wrote or changed.
 - **It's frank.** Ask for its opinion and it gives one, with reservations. When it makes a mistake, it says so and corrects the corpus.
 
+**New versions.** The skill evolves. Each time it loads, the agent compares your installed copy with the published one. If they differ, it tells you, offers to say what's new in plain words, and offers to upgrade both skills.
+
 If Claude Code's persistent memory is available, the agent also records there, on its own, what should outlive a session: how you like to work, your preferences, where the project stands. It doesn't copy what the corpus already holds.
 
 If it drifts away from any of this, say so. That's a fair correction.
@@ -165,8 +167,6 @@ The agent won't run these without you. It may suggest them; you can ask at any t
 **Branches.** When to branch, and the rest of the git dance, is up to you. Ask in your own words; the agent knows how.
 
 **Breaking changes.** Some changes are worth doing with git — a commit first, or a branch — because they touch everything at once. Upgrading a project to a newer version of the skill is the typical case: its markers, file names or rules may have changed since the project began. Just ask for it; Claude knows how to handle it with git. Before upgrading a project, the agent asks whether you want to upgrade the skill installed on your machine first.
-
-**New versions.** The skill evolves. Each time it loads, the agent compares your installed copy with the published one. If they differ, it tells you, offers to say what's new in plain words, and offers to upgrade both skills.
 
 
 ## 11. Running a project by proxy: metamaieutics

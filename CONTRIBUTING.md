@@ -12,7 +12,7 @@ What is wanted is everything else: corrections, sharper wording, steps that turn
 
 **Say which project, and show the log.** `decision-log.md` from the project where you tried it is the evidence. It shows what the change did over a whole conversation: what got decided, what got reversed, what the agent caught and what it missed. This is a requirement no ordinary repository can make of its contributors, and it is the one that matters most here.
 
-**Keep the two logs untouched.** The decision log and the prompt log are never retrofitted. If your change renames something, the old entries keep the old names: they are dated, not wrong.
+**Keep the logs untouched.** The decision log and the prompt logs (`prompt-log.md`, `prompt-chores.md`) are never retrofitted. If your change renames something, the old entries keep the old names: they are dated, not wrong.
 
 ## How
 

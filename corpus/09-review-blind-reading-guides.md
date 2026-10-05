@@ -75,7 +75,7 @@ A — answered · P — partially · N — not addressed. "absent from GS/G" mea
 | 25 | A | 06 item 6 | Deliberate; undefined in the pages and the glossary |
 | 26 | P | 01, #6 | Why answered; telling apart not |
 | 27 | P | MS §2, 07, 00 | Open in note 07 — closed since (#70, #71) |
-| 28 | P | 07 | Open in note 07 — closed since (#70, #71) |
+| 28 | P | 07 | Open in note 07 — closed since (#70, #71; the remote's handle superseded by the roster, #100) |
 | 29 | N | | |
 | 30 | N | | |
 | 31 | N | | Combined in practice (note 03) |
@@ -241,5 +241,5 @@ Q81. Both pages: neither says which Claude models or Claude Code versions the sk
 - 2026-10-03 — Opened; stage 1 questions recorded unaltered.
 - 2026-10-03 — Stage 2 grading recorded; follow-up list drawn up.
 - 2026-10-04 — ploki settled C3, C5, C12 and C13 and asked for the page errors to be fixed (#48); C8 widened to the audits after #50. Q2 and Q37/Q42 brought in line with C1 and C5, and *piste* added to the glossary (Q25), after the audit of 2026-10-04.
-- 2026-10-04 — C8 and Q60 settled (#64). ↺ #64 had the agent run the blind reading, the audits and the devil's advocate unasked: the agent's own reading of ploki, which he rejected; reverted by #65. What stands: branching left to the user, and no "on request" heading.
+- 2026-10-04 — C8 and Q60 settled (#64). ↺ #64 had the agent run the blind reading, the audits and the devil's advocate unasked: the agent's own reading of ploki, which ploki rejected; reverted by #65. What stands: branching left to the user, and no "on request" heading.
 - 2026-10-05 — Follow-up list worked through and closed: Q29 (#80), Q38/Q45 (#81), Q80 (#82), Q37/Q42 (#83), Q11 (#84), Q10 (#85), Q65/Q73 (#88), Q67 (#89), Q40 (#91). Consistency audit of the same day: stale references corrected (#92).
