@@ -24,8 +24,10 @@
   - **[opus-5.5]** Getting started covers `maieutics` only; the guide gives `metamaieutics` a section of its own. *Proposed, not yet validated.*
   - **[opus-5.5]** They sit at the top of `partus/`, outside the skill directories, so installing a skill doesn't copy them.
 
+- **[ploki]** **One install prompt only**: no second, shorter prompt for users who already trust the repository (decision #86).
+
 ## Open questions
-- Whether to offer a second, shorter prompt for users who already trust the repository.
+- None at present.
 
 ## History
 - 2026-10-03 — Opened; the author specified the invitation and its wording.
@@ -33,3 +35,4 @@
 - 2026-10-03 — Getting started and the guide written, on ploki's request.
 - 2026-10-04 — Open question on a second, shorter prompt: ploki unsure, left open. The prompt goes plural so that both skills are installed and vetted (#72).
 - 2026-10-04 — ploki closes the question of naming the file in the prompt: it is not named (#73).
+- 2026-10-05 — Second, shorter prompt: no (#86).
