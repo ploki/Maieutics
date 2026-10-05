@@ -166,6 +166,8 @@ The agent won't run these without you. It may suggest them; you can ask at any t
 
 **Breaking changes.** Some changes are worth doing with git — a commit first, or a branch — because they touch everything at once. Upgrading a project to a newer version of the skill is the typical case: its markers, file names or rules may have changed since the project began. Just ask for it; Claude knows how to handle it with git. Before upgrading a project, the agent asks whether you want to upgrade the skill installed on your machine first.
 
+**New versions.** The skill evolves. Each time it loads, the agent compares your installed copy with the published one. If they differ, it tells you, offers to say what's new in plain words, and offers to upgrade both skills.
+
 
 ## 11. Running a project by proxy: metamaieutics
 
