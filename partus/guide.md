@@ -27,6 +27,7 @@ This page describes what you see and what you can say. What the agent itself is 
 - **No principle of charity.** If something you say is ambiguous (a vague word, a negation that could go either way, a name that could mean two things), the agent rephrases it in one line and asks you to confirm. It does not pick the likeliest meaning and move on. It also keeps a glossary as soon as the project has terms of its own.
 - **Questions in prose.** The agent asks in sentences, never through multiple-choice menus or question boxes.
 - **Numbered points.** Each observation, question and proposal in a reply is numbered, so you can answer by reference: "1 yes, 3 no".
+- **Plain words, not internal labels.** Each point says what it is about — the decision, the scene, the question — never just its number in the corpus or an audit code. A word coined in the corpus comes with a short explanation the first time. If something slips through, ask "what's that?".
 - **It talks before it writes.** Notes change only when something substantial appears. Replies are short.
 - **It doesn't bother you with the notes.** It doesn't report which notes it wrote or changed.
 - **It's frank.** Ask for its opinion and it gives one, with reservations. When it makes a mistake, it says so and corrects the corpus.

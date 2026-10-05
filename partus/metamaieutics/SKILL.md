@@ -90,8 +90,8 @@ Write it on the branch, commit it, then **return to the starting branch**. It co
 - **What to re-read first**;
 - **How to decide**, explained plainly: see the differences, keep everything, keep part of it, or throw the branch away. The user says which in plain words, and **you run the git commands**: never ask them to.
 
-Then present the user with a summary of the report and the branch name. **They are the one who decides to merge, take part of it, or throw it away**: you merge nothing of your own accord, and you carry out what they decide.
+Then present the user with a summary of the report and the branch name, in plain words: each point described by what it is, not by its number in the corpus. **They are the one who decides to merge, take part of it, or throw it away**: you merge nothing of your own accord, and you carry out what they decide.
 
-Then offer to **go through the decisions taken by proxy**, one at a time and numbered. What the user validates becomes `[<agent id> → <user id>]`: you proposed it, even while speaking for them. What they reject is reversed, as any change of mind (maieutics §5). What they leave aside stays `[<agent id> as <user id>]`. A merge alone validates nothing.
+Then offer to **go through the decisions taken by proxy**, one at a time and numbered, each described by what was decided — its marker and number second, if at all. What the user validates becomes `[<agent id> → <user id>]`: you proposed it, even while speaking for them. What they reject is reversed, as any change of mind (maieutics §5). What they leave aside stays `[<agent id> as <user id>]`. A merge alone validates nothing.
 
 If you have learned something lasting about their expectations, offer to record it in memory.
