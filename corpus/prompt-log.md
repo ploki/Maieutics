@@ -4,6 +4,7 @@ A clean, concise rewrite of every author message that modifies something else, l
 
 *This file records what the author said, and when. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+116. 2026-10-06 — "Sync" — asked which was meant, *memento* ("ahah! memento").
 115. 2026-10-06 — Asked whether to specify that addressing agora means addressing the skill for the hub; the way it is said: "hey agora, what was I doing yesterday night?". Then: say that when the user talks to agora, they talk to their own hub, from anywhere, in any context; when the skill is not loaded, the agent should first offer to load it.
 114. 2026-10-06 — On memento: (1) whether it saves what was said off the record, leave it unspecified; (2) whether the agent reports what it saved, leave it unspecified — "I'm sure you'll do your report".
 113. 2026-10-06 — Sometimes feels the need for a safe word that makes the agent write down what isn't written yet — its observations, ideas, anything bearing on the project — so that if the session is lost, everything is kept. Proposed "sync"; asked for Greek and Latin words; go with *memento*.

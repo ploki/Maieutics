@@ -20,6 +20,11 @@
 - **[ploki]** "Q10 is over specifying" (prompt #90). **[opus-5.5]** With Q11 (prompt #89, decision #84), a pattern: the skill should not spell out what the agent can sensibly handle on request.
 - **[opus-5.5]** Again goes to the source rather than adopt one rule from it: a contents-list check, taken from Anthropic's guidance, withdrawn for a review against the guidance as a whole (2026-10-06, prompt #109).
 - **[ploki]** Wants a word that makes the agent write down what is not yet written — its observations, ideas, anything bearing on the project — "so I could consider that if the session is lost everything is kept" (2026-10-06, prompt #113).
+- **[opus-5.5]** The pattern against over-specification holds and widens: on *memento*'s details, "let it unspecified … I'm sure you'll do your report" (#114) — the author trusts the agent's judgement in the moment over a written rule.
+- **[ploki]** Sometimes works **off the record**: no log entries, no commits, no note changes, the method paused while the agent keeps knowing it (2026-10-06). Only what the author then chose to log came out of it.
+  - **[opus-5.5]** Not validated, an idea: the skill knows nothing of this mode. Without commits git no longer protects the work — an untracked file overwritten off the record is gone. Whether the skill should name the mode, or leave it to the agent as with #114, is open.
+- **[opus-5.5]** Speaks to agora as to someone — "hey agora" — not only of it as a place. The hub is becoming an interlocutor.
+- **[opus-5.5]** Said "sync" again after choosing *memento*: the word comes naturally. The agent asked rather than read it as git; the author laughed and meant *memento*. Worth watching whether "sync" keeps coming back.
 
 ## History
 - 2026-10-03 — Project opened.
@@ -27,3 +32,4 @@
 - 2026-10-05 — Friendliness to users who don't know git; the author's dislike of over-specification and of tangled questions.
 - 2026-10-06 — Review against Anthropic's authoring guidance, asked for in place of a single rule from it.
 - 2026-10-06 — Wants nothing lost if a session is: *memento*.
+- 2026-10-06 — Off-the-record working; agora as an interlocutor; "sync" for *memento* (memento).

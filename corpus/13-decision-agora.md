@@ -12,7 +12,7 @@
 - **[ploki]** **Talking to agora is talking to one's own hub**, from anywhere, in any context — "hey agora, what was I doing yesterday night?". If the skill is not loaded, the agent first offers to load it; that instruction lives in the pointer in the user's global instructions, since an unloaded skill cannot say it (#115).
 
 ## Open questions
-- None at present.
+- **[opus-5.5]** The version check offers to upgrade the three skills; what it does for a user who has maieutics and metamaieutics installed but not agora is unwritten, left to the agent for now. Raised on 2026-10-06, not answered.
 
 ## History
 - 2026-10-06 — First draft put in `partus/agora/` (prompt #110); built after a successful experiment, judged general enough to belong; announced in the repository's pages (#109, #110).
