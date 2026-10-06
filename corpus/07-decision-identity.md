@@ -28,7 +28,7 @@
 - **And it exposes a question the letters hid**: when nobody validates an agent's proposal, it stays in that agent's name forever. The corpus therefore shows, at a glance, how much of itself nobody has signed.
 
 ## Open questions
-- None at present.
+- **[opus-5.5]** One person, two markers: in agora's first real run the user asked to be called `ggim` in their agora, while this project's roster, from the same git name, marks them `ploki`. Each project matches the git name against its own roster, so nothing in the skill prevents it, and nothing says whether it should be avoided. Raised on 2026-10-06, not answered (memento).
 
 ## History
 - 2026-10-03 — Scheme introduced by the author; markers rewritten across the whole corpus.

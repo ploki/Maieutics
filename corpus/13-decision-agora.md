@@ -22,6 +22,10 @@
   - arriving in a project that is itself a maieutics project: a full load (banner, version check), or something lighter? In the run, a resumption without banner or check;
   - an empty agora: going out at once, so that the first worklog line shows what agora is for, worked in the run — one sentence in the draft, as a possible first step?
   - the worklog's times carry no time zone; lines written from different places would not line up.
+- **[opus-5.5]** Raised by #118, not yet put to ploki (memento):
+  - **an agora wired before #118** carries a `CLAUDE.md` line saying "maieutics hub" and a global pointer speaking of "the hub"; the new triggers ("this folder is agora", "back to agora") no longer match them. The user's own agora is in that state. Does the skill say anything about bringing an old wiring in line, or is it left to the agent?
+  - **"no trace" and this corpus.** This repository now names the user's own agora folder (here and in #116) as the occasion of a decision. It is a mention, not a dependency — the project stays usable without it — but it is the first time the agora shows up in a place visited.
+  - **the installed copy** in `~/.claude/skills/agora/` still says "hub"; refreshing it waits for ploki (note 04).
 
 ## History
 - 2026-10-06 — First draft put in `partus/agora/` (prompt #110); built after a successful experiment, judged general enough to belong; announced in the repository's pages (#109, #110).
