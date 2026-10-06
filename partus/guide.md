@@ -205,6 +205,8 @@ If another session is still working in the same folder, Claude can run the branc
 - **Coming back.** The agent writes the time you returned and the broad lines of what happened. Whatever you want the hub to keep from the outing goes into its notes, like anything else in maieutics.
 - **Getting in.** If a previous outing never came back, the agent asks you what happened, or reconstructs it from the other project's history and marks the reconstruction as its own.
 
+**Talking to agora.** When you talk to agora — *"hey agora, what was I doing last night?"* — you talk to your own hub, from anywhere, in any context. If the skill isn't loaded, the agent first offers to load it.
+
 What the hub is about is up to you, and is discovered there, as in any maieutics project. With your agreement, the agent can add a pointer to your global instructions so that *"back to the hub"* works from anywhere.
 
 ## 13. Languages
@@ -237,3 +239,4 @@ None of these are commands. Plain speech works, and these are just examples.
 | fix the banner on a light terminal | *"My terminal is light."* |
 | hand the work over | `/metamaieutics` |
 | start or return to your hub | `/agora`, or *"Back to the hub."* |
+| ask your hub something, from anywhere | *"Hey agora, what was I doing last night?"* |

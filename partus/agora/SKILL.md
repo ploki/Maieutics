@@ -1,6 +1,6 @@
 ---
 name: agora
-description: Runs a maieutics hub — the project every session starts from and returns to. Logs each departure to another project and each return, with the time and the broad lines of what happened there. Builds on the maieutics skill. Use when the user types /agora, says "let's go to the hub" or "back to the hub", or when a CLAUDE.md states "this folder is a maieutics hub".
+description: Runs a maieutics hub — the project every session starts from and returns to. Logs each departure to another project and each return, with the time and the broad lines of what happened there. Builds on the maieutics skill. Use when the user types /agora, says "let's go to the hub" or "back to the hub", addresses agora by name ("hey agora…"), or when a CLAUDE.md states "this folder is a maieutics hub".
 ---
 
 # Agora
@@ -12,7 +12,10 @@ A hub is a maieutics project that sessions start from and return to. Follow `mai
 ## Getting in
 - Open or resume as in `maieutics`.
 - Close what was left open: a departure with no return means the last session never came back. Ask the user, or reconstruct from the other place's own history, mark the reconstruction as yours, and close the line.
-- With the user's agreement, wire the hub once: a line in its `CLAUDE.md` ("This folder is a maieutics hub (skill `agora`). Read `corpus/author-intent.md` first."), and a pointer in the user's global instructions so that their own words for "back to the hub" work from anywhere.
+- With the user's agreement, wire the hub once: a line in its `CLAUDE.md` ("This folder is a maieutics hub (skill `agora`). Read `corpus/author-intent.md` first."), and a pointer in the user's global instructions so that their own words for "back to the hub" work from anywhere. The pointer also says that talking to agora is talking to the hub, and that if this skill is not loaded, the agent first offers to load it.
+
+## Talking to agora
+When the user talks to agora, they talk to their own hub — from anywhere, in any context.
 
 ## Going out
 Add a line to `corpus/worklog.md`, newest first: the start time **read from the system clock**, never estimated; where; why, in a few words. Commit the hub if it is versioned.

@@ -9,6 +9,7 @@
 
 - **[opus-5.5 → ploki]** The version check in maieutics §1 covers agora too: the three skills are fetched, compared and offered for upgrade together (#111).
 - **[opus-5.5]** proposed writing up the successful experiment, as note 10 does for the hard-SF project; **[ploki]** no (#112).
+- **[ploki]** **Talking to agora is talking to one's own hub**, from anywhere, in any context — "hey agora, what was I doing yesterday night?". If the skill is not loaded, the agent first offers to load it; that instruction lives in the pointer in the user's global instructions, since an unloaded skill cannot say it (#115).
 
 ## Open questions
 - None at present.
@@ -16,3 +17,4 @@
 ## History
 - 2026-10-06 — First draft put in `partus/agora/` (prompt #110); built after a successful experiment, judged general enough to belong; announced in the repository's pages (#109, #110).
 - 2026-10-06 — The version check covers agora (#111); the experiment not written up (#112).
+- 2026-10-06 — Talking to agora is talking to the hub (#115).
