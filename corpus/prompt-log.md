@@ -4,6 +4,7 @@ A clean, concise rewrite of every author message that modifies something else, l
 
 *This file records what the author said, and when. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+110. 2026-10-06 — Put a first draft of the agora skill in `partus/agora/`.
 109. 2026-10-06 — Proposed a sanity check: in the skills, any reference file over 100 lines gets a Contents list matching its headings. Then: forget it, look at Anthropic's guidance instead. On the review: 2 yes (metamaieutics' path to the maieutics skill), 4 yes (no "today" in the model-name example), 5 yes ("buste" → "bust"); record the others.
 108. 2026-10-05 — Plan: points 1 to 7 yes, 8 too.
 107. 2026-10-05 — Keep the numbers. Craft a plan to mitigate this issue in the skill.
