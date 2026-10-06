@@ -4,6 +4,7 @@ A clean, concise rewrite of every author message that modifies something else, l
 
 *This file records what the author said, and when. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+112. 2026-10-06 — Yes, the version check covers agora too; no, the experiment is not written up.
 111. 2026-10-06 — On agora: (1) decided to build it after a successful experiment; (2) it belongs here, general enough; (3) announcing it in the README, the guide and the other pages — we have to do it.
 110. 2026-10-06 — Put a first draft of the agora skill in `partus/agora/`.
 109. 2026-10-06 — Proposed a sanity check: in the skills, any reference file over 100 lines gets a Contents list matching its headings. Then: forget it, look at Anthropic's guidance instead. On the review: 2 yes (metamaieutics' path to the maieutics skill), 4 yes (no "today" in the model-name example), 5 yes ("buste" → "bust"); record the others.

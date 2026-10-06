@@ -7,9 +7,12 @@
 - **[opus-5.5]** Why it does not breach note 08's refusal of specialisation: it adds a shape of project, not a domain — it says nothing about what the user does outside.
 - Announced in the README, `partus/README.md`, the guide (§12), the getting started and `CONTRIBUTING.md` (#110).
 
+- **[opus-5.5 → ploki]** The version check in maieutics §1 covers agora too: the three skills are fetched, compared and offered for upgrade together (#111).
+- **[opus-5.5]** proposed writing up the successful experiment, as note 10 does for the hard-SF project; **[ploki]** no (#112).
+
 ## Open questions
-- **[opus-5.5]** The version check in maieutics §1 fetches and compares "both skills", maieutics and metamaieutics. Should it cover agora as well?
-- **[opus-5.5]** The successful experiment is not described in the corpus. If it is worth keeping, as note 10 keeps the hard-SF project, it could be written up.
+- None at present.
 
 ## History
 - 2026-10-06 — First draft put in `partus/agora/` (prompt #110); built after a successful experiment, judged general enough to belong; announced in the repository's pages (#109, #110).
+- 2026-10-06 — The version check covers agora (#111); the experiment not written up (#112).
