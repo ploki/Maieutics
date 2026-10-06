@@ -17,7 +17,7 @@ What is wanted is everything else: corrections, sharper wording, steps that turn
 ## How
 
 1. Fork, branch from `main`.
-2. Change `partus/maieutics/SKILL.md` or `partus/metamaieutics/SKILL.md` — that is the source; the copies installed under `~/.claude/skills/` are nobody's business but their owner's.
+2. Change `partus/maieutics/SKILL.md`, `partus/metamaieutics/SKILL.md` or `partus/agora/SKILL.md` — that is the source; the copies installed under `~/.claude/skills/` are nobody's business but their owner's.
 3. If your change alters how a project is laid out or marked, say so: existing corpora have to remain readable.
 4. Open a pull request. Describe the problem before the solution.
 

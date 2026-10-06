@@ -115,4 +115,4 @@ my-subject/
 
 ## Next
 
-The method has other tools: the audits, a devil's advocate, pruning, and running a project by proxy with `metamaieutics`. They're all in the **[guide](guide.md)**.
+The method has other tools: the audits, a devil's advocate, pruning, running a project by proxy with `metamaieutics`, and a hub to start your sessions from with `agora`. They're all in the **[guide](guide.md)**.

@@ -16,8 +16,9 @@ This page describes what you see and what you can say. What the agent itself is 
 9. [Pruning](#9-pruning)
 10. [Other tools](#10-other-tools)
 11. [Running a project by proxy: metamaieutics](#11-running-a-project-by-proxy-metamaieutics)
-12. [Languages](#12-languages)
-13. [Things you can say](#13-things-you-can-say)
+12. [Going out and coming back: agora](#12-going-out-and-coming-back-agora)
+13. [Languages](#13-languages)
+14. [Things you can say](#14-things-you-can-say)
 
 ---
 
@@ -194,13 +195,24 @@ Apart from approving the mandate, and answering those setup questions, you have 
 
 If another session is still working in the same folder, Claude can run the branch in a separate **worktree** (a second folder on the same repository), so the two don't collide.
 
-## 12. Languages
+## 12. Going out and coming back: agora
+
+`agora` is the third skill. It makes one maieutics project your **hub**: the place your sessions start from and come back to, as Socrates went out to the agora, followed whoever he met into their affairs, and came back.
+
+- **Going out.** When you leave the hub to work in another project, the agent writes a line in the hub's `corpus/worklog.md`: the time, read from the clock, where you went, and why.
+- **Away.** The other project follows its own rules. The hub leaves no trace there, so that project stays usable by someone who has no hub.
+- **Coming back.** The agent writes the time you returned and the broad lines of what happened. Whatever you want the hub to keep from the outing goes into its notes, like anything else in maieutics.
+- **Getting in.** If a previous outing never came back, the agent asks you what happened, or reconstructs it from the other project's history and marks the reconstruction as its own.
+
+What the hub is about is up to you, and is discovered there, as in any maieutics project. With your agreement, the agent can add a pointer to your global instructions so that *"back to the hub"* works from anywhere.
+
+## 13. Languages
 
 The agent talks to you in your language, and the body of your notes is written in it too. **The corpus's structure stays in English**: file and directory names, the headings *Current*, *History* and *Open questions*, and the markers. That way a corpus reads the same to any tool and any later session, whatever language it was conducted in.
 
 The skill itself, the banner and these pages are in English only.
 
-## 13. Things you can say
+## 14. Things you can say
 
 None of these are commands. Plain speech works, and these are just examples.
 
@@ -222,3 +234,4 @@ None of these are commands. Plain speech works, and these are just examples.
 | keep the agent's glosses without endorsing them | *"Keep those somewhere, I'm not validating them."* |
 | fix the banner on a light terminal | *"My terminal is light."* |
 | hand the work over | `/metamaieutics` |
+| start or return to your hub | `/agora`, or *"Back to the hub."* |

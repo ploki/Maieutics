@@ -1,0 +1,15 @@
+# 13 — Decision: agora, a third skill
+
+## Current
+- **[ploki]** `partus/agora/SKILL.md` is a first draft of a third skill, **agora**, put there on 2026-10-06. ploki decided to build it **after a successful experiment** (decision #109).
+- **[ploki]** **It belongs in this repository: it is general enough** (#109; note 08).
+- **[opus-5.5]** What the draft says: a **hub** is a maieutics project that sessions start from and return to. Each outing to another project gets a line in `corpus/worklog.md` — the time read from the system clock, where, why — and on return the end time and the broad lines of what happened. Away, the other project's own rules apply and the hub leaves no trace there. A departure with no return is closed on the next way in. What the hub is about is discovered there, as in any maieutics project.
+- **[opus-5.5]** Why it does not breach note 08's refusal of specialisation: it adds a shape of project, not a domain — it says nothing about what the user does outside.
+- Announced in the README, `partus/README.md`, the guide (§12), the getting started and `CONTRIBUTING.md` (#110).
+
+## Open questions
+- **[opus-5.5]** The version check in maieutics §1 fetches and compares "both skills", maieutics and metamaieutics. Should it cover agora as well?
+- **[opus-5.5]** The successful experiment is not described in the corpus. If it is worth keeping, as note 10 keeps the hard-SF project, it could be written up.
+
+## History
+- 2026-10-06 — First draft put in `partus/agora/` (prompt #110); built after a successful experiment, judged general enough to belong; announced in the repository's pages (#109, #110).

@@ -14,6 +14,8 @@
 - **And it answers the oldest question in the corpus**, the one left open in note 02 about whether the created file names should follow the user's language: a general method has one vocabulary. Variants would have reopened it on every axis at once.
 
 - **[ploki]** That a contributor has run the method themselves **is implied**: the `CONTRIBUTING.md` asks for the decision log of the project the change was tried on; nothing more is needed (decision #87).
+- **[ploki]** **`agora` belongs here: it is general enough** (2026-10-06, decision #109).
+  - **[opus-5.5]** It adds a shape of project — a hub sessions start from and return to — not a domain.
 
 ## Open questions
 - None at present.
@@ -22,3 +24,4 @@
 - 2026-10-03 — Opened after the author's message, which had gone to an audit agent by mistake and was relayed back.
 - 2026-10-03 — ↺ Specialisation refused outright: thought is general, the specialisation forms during the exercise.
 - 2026-10-05 — Whether a contributor must have run the method: implied, nothing to add (#87).
+- 2026-10-06 — `agora`, a third skill, judged general enough to belong (#109).
