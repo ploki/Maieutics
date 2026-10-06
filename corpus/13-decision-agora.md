@@ -11,6 +11,7 @@
 - **[opus-5.5]** proposed writing up the successful experiment, as note 10 does for the hard-SF project; **[ploki]** no (#112).
 - **[ploki]** **Talking to agora is talking to one's own agora**, from anywhere, in any context — "hey agora, what was I doing yesterday night?". If the skill is not loaded, the agent first offers to load it; that instruction lives in the pointer in the user's global instructions, since an unloaded skill cannot say it (#115).
 - **[opus-5.5 → ploki]** **The word *hub* gives way to the name *agora*.** In the skill and the pages, the project is agora, not a hub; and each user has one, called agora whatever its folder — so "back to agora", never "back to the hub" (#118).
+- **[ploki]** **Memento during an outing covers agora.** In the first real run, *memento* said away wrote into this repository only, and agora's worklog kept no account of the outing: "agora fell into the trap — if I close this very session, knowledge is lost". The skill already covers it — memento writes everything of substance from the session, agora included; the miss was the agent's. The draft is not modified (#119).
 - **[ploki]** **First real run**, 2026-10-06: a new agora, `~/src/Agora`, set up from an empty folder, and its first outing to this repository, which turned into a review of the draft from that run.
 - **[opus-5.5 → ploki]** An outing's **why is witnessed, not asked**: the agent understands it along the way, writes it at departure as far as it is known, and completes it on return. Left unwritten in the draft (#116).
 - **[opus-5.5 → ploki]** A **question to agora while away is not a return**; the agent recognises which is which in the moment. Left unwritten — "we trust the agent" (#117).
@@ -32,4 +33,5 @@
 - 2026-10-06 — The version check covers agora (#111); the experiment not written up (#112).
 - 2026-10-06 — Talking to agora is talking to the hub (#115).
 - 2026-10-06 — *Hub* gives way to *agora*, as word and as name; one per user (#118).
+- 2026-10-06 — Memento during an outing covers agora; the draft unchanged (#119).
 - 2026-10-06 — First real run; the why witnessed, the question to agora told apart from a return, both left to the agent (#116, #117).

@@ -4,6 +4,11 @@ A clean, concise rewrite of every author message that modifies something else, l
 
 *This file records what the author said, and when. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+126. 2026-10-06 — Meant Maieutics: it was expected that the project be modified with that.
+125. 2026-10-06 — Surprised: thought the agent would modify the project with that.
+124. 2026-10-06 — (1) Yes: memento already covers agora during an outing; the miss was the agent's; nothing changes in the draft. (2) Leave it as unspecified.
+123. 2026-10-06 — So nothing to modify.
+122. 2026-10-06 — Agora fell into the trap: if this very session is closed, knowledge is lost.
 121. 2026-10-06 — Memento.
 120. 2026-10-06 — Both: the word *hub* gives way to *agora*, and each user's one is named agora.
 119. 2026-10-06 — Would like the hub to be named agora, so that we call it agora.
