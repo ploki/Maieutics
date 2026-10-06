@@ -4,6 +4,8 @@ A clean, concise rewrite of every author message that modifies something else, l
 
 *This file records what the author said, and when. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+118. 2026-10-06 — On the reading of 117: the worklog's why is left unspecified in the draft; for talking to agora while away, we trust the agent; yes, the departure's why is provisional and completed on return.
+117. 2026-10-06 — On the agent's observations from agora's first real run: the why of an outing — the agent should understand it and witness it along the way; a question to agora while away versus a return — the agent is supposed to recognise at the moment which is which.
 116. 2026-10-06 — "Sync" — asked which was meant, *memento* ("ahah! memento").
 115. 2026-10-06 — Asked whether to specify that addressing agora means addressing the skill for the hub; the way it is said: "hey agora, what was I doing yesterday night?". Then: say that when the user talks to agora, they talk to their own hub, from anywhere, in any context; when the skill is not loaded, the agent should first offer to load it.
 114. 2026-10-06 — On memento: (1) whether it saves what was said off the record, leave it unspecified; (2) whether the agent reports what it saved, leave it unspecified — "I'm sure you'll do your report".

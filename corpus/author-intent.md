@@ -25,6 +25,7 @@
   - **[opus-5.5]** Not validated, an idea: the skill knows nothing of this mode. Without commits git no longer protects the work — an untracked file overwritten off the record is gone. Whether the skill should name the mode, or leave it to the agent as with #114, is open.
 - **[opus-5.5]** Speaks to agora as to someone — "hey agora" — not only of it as a place. The hub is becoming an interlocutor.
 - **[opus-5.5]** Said "sync" again after choosing *memento*: the word comes naturally. The agent asked rather than read it as git; the author laughed and meant *memento*. Worth watching whether "sync" keeps coming back.
+- **[opus-5.5]** The pattern against over-specification holds for agora too: on the first real run, the why of an outing and the line between a question to the hub and a return are both left to the agent (#116, #117).
 
 ## History
 - 2026-10-03 — Project opened.
@@ -33,3 +34,4 @@
 - 2026-10-06 — Review against Anthropic's authoring guidance, asked for in place of a single rule from it.
 - 2026-10-06 — Wants nothing lost if a session is: *memento*.
 - 2026-10-06 — Off-the-record working; agora as an interlocutor; "sync" for *memento* (memento).
+- 2026-10-06 — Agora's first real run reviewed; judgement left to the agent again.

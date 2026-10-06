@@ -10,11 +10,20 @@
 - **[opus-5.5 → ploki]** The version check in maieutics §1 covers agora too: the three skills are fetched, compared and offered for upgrade together (#111).
 - **[opus-5.5]** proposed writing up the successful experiment, as note 10 does for the hard-SF project; **[ploki]** no (#112).
 - **[ploki]** **Talking to agora is talking to one's own hub**, from anywhere, in any context — "hey agora, what was I doing yesterday night?". If the skill is not loaded, the agent first offers to load it; that instruction lives in the pointer in the user's global instructions, since an unloaded skill cannot say it (#115).
+- **[ploki]** **First real run**, 2026-10-06: a new hub, `~/src/Agora`, set up from an empty folder, and its first outing to this repository, which turned into a review of the draft from that run.
+- **[opus-5.5 → ploki]** An outing's **why is witnessed, not asked**: the agent understands it along the way, writes it at departure as far as it is known, and completes it on return. Left unwritten in the draft (#116).
+- **[opus-5.5 → ploki]** A **question to agora while away is not a return**; the agent recognises which is which in the moment. Left unwritten — "we trust the agent" (#117).
 
 ## Open questions
 - **[opus-5.5]** The version check offers to upgrade the three skills; what it does for a user who has maieutics and metamaieutics installed but not agora is unwritten, left to the agent for now. Raised on 2026-10-06, not answered.
+- **[opus-5.5]** From the first real run, raised and not answered:
+  - the wiring speaks of "their own words for 'back to the hub'": does the agent ask the user for theirs, or cover the usual phrasings? In the run it wrote defaults without asking;
+  - arriving in a project that is itself a maieutics project: a full load (banner, version check), or something lighter? In the run, a resumption without banner or check;
+  - an empty hub: going out at once, so that the first worklog line shows what the hub is for, worked in the run — one sentence in the draft, as a possible first step?
+  - the worklog's times carry no time zone; lines written from different places would not line up.
 
 ## History
 - 2026-10-06 — First draft put in `partus/agora/` (prompt #110); built after a successful experiment, judged general enough to belong; announced in the repository's pages (#109, #110).
 - 2026-10-06 — The version check covers agora (#111); the experiment not written up (#112).
 - 2026-10-06 — Talking to agora is talking to the hub (#115).
+- 2026-10-06 — First real run; the why witnessed, the question to agora told apart from a return, both left to the agent (#116, #117).
