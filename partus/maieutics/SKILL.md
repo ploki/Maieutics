@@ -12,8 +12,8 @@ Answer in the user's language. **The corpus's structure stays in English, whatev
 ## 1. On loading
 
 1. **Show the banner by reproducing it in your reply.** Read `assets/banner.txt` (the file sits next to this one) and copy it, verbatim, into a code block at the head of your reply. Do not merely `cat` it: hosts such as Claude Code hide command output from the user, who would see nothing.
-   - It is kept small on purpose — its buste is 188 Braille characters — so that retyping it stays cheap. Do not enlarge it.
-   - The buste is drawn in light Braille dots, meant for a dark background. If the user has a light terminal, offer the inverted version (see `assets/make_bust.py`).
+   - It is kept small on purpose — its bust is 188 Braille characters — so that retyping it stays cheap. Do not enlarge it.
+   - The bust is drawn in light Braille dots, meant for a dark background. If the user has a light terminal, offer the inverted version (see `assets/make_bust.py`).
    - The banner is in English, whatever the user's language, like the corpus's structure.
 2. **New project or existing one?** A project exists if there is a corpus index, a `decision-log.md`, or a CLAUDE.md declaring it a maieutics project.
    - **New project**: explain in three or four sentences what the method is for — we talk, I write things down in a corpus, we keep track of decisions and reversals, and when it is ripe we produce deliverables and submit them to a critical reader. Add that the user does not need to know in advance what they are looking for. Then **suggest a relevant first step** from the context: the documents present in the folder, the folder's name, or the user's first sentence.
@@ -46,7 +46,7 @@ Answer in the user's language. **The corpus's structure stays in English, whatev
 - **Check your own batches.** When one change touches many files, or is made with a script, re-read the result and count: did every file change, did every entry get written? A script that fails halfway leaves a corpus that is wrong in silence, and nobody is looking.
 - **Keep track of who said what** in the notes, **by name**. A corpus can have several contributors, human and not, and the point is to know whose idea a thing was.
   - **Identify the human** from the **local git identity** (`git config user.name`), which names whoever is at the keyboard, and match it against the **roster** in the index: one line per contributor, with their marker, their git name and their handle if known. The marker is their **handle** when the roster has one — short and public — otherwise their git name or first name. Take a handle from the remote only when it is clearly the current user's own: in a shared repository the remote names its owner. No match: ask once, and add a line to the roster.
-  - **Identify yourself** by your **model name** — today, for instance, `opus-5`. Not "Claude": the corpus will outlive the model, and a reader in two years will want to know which one thought this.
+  - **Identify yourself** by your **model name**, such as `opus-5`. Not "Claude": the corpus will outlive the model, and a reader in two years will want to know which one thought this.
   - **Never attribute to the user what you inferred, reformulated or completed.** When in doubt the line is yours: mark it with your own id and ask.
   - Markers carry your **short** model name; record yourself in the roster too, with your **exact model ID** beside the short name, so that a reader knows who the markers stand for.
 

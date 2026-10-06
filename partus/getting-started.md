@@ -24,7 +24,7 @@ Type:
 
 The agent replies with:
 
-- **a banner**, Socrates in Braille dots. It is drawn for a dark terminal. If yours is light, say so: the agent can generate an inverted buste with `make_bust.py`, which needs Python and Pillow;
+- **a banner**, Socrates in Braille dots. It is drawn for a dark terminal. If yours is light, say so: the agent can generate an inverted bust with `make_bust.py`, which needs Python and Pillow;
 - **three or four sentences** explaining what the method is for;
 - **a first step to suggest**, based on whatever is in the folder, its name, or your first sentence;
 - **a sentence you can send as is**, on its own line, such as *"Can you help me get started with the method?"* Claude Code often offers it as a Tab suggestion.

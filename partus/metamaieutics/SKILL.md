@@ -7,7 +7,7 @@ description: Run a maieutics project autonomously, by proxy. From a brief or fro
 
 > One prompt, then delegation. The user hands the rest of the work to Claude, who carries it out **on the user's behalf and according to their intent**, without touching their main branch.
 
-Answer in the user's language. This skill rests on the **maieutics** skill (`~/.claude/skills/maieutics/SKILL.md`): re-read it before starting.
+Answer in the user's language. This skill rests on the **maieutics** skill — its `SKILL.md` is in the `maieutics` folder beside this skill's own, wherever the two are installed: re-read it before starting.
 
 ## Roles
 
@@ -50,7 +50,7 @@ Draft it from the brief or, for an existing project, **from `author-intent.md` f
    - To come back at the end there is no need to switch branch inside the worktree: you merge from the main folder once the user has decided, then remove the worktree (`git worktree remove`).
 2. Commit `mandate.md` on that branch. The run logs in the **project's own logs**, `corpus/prompt-log.md` and `corpus/prompt-chores.md`.
 3. Launch a **fresh agent** (a general-purpose one) with these instructions:
-   - read and apply `~/.claude/skills/maieutics/SKILL.md` in this folder. It must **not** display the banner, check for a newer version or ask the versioning question: the orchestrator handles git;
+   - read and apply the maieutics skill in this folder — give it the full path of that `SKILL.md`; It must **not** display the banner, check for a newer version or ask the versioning question: the orchestrator handles git;
    - read `mandate.md`, `author-intent.md` and, for an existing project, the index, the log and the notes;
    - **never commit, change branch, publish, or send anything outside**;
    - mark every decision taken on your proxy answer as **by proxy** — `[<agent id> as <user id>]` — in the notes and in the log, never as the user's own;

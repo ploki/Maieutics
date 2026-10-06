@@ -4,6 +4,7 @@ A clean, concise rewrite of every author message that modifies something else, l
 
 *This file records what the author said, and when. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+109. 2026-10-06 — Proposed a sanity check: in the skills, any reference file over 100 lines gets a Contents list matching its headings. Then: forget it, look at Anthropic's guidance instead. On the review: 2 yes (metamaieutics' path to the maieutics skill), 4 yes (no "today" in the model-name example), 5 yes ("buste" → "bust"); record the others.
 108. 2026-10-05 — Plan: points 1 to 7 yes, 8 too.
 107. 2026-10-05 — Keep the numbers. Craft a plan to mitigate this issue in the skill.
 106. 2026-10-05 — *Relayed at ploki's request by the agent of the Substrat project:* it had put points to ploki by internal references — "audit C5", "4e and 7c", "#138", "#206" — and ploki answered they could not tell, "because I don't speak the language of your internal references". ploki asks that the skill have the agent present each point in plain words — the scene, the decision or the question itself — rather than its sequence, decision or audit number; codes stay in the notes and logs.

@@ -42,7 +42,7 @@ We talk. Substance gets written down as notes. Every decision and every change o
 |---|---|---|
 | 01-reference-glossary.md | living | Project terms |
 | 02-framing-multilingual.md | in force | What published skills do about languages; **English only** — no translations of the skill, the banner or the README; the conversation follows the user |
-| 03-framing-banner.md | in force | Why the banner was slow; `cat` is hidden by Claude Code, so the agent reproduces a small buste with spaces for blank cells (1 320 → 188 Braille characters); the full one archived |
+| 03-framing-banner.md | in force | Why the banner was slow; `cat` is hidden by Claude Code, so the agent reproduces a small bust with spaces for blank cells (1 320 → 188 Braille characters); the full one archived |
 | 04-decision-working-rule.md | in force | The installed skill is never touched here; `partus/` is the source and holds the installable shape; the agent refreshes the installation only on request |
 | 05-framing-front-door.md | in force | How a visitor is meant to arrive: the README invites them to have their own agent read the skill before installing it; then a getting started and a guide |
 | 06-decision-english-skill.md | in force | The skill in English, and only in English; what translating it out of French had to decide, markers above all |
@@ -51,3 +51,4 @@ We talk. Substance gets written down as notes. Every decision and every change o
 | 09-review-blind-reading-guides.md | in progress | Blind reading of the getting started and the guide: 81 questions, A 12 · P 39 · N 30; 13 contradictions with the skills; follow-up list closed (#91); the other N and P questions not revisited |
 | 10-case-lessons-from-a-real-project.md | in force | Seven failures observed in a real one-day project (a hard-SF world): the agent's own proposals hardening into facts, markings wrongly signed with the author's name, reversals left in their relays, unchecked batches, the two audits, and when to compute. **The audits are now §8 of the skill**; no open questions left |
 | 11-decision-glosses-note.md | in force | The *éclairages* file of that project, instructed: a `glosses.md` for the agent's own readings, kept unvalidated, with two exits — promotion to a fact, or struck with its reason. **Retained**, as an optional file the agent offers; §3 and §5 of the skill. Named `glosses.md`, fixed name, no scheduled re-read (#58, #67, #68) |
+| 12-review-anthropic-guidance.md | in force | The skills against Anthropic's "Skill authoring best practices": they conform; three fixes made (metamaieutics' path to maieutics, no "today", "bust"); open: no evaluations nor tests on smaller models, the descriptions, mixed terms, the banner script |
