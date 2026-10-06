@@ -4,6 +4,7 @@ A clean, concise rewrite of every author message that modifies something else, l
 
 *This file records what the author said, and when. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+113. 2026-10-06 — Sometimes feels the need for a safe word that makes the agent write down what isn't written yet — its observations, ideas, anything bearing on the project — so that if the session is lost, everything is kept. Proposed "sync"; asked for Greek and Latin words; go with *memento*.
 112. 2026-10-06 — Yes, the version check covers agora too; no, the experiment is not written up.
 111. 2026-10-06 — On agora: (1) decided to build it after a successful experiment; (2) it belongs here, general enough; (3) announcing it in the README, the guide and the other pages — we have to do it.
 110. 2026-10-06 — Put a first draft of the agora skill in `partus/agora/`.

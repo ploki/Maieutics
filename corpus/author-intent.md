@@ -19,9 +19,11 @@
 - **[opus-5.5]** The author dislikes having to untangle several questions at once (prompt #83, decision #79) and declines fixed rules where the occasion should decide (prompt #85, decision #81); the user is not to be burdened with the method's bookkeeping (prompt #86, decision #82).
 - **[ploki]** "Q10 is over specifying" (prompt #90). **[opus-5.5]** With Q11 (prompt #89, decision #84), a pattern: the skill should not spell out what the agent can sensibly handle on request.
 - **[opus-5.5]** Again goes to the source rather than adopt one rule from it: a contents-list check, taken from Anthropic's guidance, withdrawn for a review against the guidance as a whole (2026-10-06, prompt #109).
+- **[ploki]** Wants a word that makes the agent write down what is not yet written — its observations, ideas, anything bearing on the project — "so I could consider that if the session is lost everything is kept" (2026-10-06, prompt #113).
 
 ## History
 - 2026-10-03 — Project opened.
 - 2026-10-04 — Questions in prose confirmed (prompt #55); the file's purpose stated by ploki (prompt #56).
 - 2026-10-05 — Friendliness to users who don't know git; the author's dislike of over-specification and of tangled questions.
 - 2026-10-06 — Review against Anthropic's authoring guidance, asked for in place of a single rule from it.
+- 2026-10-06 — Wants nothing lost if a session is: *memento*.

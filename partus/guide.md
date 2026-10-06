@@ -30,6 +30,7 @@ This page describes what you see and what you can say. What the agent itself is 
 - **Numbered points.** Each observation, question and proposal in a reply is numbered, so you can answer by reference: "1 yes, 3 no".
 - **Plain words, not internal labels.** Each point says what it is about — the decision, the scene, the question — never just its number in the corpus or an audit code. A word coined in the corpus comes with a short explanation the first time. If something slips through, ask "what's that?".
 - **It talks before it writes.** Notes change only when something substantial appears. Replies are short.
+- **Memento.** Say *memento* — Latin for "remember!" — and the agent writes down everything from the session that isn't written yet: its own observations, your remarks, ideas left hanging. If the session is lost, nothing is. What it saves of its own stays marked as its own.
 - **It doesn't bother you with the notes.** It doesn't report which notes it wrote or changed.
 - **It's frank.** Ask for its opinion and it gives one, with reservations. When it makes a mistake, it says so and corrects the corpus.
 
@@ -220,6 +221,7 @@ None of these are commands. Plain speech works, and these are just examples.
 |---|---|
 | start | `/maieutics` |
 | pick up where you left off | `/maieutics`, then *"Let's take up the most pressing point."* |
+| make sure nothing from the session is lost | *"Memento."* |
 | change your mind | *"Actually, I no longer think X."* |
 | get the agent's opinion | *"What do you honestly think?"* |
 | see where things stand | *"Where are we?"* |
