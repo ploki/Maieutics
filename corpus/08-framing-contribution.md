@@ -15,7 +15,7 @@
 
 - **[ploki]** That a contributor has run the method themselves **is implied**: the `CONTRIBUTING.md` asks for the decision log of the project the change was tried on; nothing more is needed (decision #87).
 - **[ploki]** **`agora` belongs here: it is general enough** (2026-10-06, decision #109).
-  - **[opus-5.5]** It adds a shape of project — a hub sessions start from and return to — not a domain.
+  - **[opus-5.5]** It adds a shape of project — an agora sessions start from and return to — not a domain.
 
 ## Open questions
 - None at present.

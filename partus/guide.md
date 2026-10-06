@@ -198,16 +198,16 @@ If another session is still working in the same folder, Claude can run the branc
 
 ## 12. Going out and coming back: agora
 
-`agora` is the third skill. It makes one maieutics project your **hub**: the place your sessions start from and come back to, as Socrates went out to the agora, followed whoever he met into their affairs, and came back.
+`agora` is the third skill. It makes one maieutics project your **agora**: the place your sessions start from and come back to — one per person, and it is called agora whatever its folder — as Socrates went out to the agora, followed whoever he met into their affairs, and came back.
 
-- **Going out.** When you leave the hub to work in another project, the agent writes a line in the hub's `corpus/worklog.md`: the time, read from the clock, where you went, and why.
-- **Away.** The other project follows its own rules. The hub leaves no trace there, so that project stays usable by someone who has no hub.
-- **Coming back.** The agent writes the time you returned and the broad lines of what happened. Whatever you want the hub to keep from the outing goes into its notes, like anything else in maieutics.
+- **Going out.** When you leave agora to work in another project, the agent writes a line in agora's `corpus/worklog.md`: the time, read from the clock, where you went, and why.
+- **Away.** The other project follows its own rules. Agora leaves no trace there, so that project stays usable by someone who has no agora.
+- **Coming back.** The agent writes the time you returned and the broad lines of what happened. Whatever you want agora to keep from the outing goes into its notes, like anything else in maieutics.
 - **Getting in.** If a previous outing never came back, the agent asks you what happened, or reconstructs it from the other project's history and marks the reconstruction as its own.
 
-**Talking to agora.** When you talk to agora — *"hey agora, what was I doing last night?"* — you talk to your own hub, from anywhere, in any context. If the skill isn't loaded, the agent first offers to load it.
+**Talking to agora.** When you talk to agora — *"hey agora, what was I doing last night?"* — you talk to your own agora, from anywhere, in any context. If the skill isn't loaded, the agent first offers to load it.
 
-What the hub is about is up to you, and is discovered there, as in any maieutics project. With your agreement, the agent can add a pointer to your global instructions so that *"back to the hub"* works from anywhere.
+What agora is about is up to you, and is discovered there, as in any maieutics project. With your agreement, the agent can add a pointer to your global instructions so that *"back to agora"* works from anywhere.
 
 ## 13. Languages
 
@@ -238,5 +238,5 @@ None of these are commands. Plain speech works, and these are just examples.
 | keep the agent's glosses without endorsing them | *"Keep those somewhere, I'm not validating them."* |
 | fix the banner on a light terminal | *"My terminal is light."* |
 | hand the work over | `/metamaieutics` |
-| start or return to your hub | `/agora`, or *"Back to the hub."* |
-| ask your hub something, from anywhere | *"Hey agora, what was I doing last night?"* |
+| start or return to agora | `/agora`, or *"Back to agora."* |
+| ask agora something, from anywhere | *"Hey agora, what was I doing last night?"* |

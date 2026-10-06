@@ -24,8 +24,9 @@
 - **[ploki]** Sometimes works **off the record**: no log entries, no commits, no note changes, the method paused while the agent keeps knowing it (2026-10-06). Only what the author then chose to log came out of it.
   - **[opus-5.5]** Not validated, an idea: the skill knows nothing of this mode. Without commits git no longer protects the work — an untracked file overwritten off the record is gone. Whether the skill should name the mode, or leave it to the agent as with #114, is open.
 - **[opus-5.5]** Speaks to agora as to someone — "hey agora" — not only of it as a place. The hub is becoming an interlocutor.
+  - **[ploki]** Confirmed by naming it: "I'd like that the hub is named agora so we call it agora" — the word *hub* gives way to the name (#118).
 - **[opus-5.5]** Said "sync" again after choosing *memento*: the word comes naturally. The agent asked rather than read it as git; the author laughed and meant *memento*. Worth watching whether "sync" keeps coming back.
-- **[opus-5.5]** The pattern against over-specification holds for agora too: on the first real run, the why of an outing and the line between a question to the hub and a return are both left to the agent (#116, #117).
+- **[opus-5.5]** The pattern against over-specification holds for agora too: on the first real run, the why of an outing and the line between a question to agora and a return are both left to the agent (#116, #117).
 
 ## History
 - 2026-10-03 — Project opened.

@@ -13,7 +13,7 @@
 - **Roster** [opus-5.5 → ploki] : the list of a project's contributors, in the index — one line each: marker, git name, handle if known, and the agent's exact model ID. The human is matched against it by their local git identity (decision #100).
 - **Audit** [opus-5.5] : a check of the corpus by a fresh, read-only agent that reports and does not patch: the **consistency audit** and the **exhaustivity audit** (skill §8).
 - ***Memento*** [opus-5.5 → ploki] : Latin for *remember!* The word the user says for the agent to write down everything of substance from the session not yet written, so that nothing is lost with it (decision #113). *Alternatives considered: "sync" (read as push in git), consigna, serva, hypomnēma.*
-- ***Agora*** [ploki] : the third skill; and whom the user talks to — talking to agora is talking to one's own hub, from anywhere (decision #115). **Hub** [ploki] : the maieutics project that sessions start from and return to, run by agora (note 13).
+- ***Agora*** [ploki] : the third skill; the name of the maieutics project that a user's sessions start from and return to — one per user, called agora whatever its folder (decision #118); and whom the user talks to — talking to agora is talking to that project, from anywhere (#115). *Formerly* **hub**, a word dropped by #118 (note 13).
 
 ## History
 - 2026-10-03 — Created.
@@ -21,3 +21,4 @@
 - 2026-10-05 — *Roster* added (#100).
 - 2026-10-06 — *Memento* added (#113).
 - 2026-10-06 — *Agora* and *hub* added (#115).
+- 2026-10-06 — *Hub* dropped: the project is agora, by name (#118).
