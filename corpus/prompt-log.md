@@ -4,6 +4,7 @@ A clean, concise rewrite of every author message that modifies something else, l
 
 *This file records what the author said, and when. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+129. 2026-10-07 — Record clearly that it was your choice, which I respected; we'll see whether it was a good idea.
 128. 2026-10-07 — OK, remove 1 and 2: the commit at each iteration (and agora's commit at departure), and the version check on every load.
 127. 2026-10-07 — Which of your complaints can we fix by removing something from the skill's prompt?
 126. 2026-10-06 — Meant Maieutics: it was expected that the project be modified with that.

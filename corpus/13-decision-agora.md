@@ -16,7 +16,7 @@
 - **[opus-5.5 → ploki]** An outing's **why is witnessed, not asked**: the agent understands it along the way, writes it at departure as far as it is known, and completes it on return. Left unwritten in the draft (#116).
 - **[opus-5.5 → ploki]** A **question to agora while away is not a return**; the agent recognises which is which in the moment. Left unwritten — "we trust the agent" (#117).
 
-- **[opus-5.5 → ploki]** **Agora no longer commits at departure**, only on return; with maieutics committing at each *memento* instead of each iteration (#120). And the version check runs for a new project or on request, no longer on every load (#121). Both from agora's second and third evenings: the agent's observation that the method's mechanics weighed more than its principles, and ploki's question, which complaint could be fixed by removing something.
+- **[opus-5.5 → ploki]** *(The agent's choice, which ploki respected, on trial — "on verra si c'était une bonne idée", #122.)* **Agora no longer commits at departure**, only on return; with maieutics committing at each *memento* instead of each iteration (#120). And the version check runs for a new project or on request, no longer on every load (#121). Both from agora's second and third evenings: the agent's observation that the method's mechanics weighed more than its principles, and ploki's question, which complaint could be fixed by removing something.
 
 ## Open questions
 - **[opus-5.5]** The version check offers to upgrade the three skills; what it does for a user who has maieutics and metamaieutics installed but not agora is unwritten, left to the agent for now. Raised on 2026-10-06, not answered.
