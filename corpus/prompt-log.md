@@ -4,6 +4,8 @@ A clean, concise rewrite of every author message that modifies something else, l
 
 *This file records what the author said, and when. It is never retrofitted: an entry keeps the names and terms in use that day, even once they have been superseded.*
 
+128. 2026-10-07 — OK, remove 1 and 2: the commit at each iteration (and agora's commit at departure), and the version check on every load.
+127. 2026-10-07 — Which of your complaints can we fix by removing something from the skill's prompt?
 126. 2026-10-06 — Meant Maieutics: it was expected that the project be modified with that.
 125. 2026-10-06 — Surprised: thought the agent would modify the project with that.
 124. 2026-10-06 — (1) Yes: memento already covers agora during an outing; the miss was the agent's; nothing changes in the draft. (2) Leave it as unspecified.

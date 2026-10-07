@@ -34,7 +34,7 @@ This page describes what you see and what you can say. What the agent itself is 
 - **It doesn't bother you with the notes.** It doesn't report which notes it wrote or changed.
 - **It's frank.** Ask for its opinion and it gives one, with reservations. When it makes a mistake, it says so and corrects the corpus.
 
-**New versions.** The skill evolves. Each time it loads, the agent compares your installed copy with the published one. If they differ, it tells you, offers to say what's new in plain words, and offers to upgrade all three skills.
+**New versions.** The skill evolves. When you start a new project, or when you ask, the agent compares your installed copy with the published one. If they differ, it tells you, offers to say what's new in plain words, and offers to upgrade all three skills.
 
 If Claude Code's persistent memory is available, the agent also records there, on its own, what should outlive a session: how you like to work, your preferences, where the project stands. It doesn't copy what the corpus already holds.
 

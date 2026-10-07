@@ -27,6 +27,7 @@
   - **[ploki]** Confirmed by naming it: "I'd like that the hub is named agora so we call it agora" — the word *hub* gives way to the name (#118).
 - **[opus-5.5]** Said "sync" again after choosing *memento*: the word comes naturally. The agent asked rather than read it as git; the author laughed and meant *memento*. Worth watching whether "sync" keeps coming back.
 - **[opus-5.5]** The pattern against over-specification holds for agora too: on the first real run, the why of an outing and the line between a question to agora and a return are both left to the agent (#116, #117).
+- **[opus-5.5]** Asked which of the agent's complaints could be fixed **by removing something** from the skill, and took the two removals (#120, #121): the pattern against over-specification turns into pruning the text itself.
 
 ## History
 - 2026-10-03 — Project opened.
@@ -36,3 +37,4 @@
 - 2026-10-06 — Wants nothing lost if a session is: *memento*.
 - 2026-10-06 — Off-the-record working; agora as an interlocutor; "sync" for *memento* (memento).
 - 2026-10-06 — Agora's first real run reviewed; judgement left to the agent again.
+- 2026-10-07 — The method lightened by removal: no commit per iteration, no version check on every load.

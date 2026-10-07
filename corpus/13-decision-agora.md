@@ -16,11 +16,13 @@
 - **[opus-5.5 → ploki]** An outing's **why is witnessed, not asked**: the agent understands it along the way, writes it at departure as far as it is known, and completes it on return. Left unwritten in the draft (#116).
 - **[opus-5.5 → ploki]** A **question to agora while away is not a return**; the agent recognises which is which in the moment. Left unwritten — "we trust the agent" (#117).
 
+- **[opus-5.5 → ploki]** **Agora no longer commits at departure**, only on return; with maieutics committing at each *memento* instead of each iteration (#120). And the version check runs for a new project or on request, no longer on every load (#121). Both from agora's second and third evenings: the agent's observation that the method's mechanics weighed more than its principles, and ploki's question, which complaint could be fixed by removing something.
+
 ## Open questions
 - **[opus-5.5]** The version check offers to upgrade the three skills; what it does for a user who has maieutics and metamaieutics installed but not agora is unwritten, left to the agent for now. Raised on 2026-10-06, not answered.
 - **[opus-5.5]** From the first real run, raised and not answered:
   - the wiring speaks of "their own words for 'back to agora'": does the agent ask the user for theirs, or cover the usual phrasings? In the run it wrote defaults without asking;
-  - arriving in a project that is itself a maieutics project: a full load (banner, version check), or something lighter? In the run, a resumption without banner or check;
+  - arriving in a project that is itself a maieutics project: a full load (banner, version check), or something lighter? In the run, a resumption without banner or check; *(the version check no longer runs on resumption anyway, #121)*
   - an empty agora: going out at once, so that the first worklog line shows what agora is for, worked in the run — one sentence in the draft, as a possible first step?
   - the worklog's times carry no time zone; lines written from different places would not line up.
 - **[opus-5.5]** Raised by #118, not yet put to ploki (memento):
@@ -29,6 +31,7 @@
   - **the installed copy** in `~/.claude/skills/agora/` still says "hub"; refreshing it waits for ploki (note 04).
 
 ## History
+- 2026-10-07 — No commit at departure; version check for a new project or on request (#120, #121).
 - 2026-10-06 — First draft put in `partus/agora/` (prompt #110); built after a successful experiment, judged general enough to belong; announced in the repository's pages (#109, #110).
 - 2026-10-06 — The version check covers agora (#111); the experiment not written up (#112).
 - 2026-10-06 — Talking to agora is talking to the hub (#115).

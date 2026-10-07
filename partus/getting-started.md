@@ -36,7 +36,7 @@ You don't have to know what you're looking for. Not knowing is the starting poin
 The agent asks once, in plain conversation, how you want your work kept. git keeps a photograph of every step, so you can go back. There are three ways:
 
 - **(a)** no git;
-- **(b)** git, with a commit at each exchange that changes files;
+- **(b)** git, with a commit each time you say *memento*;
 - **(c)** the same, plus a **prompt log**: a short, faithful rewrite of each of your messages that changes something, newest first; those about the project's upkeep go in a log of their own.
 
 If you're unsure, take the third. It costs you nothing, and it's the best record of how your thinking moved. If you choose git and the folder isn't a git repository yet, the agent runs `git init`.

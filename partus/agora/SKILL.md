@@ -18,7 +18,7 @@ Agora is the user's maieutics project that sessions start from and return to —
 When the user talks to agora, they talk to their own agora — from anywhere, in any context.
 
 ## Going out
-Add a line to `corpus/worklog.md`, newest first: the start time **read from the system clock**, never estimated; where; why, in a few words. Commit agora if it is versioned.
+Add a line to `corpus/worklog.md`, newest first: the start time **read from the system clock**, never estimated; where; why, in a few words.
 
 ## Away
 The other place's own rules apply: its `CLAUDE.md`, its skill, its logs. **Leave no trace of agora there** — it must stay usable by someone who has none of this.

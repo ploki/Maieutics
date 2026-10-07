@@ -15,7 +15,7 @@ We talk. Substance gets written down as notes. Every decision and every change o
   - **`[opus-5 → ploki]`** — proposed by the agent, validated by ploki;
   - **`[S]`** a cited source · **`[Unverified]`** an unsourced fact;
   - **`[opus-5 as ploki]`** — decided by proxy, during a `metamaieutics` session.
-- Versioning: git, one commit per iteration, plus `prompt-log.md`, a clean rewrite of every author message that modifies something else (#78), **newest first**; messages about the project's upkeep go to `prompt-chores.md` instead (#76).
+- Versioning: git, a commit at each *memento* (#120; one per iteration before), plus `prompt-log.md`, a clean rewrite of every author message that modifies something else (#78), **newest first**; messages about the project's upkeep go to `prompt-chores.md` instead (#76).
 
 ## Layout
 | Directory | What's in it |
